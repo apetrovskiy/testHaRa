@@ -1,0 +1,58 @@
+#import <Foundation/Foundation.h>
+#import <objc/Object.h>
+#import <objc/objc.h>
+
+@interface NSString (NumberFromString)
+- (NSNumber *) numberFromString:(NSNumberFormatter *)formatter;
+@end
+
+@implementation NSString (NumberFromString)
+- (NSNumber *) numberFromString:(NSNumberFormatter *)formatter {
+    NSNumber *number = [formatter numberFromString:[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
+
+    if (number == nil) {
+        [NSException raise:@"Bad Input" format:@"%@", self];
+    }
+
+    return number;
+}
+@end
+
+
+
+@interface Solution:NSObject
+- (void) fizzBuzz:(NSNumber *)n;
+@end
+
+@implementation Solution
+/*
+ * Complete the 'fizzBuzz' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
+- (void) fizzBuzz:(NSNumber *)n {
+    // Write your code here
+
+}
+
+@end
+
+int main(int argc, const char* argv[]) {
+    @autoreleasepool {
+        NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+
+        NSData *availableInputData = [[NSFileHandle fileHandleWithStandardInput] availableData];
+        NSString *availableInputString = [[NSString alloc] initWithData:availableInputData encoding:NSUTF8StringEncoding];
+        NSArray *availableInputArray = [availableInputString componentsSeparatedByString:@"\n"];
+
+        NSUInteger currentInputLine = 0;
+
+        NSNumber *n = [[[availableInputArray objectAtIndex:currentInputLine] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] numberFromString:numberFormatter];
+        currentInputLine += 1;
+
+        [[[Solution alloc] init] fizzBuzz:n];
+    }
+
+    return 0;
+}

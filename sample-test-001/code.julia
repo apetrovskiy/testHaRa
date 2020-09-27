@@ -1,0 +1,14 @@
+#
+# Complete the 'fizzBuzz' function below.
+#
+# The function accepts INTEGER n as parameter.
+#
+
+function fizzBuzz(n)
+    # Write your code here
+
+end
+
+n = parse(Int32, strip(readline(stdin)))
+
+fizzBuzz(n)
