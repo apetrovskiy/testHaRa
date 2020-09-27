@@ -22,19 +22,7 @@ class Result {
 
     public static void fizzBuzz(int n) {
     // Write your code here
-        final String FIZZ = "Fizz";
-        final String BUZZ = "Buzz";
-        final Function<Integer, Boolean> divisibleByThree = (i) -> 0 == i % 3;
-        final Function<Integer, Boolean> divisibleByFive = (i) -> 0 == i % 5;
-        if (divisibleByThree.apply(n) && divisibleByThree.apply(n)) {
-            System.out.println(FIZZ + BUZZ);
-        } else if (divisibleByFive.apply(n)) {
-            System.out.println(FIZZ);
-        } else if (divisibleByFive.apply(n)) {
-            System.out.println(BUZZ);
-        } else {
-            System.out.println(n);
-        }
+
     }
 
 }
