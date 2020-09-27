@@ -24,7 +24,7 @@ class Result {
      * https://jsonmock.hackerrank.com/api/article_users?page=<pageNumber>
      */
 
-    public static List<String> getUsernames(int threshold) {
+    public static List<String> getUsernames(int threshold) throws IOException {
         final Function<Integer, String> getUsersByPageNumber = (n) -> String.format("https://jsonmock.hackerrank.com/api/article_users?page=%s", n);
 
         System.out.println(getUsersByPageNumber.apply(1));
