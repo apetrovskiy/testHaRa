@@ -27,29 +27,23 @@ class Result {
     public static List<String> getUsernames(int threshold) {
         final Function<Integer, String> getUsersByPageNumber = (n) -> String.format("https://jsonmock.hackerrank.com/api/article_users?page=%s", n);
 
-        // HttpClient client = HttpClient.newHttpClient();
-        
-        /*
-        UncheckedObjectMapper mapper = new UncheckedObjectMapper();
-        HttpRequest request = HttpRequest.newBuilder(getUsersByPageNumber.apply(1))
-        .build();
+        System.out.println(getUsersByPageNumber.apply(1));
 
-        HttpClient.newHttpClient()
-        .sendAsync(request, BodyHandlers.ofString())
-        .thenApply(HttpResponse::body)
-        .thenApply(mapper::readValue);
-        */
-
-        java.net.HttpURLConnection conn = (java.net.HttpURLConnection) new java.net.URL("https://jsonmock.hackerrank.com/api/article_users").openConnection();
+        java.net.HttpURLConnection conn = (java.net.HttpURLConnection) new java.net.URL(getUsersByPageNumber.apply(1)).openConnection();
         conn.setRequestMethod("GET");
-        Map<String, String> params = new HashMap<>();
-        params.put("page", String.valueOf(1));
 
         conn.setDoOutput(true);
-        DataOutputStream out = new DataOutputStream(conn.getOutputStream());
-        out.writeBytes(java.net.ParameterStringBuilder.getParamsString(params));
-        out.flush();
-        out.close();
+
+        conn.setRequestProperty("Content-Type", "application/json");
+        String contentType = conn.getHeaderField("Content-Type");
+        conn.setInstanceFollowRedirects(false);
+
+        // DataOutputStream out = new DataOutputStream(conn.getOutputStream());
+        // out.flush();
+        // out.close();
+
+        int status = conn.getResponseCode();
+        System.out.print("status code: " + status);
 
 
         return new ArrayList<>();
