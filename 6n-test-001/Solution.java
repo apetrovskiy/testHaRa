@@ -45,6 +45,17 @@ class Result {
         int status = conn.getResponseCode();
         System.out.print("status code: " + status);
 
+        BufferedReader in = new BufferedReader(
+            new InputStreamReader(conn.getInputStream())
+        );
+        String inputLine;
+        StringBuffer content = new StringBuffer();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+
+        System.out.println(content);
 
         return new ArrayList<>();
     }
