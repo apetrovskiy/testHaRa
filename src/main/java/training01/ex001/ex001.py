@@ -5,10 +5,14 @@ import os
 import random
 import re
 import sys
+from typing import List
 
 # Complete the reverseArray function below.
-def reverseArray(a):
-    return a.reverse()
+def reverseArray(a: List[int]):
+    if a is None:
+        return []
+    a.reverse()
+    return a
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
