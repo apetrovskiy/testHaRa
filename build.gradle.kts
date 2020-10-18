@@ -25,12 +25,14 @@ dependencies {
     // Use the Kotlin JDK 8 standard library.
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
+    // https://mvnrepository.com/artifact/org.scala-lang/scala-library
+    compile("org.scala-lang:scala-library:2.13.3")
+
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
-    // https://mvnrepository.com/artifact/org.scalatest/scalatest
-    testCompile group: 'org.scalatest', name: 'scalatest_2.13', version: '3.3.0-SNAP2'
+    testCompile("org.scalatest:scalatest_2.13:3.2.2")
 }
