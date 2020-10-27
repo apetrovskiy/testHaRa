@@ -1,5 +1,6 @@
 from unittest.case import TestCase
-from src.main.java.training01.data_structures.arrays.01_arrays_ds.solution import reverseArray
+from src.main.java.training01.data_structures.arrays.a01_arrays_ds.solution import reverseArray
+import unittest
 
 
 class ArraysDsTest(TestCase):
