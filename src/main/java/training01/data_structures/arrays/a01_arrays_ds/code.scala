@@ -8,12 +8,12 @@ import java.util.function._
 import java.util.regex._
 import java.util.stream._
 
-object Solution {
+object Solution0001 {
 
     // Complete the reverseArray function below.
     def reverseArray(a: Array[Int]): Array[Int] = {
 
-
+        a.reverse
     }
 
     def main(args: Array[String]) {
