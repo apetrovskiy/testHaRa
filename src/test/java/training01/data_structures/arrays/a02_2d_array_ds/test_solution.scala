@@ -11,4 +11,8 @@ class SetSpec extends AnyFlatSpec {
       Set.empty.head
     }
   }
+
+  it should "return ..." in {
+    assert(1 == Solution0002.hourglassSum(Array(Array(1,2,3))))
+  }
 }
