@@ -12,8 +12,24 @@ object Solution0002 {
 
     // Complete the hourglassSum function below.
     def hourglassSum(arr: Array[Array[Int]]): Int = {
+        if (null == arr || 0 == arr.length || 0 == arr(0).length)
+            0
+        (1 to 4).toList
+            .flatMap(hourglassNumber => (1 to 4).toList
+                .map(index => arr.calculateSum(hourglassNumber, index)))
+                .max
+    }
 
-        2
+    implicit class ArrayExtensions(arr: Array[Array[Int]]) {
+        def calculateSum(horizontal: Int, vertical: Int): Int = {
+            arr(vertical)(horizontal) +
+            arr(vertical-1)(horizontal-1) +
+            arr(vertical-1)(horizontal) +
+            arr(vertical-1)(horizontal+1) +
+            arr(vertical+1)(horizontal-1) +
+            arr(vertical+1)(horizontal) +
+            arr(vertical+1)(horizontal+1)
+        }
     }
 
     def main(args: Array[String]) {
