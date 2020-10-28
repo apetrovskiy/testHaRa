@@ -13,7 +13,7 @@ object Solution0002 {
     // Complete the hourglassSum function below.
     def hourglassSum(arr: Array[Array[Int]]): Int = {
 
-        1
+        2
     }
 
     def main(args: Array[String]) {
