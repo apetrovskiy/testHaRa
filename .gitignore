@@ -1199,6 +1199,7 @@ build
 .bloop/CodeSignTest-test.json
 
 allure-results/*
+allure-results/**
 !allure-results/categories.json
 allure-reports/*
 **/.allure/*
@@ -1208,3 +1209,5 @@ allure-reports/*
 
 null/*
 **/null/*
+
+.noseids
