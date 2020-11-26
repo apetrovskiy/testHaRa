@@ -14,5 +14,6 @@
     "python.testing.pytestEnabled": true,
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "python.formatting.provider": "black"
 }
