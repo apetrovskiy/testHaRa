@@ -10,14 +10,46 @@ plugins {
     // Apply the java plugin to add support for Java
     java
 
+    // Apply the java-library plugin for API and implementation separation.
     `java-library`
 
     // Apply the application plugin to add support for building a CLI application.
     application
 
-//    kotlin("multiplatform") version "1.4.10"
+    // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
+    // kotlin("multiplatform") version "1.4.10"
     kotlin("jvm") version "1.4.10"
+
+    // Apply the scala Plugin to add support for Scala.
+    scala
+
+    // Apply the cpp-library plugin to add support for building C++ libraries
+    // `cpp-library`
+
+    // Apply the cpp-unit-test plugin to add support for building and running C++ test executables
+    // `cpp-unit-test`
+
+    // Apply the groovy Plugin to add support for Groovy.
+    groovy
+
+    // Apply the swift-library plugin to add support for building Swift libraries
+    // `swift-library`
+
+    // Apply the xctest plugin to add support for building and running Swift test executables (Linux) or bundles (macOS)
+    // xctest
 }
+
+/*
+library {
+    // Set the target operating system and architecture for this library
+    targetMachines.add(machines.windows.x86_64)
+
+    // Swift tool chain does not support Windows. The following targets macOS and Linux:
+    targetMachines.add(machines.macOS.x86_64)
+
+    targetMachines.add(machines.linux.x86_64)
+}
+*/
 
 /*
 java {
@@ -54,12 +86,29 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.4.20")
+    // implementation("org.jetbrains.kotlin:kotlin-stdlib:1.4.20")
+
+    // Align versions of all Kotlin components
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
+
+    // Use the Kotlin JDK 8 standard library.
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
     implementation("org.clojure:clojure:1.10.2-alpha4")
 
+    // Use Scala 2.13 in our library project
+    implementation("org.scala-lang:scala-library:2.13.3")
+
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    api("org.apache.commons:commons-math3:3.6.1")
+
     // This dependency is used by the application.
+    // implementation("com.google.guava:guava:29.0-jre")
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation("com.google.guava:guava:29.0-jre")
+
+    // Use the latest Groovy version for building this library
+    implementation("org.codehaus.groovy:groovy-all:2.5.12")
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
@@ -69,12 +118,20 @@ dependencies {
 
     // Use JUnit Jupiter Engine for testing.
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.7.0")
+    
 
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-test
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.4.20")
+    // testImplementation("org.jetbrains.kotlin:kotlin-test:1.4.20")
+
+    // Use the Kotlin test library.
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+
+    // Use the Kotlin JUnit integration.
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
     // https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine
     testImplementation("org.junit.vintage:junit-vintage-engine:5.7.0")
@@ -84,11 +141,24 @@ dependencies {
 
     // https://mvnrepository.com/artifact/junit/junit
     testImplementation("junit:junit:4.13.1")
+
+    // Use the awesome Spock testing and specification framework even with Java
+    testImplementation("org.spockframework:spock-core:1.3-groovy-2.5")
+    // testImplementation("junit:junit:4.13")
+
+    // Use Scalatest for testing our library
+    testImplementation("junit:junit:4.12")
+    testImplementation("org.scalatest:scalatest_2.13:3.2.0")
+    testImplementation("org.scalatestplus:junit-4-12_2.13:3.2.0.0")
+
+    // Need scala-xml at test runtime
+    testRuntimeOnly("org.scala-lang.modules:scala-xml_2.13:1.2.0")
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = "testCodi.App"
+    // mainClassName = "testCodi.App"
+    mainClass.set("testCodi.App")
 }
 
 val test by tasks.getting(Test::class) {
