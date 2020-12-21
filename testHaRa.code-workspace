@@ -7,6 +7,7 @@
 	"settings": {
 		"files.watcherExclude": {
 			"**/target": true
-		}
+		},
+		"dotnet-test-explorer.testProjectPath": "src/test"
 	}
 }

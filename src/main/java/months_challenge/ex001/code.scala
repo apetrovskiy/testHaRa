@@ -1,4 +1,4 @@
-object Solution {
+object Solution001 {
     def main(args: Array[String]) {
         // Print "Hello, World."
         println("Hello, World.")

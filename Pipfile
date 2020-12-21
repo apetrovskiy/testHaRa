@@ -4,6 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+pycodestyle = "*"
+pylint = "*"
+pyflakes = "*"
+flake8 = "*"
+black = "*"
+yapf = "*"
+autopep8 = "*"
 
 [dev-packages]
 
