@@ -15,5 +15,6 @@
     ],
     "python.testing.nosetestArgs": [
         "src/test/java"
-    ]
+    ],
+    "code-runner.runInTerminal": true
 }
