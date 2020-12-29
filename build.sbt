@@ -1,7 +1,7 @@
 
 // The simplest possible sbt build file is just one line:
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.3"
 // That is, to create a valid sbt build, all you've got to do is define the
 // version of Scala you'd like your project to use.
 
@@ -9,11 +9,11 @@ scalaVersion := "2.13.1"
 
 // Lines like the above defining `scalaVersion` are called "settings". Settings
 // are key/value pairs. In the case of `scalaVersion`, the key is "scalaVersion"
-// and the value is "2.13.1"
+// and the value is "2.13.3"
 
 // It's possible to define many kinds of settings, such as:
 
-name := "hello-world"
+name := "testHaRa"
 organization := "ch.epfl.scala"
 version := "1.0"
 
@@ -26,9 +26,6 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
-
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.2"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
@@ -71,7 +68,7 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
 //   settings(
 //     inThisBuild(List(
 //       organization := "ch.epfl.scala",
-//       scalaVersion := "2.13.1"
+//       scalaVersion := "2.13.3"
 //     )),
 //     name := "hello-world"
 //   )

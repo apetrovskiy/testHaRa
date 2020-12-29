@@ -8,6 +8,46 @@
 		"files.watcherExclude": {
 			"**/target": true
 		},
-		"dotnet-test-explorer.testProjectPath": "src/test"
+		"dotnet-test-explorer.testProjectPath": "src/test",
+		"python.testing.promptToConfigure": false,
+		"python.testing.nosetestsEnabled": true,
+		"python.testing.pytestEnabled": true,
+		"python.testing.unittestEnabled": true,
+		"python.testing.pytestArgs": [
+			"src/test/java/testHaRa"
+		],
+		"python.testing.unittestArgs": [
+			"-v",
+			"-s",
+			"./src/test/java/testHaRa",
+			"-p",
+			"test_*.py"
+		],
+		"python.testing.nosetestArgs": [
+			"src/test/java/testHaRa"
+		],
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "googletest.failed",
+					"settings": {
+						"foreground": "#f00"
+					}
+				},
+				{
+					"scope": "googletest.passed",
+					"settings": {
+						"foreground": "#0f0"
+					}
+				},
+				{
+					"scope": "googletest.run",
+					"settings": {
+						"foreground": "#0f0"
+					}
+				}
+			]
+		}
 	}
 }
