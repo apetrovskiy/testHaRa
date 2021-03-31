@@ -8,6 +8,25 @@
 		"files.watcherExclude": {
 			"**/target": true
 		},
-		"dotnet-test-explorer.testProjectPath": "src/test"
+		"dotnet-test-explorer.testProjectPath": "src/test",
+		"python.testing.promptToConfigure": false,
+		"python.testing.nosetestsEnabled": true,
+		"python.testing.pytestEnabled": true,
+		"python.testing.unittestEnabled": true,
+		"python.testing.pytestArgs": [
+			"src/test/java/testAlgo"
+		],
+		"python.testing.unittestArgs": [
+			"-v",
+			"-s",
+			"./src/test/java/testAlgo",
+			"-p",
+			"test_*.py"
+		],
+		"python.testing.nosetestArgs": [
+			"src/test/java/testAlgo"
+		],
+		"rubyTestExplorer.minitestDirectory": "./src/test/java/",
+		"rubyTestExplorer.rspecDirectory": "./src/test/java/"
 	}
 }
