@@ -14,5 +14,7 @@
     "python.testing.pytestEnabled": true,
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "C:\\Users\\Alexander Petrovskiy\\.virtualenvs\\testHaRa-ZkXkhBoP\\Scripts\\python.exe"
 }

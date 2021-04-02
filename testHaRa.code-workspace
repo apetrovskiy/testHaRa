@@ -27,6 +27,8 @@
 			"src/test/java/testAlgo"
 		],
 		"rubyTestExplorer.minitestDirectory": "./src/test/java/",
-		"rubyTestExplorer.rspecDirectory": "./src/test/java/"
+		"rubyTestExplorer.rspecDirectory": "./src/test/java/",
+		"activestate.promptRuntimeCreation": false,
+		"restructuredtext.languageServer.disabled": true
 	}
 }
