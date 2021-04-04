@@ -8,5 +8,5 @@ test_data = [([4, 3, 1, 2], 3), ([2, 3, 4, 1, 5], 3),
 
 
 @pytest.mark.parametrize("input_array,expected_result", test_data)
-def test_minimum_swaps_2(input_result: List[int], expected_result: int):
-    assert expected_result == minimumSwaps(input_result)
+def test_minimum_swaps_2(input_array: List[int], expected_result: int):
+    assert expected_result == minimumSwaps(input_array)
