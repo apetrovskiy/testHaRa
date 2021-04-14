@@ -1,16 +1,19 @@
 #!/bin/python3
 
-import math
+# import math
 import os
-import random
-import re
-import sys
+# import random
+# import re
+# import sys
 
 # Complete the reverseArray function below.
+
+
 def reverseArray(a):
     if a is None:
         return None
     return [x for x in a[::-1]]
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

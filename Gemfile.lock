@@ -14,6 +14,8 @@ GEM
     diff-lcs (1.4.4)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     power_assert (1.2.0)
@@ -41,6 +43,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  universal-darwin-19
   x64-mingw32
 
 DEPENDENCIES
@@ -50,4 +53,4 @@ DEPENDENCIES
   test-unit
 
 BUNDLED WITH
-   2.1.4
+   2.2.6
