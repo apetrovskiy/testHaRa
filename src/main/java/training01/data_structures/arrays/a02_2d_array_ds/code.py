@@ -1,10 +1,10 @@
 #!/bin/python3
 
-import math
+# import math
 import os
-import random
-import re
-import sys
+# import random
+# import re
+# import sys
 
 # Complete the hourglassSum function below.
 def hourglassSum(arr):

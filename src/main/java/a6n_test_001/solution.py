@@ -1,14 +1,13 @@
-##!/bin/python3
+# !/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
+# import math
+# import os
+# import random
+# import re
+# import sys
 
 from urllib.request import urlopen
 import json
-
 
 
 #
@@ -24,12 +23,13 @@ import json
 def getUsernames(threshold: int):
     # Write your code here
     def get_url(page_number: int):
-        return "https://jsonmock.hackerrank.com/api/article_users?page={0}".format(page_number)
-    
+        return "https://jsonmock.hackerrank.com/api/article_users?page={0}"\
+            .format(page_number)
+
     class Author(object):
         def __init__(self, input_json):
             self.__dict__ = json.loads(input_json)
-        
+
         id: int
         username: str
         about: str
@@ -42,20 +42,19 @@ def getUsernames(threshold: int):
     class Authors(object):
         def __init__(self, input_json):
             self.__dict__ = json.loads(input_json)
-        
+
         page: int
         per_page: int
         total: int
         total_pages: int
         data: [Author]
 
-    
     print(get_url(2))
     print(urlopen(get_url(1)))
     res = urlopen(get_url(1))
     bbb = res.read()
     print(bbb.decode("utf8"))
-    
+
     print(json.loads(bbb))
     result = json.loads(bbb)
     # result2 = json.loads(res.read())
