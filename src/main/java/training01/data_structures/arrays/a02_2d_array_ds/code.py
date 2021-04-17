@@ -7,8 +7,11 @@ import os
 # import sys
 
 # Complete the hourglassSum function below.
+
+
 def hourglassSum(arr):
     pass
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

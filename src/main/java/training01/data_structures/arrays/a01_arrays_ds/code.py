@@ -7,8 +7,11 @@ import os
 # import sys
 
 # Complete the reverseArray function below.
+
+
 def reverseArray(a):
     pass
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
