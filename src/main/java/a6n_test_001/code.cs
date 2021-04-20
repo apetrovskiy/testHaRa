@@ -32,7 +32,7 @@ class Result
 
     public static List<string> getUsernames(int threshold)
     {
-
+        return new List<string>();
     }
 
 }
