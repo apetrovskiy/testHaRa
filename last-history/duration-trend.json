@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 10,
+  "reportUrl" : "https://apetrovskiy.github.io/testHaRa/10/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 9,
   "reportUrl" : "https://apetrovskiy.github.io/testHaRa/9/",
   "reportName" : "Allure Report with history",
