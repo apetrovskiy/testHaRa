@@ -44,6 +44,7 @@ jobs:
     - name: Python - test with pytest
       if: always()
       run: |
+        pwd
         pytest --alluredir=allure-results
 #     - name: Analysing the code with pylint
 #       run: |

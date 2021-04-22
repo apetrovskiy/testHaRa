@@ -11,3 +11,7 @@ class ArraysDsTest(TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+def test_reverse_array():
+    assert [3, 2, 1] == reverseArray([1, 2, 3])
