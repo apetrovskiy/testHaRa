@@ -14,11 +14,11 @@ namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
     using System.Text;
     using System;
 
-    class Solution
+    public class Solution
     {
 
         // Complete the minimumAbsoluteDifference function below.
-        static int minimumAbsoluteDifference(int[] arr)
+        public static int minimumAbsoluteDifference(int[] arr)
         {
             return 0;
 
