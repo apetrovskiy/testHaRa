@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.java.training01.data_structures.arrays",
+    "children" : [ {
+      "name" : "a01_arrays_ds.test_reverse_array",
+      "children" : [ {
+        "name" : "test_reverse_array",
+        "uid" : "f8431bc5c0508654",
+        "parentUid" : "d10345c590d1732193cca5da0108d7be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619152453744,
+          "stop" : 1619152453744,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reverse_array",
+        "uid" : "5de01c2ad1c3629",
+        "parentUid" : "d10345c590d1732193cca5da0108d7be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619152453746,
+          "stop" : 1619152453746,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a01_arrays_ds.test_reverse_array"
+    }, {
+      "name" : "a02_2d_array_ds.test_hourglass_sum",
+      "children" : [ {
+        "name" : "test_calculate_hourglass_sum",
+        "uid" : "cc3f77217fd754dc",
+        "parentUid" : "7958f0f61d465128d1f17bd8d078b7ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619152453748,
+          "stop" : 1619152453749,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a02_2d_array_ds.test_hourglass_sum"
+    } ],
+    "uid" : "src.test.java.training01.data_structures.arrays"
+  } ],
+  "name" : "packages"
+}
