@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "d84da03cb2ee6c6c4aa0547023218d03",
+    "name" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7438daf16b4694db96e91e54a2749e9d",
+    "name" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b5cd77634f3cb287d2f27a401686e69a",
+    "name" : "src.test.java.training01.data_structures.arrays.a02_2d_array_ds",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
