@@ -1,9 +1,7 @@
-from src.main.java.training01.data_structures.arrays.a02_2d_array_ds.code \
-    import hourglassSum
 import unittest
 from unittest.case import TestCase
-from src.main.java.training01.data_structures.arrays.a02_2d_array_ds.solution \
-    import hourglassSum
+from src.main.java.training01.data_structures.arrays. \
+    a02_2d_array_ds.hourglass_sum import hourglassSum
 
 
 class Array2dTest(TestCase):

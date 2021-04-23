@@ -48,6 +48,8 @@
 					}
 				}
 			]
-		}
+		},
+		"rubyTestExplorer.minitestDirectory": "./src/test/java/",
+		"rubyTestExplorer.rspecDirectory": "./src/test/java/"
 	}
 }

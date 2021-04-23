@@ -16,5 +16,10 @@
     "python.testing.nosetestArgs": [
         "src/test/java"
     ],
-    "code-runner.runInTerminal": true
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "python.formatting.provider": "black",
+    "rubyTestExplorer.minitestDirectory": "./src/test/java/",
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
 }
