@@ -1,0 +1,106 @@
+{
+  "uid" : "5a2064bc5c02789a",
+  "name" : "test_reverse_array",
+  "fullName" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds.test_reverse_array.ArraysDsTest#test_reverse_array",
+  "historyId" : "4ca9569aaaaff83ca7bbd2f4a173275d",
+  "time" : {
+    "start" : 1619151803382,
+    "stop" : 1619151803382,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_ArraysDsTest",
+    "time" : {
+      "start" : 1619151803327,
+      "stop" : 1619151803327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_ArraysDsTest::0",
+    "time" : {
+      "start" : 1619151803383,
+      "stop" : 1619151803383,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds"
+  }, {
+    "name" : "suite",
+    "value" : "test_reverse_array"
+  }, {
+    "name" : "subSuite",
+    "value" : "ArraysDsTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-886"
+  }, {
+    "name" : "thread",
+    "value" : "3198-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds.test_reverse_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b48ffd8d78b4b90",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/14//#testresult/b48ffd8d78b4b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619130324939,
+          "stop" : 1619130324940,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a2064bc5c02789a.json",
+  "parameterValues" : [ ]
+}
