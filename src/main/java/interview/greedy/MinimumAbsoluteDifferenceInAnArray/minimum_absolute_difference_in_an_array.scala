@@ -13,7 +13,7 @@ object Solution {
     // Complete the minimumAbsoluteDifference function below.
     def minimumAbsoluteDifference(arr: Array[Int]): Int = {
 
-
+        0
     }
 
     def main(args: Array[String]) {

@@ -1,8 +1,10 @@
 import pytest
 from typing import List
-from src.main.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray.minimum_absolute_difference_in_an_array import (
-    minimumAbsoluteDifference,
-)
+from src.main.java.interview.greedy. \
+    MinimumAbsoluteDifferenceInAnArray. \
+    minimum_absolute_difference_in_an_array \
+    import minimumAbsoluteDifference
+
 
 test_data = [
     ([3, -7, 0], 3),

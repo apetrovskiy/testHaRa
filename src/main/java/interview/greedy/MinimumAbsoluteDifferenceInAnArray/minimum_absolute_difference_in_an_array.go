@@ -1,4 +1,5 @@
-package main
+package MinimumAbsoluteDifferenceInAnArray
+// package main
 
 import (
     "bufio"
@@ -11,7 +12,7 @@ import (
 
 // Complete the minimumAbsoluteDifference function below.
 func minimumAbsoluteDifference(arr []int32) int32 {
-
+    return 0
 
 }
 

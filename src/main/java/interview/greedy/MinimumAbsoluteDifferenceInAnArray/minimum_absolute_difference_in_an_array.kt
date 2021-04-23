@@ -19,7 +19,7 @@ import kotlin.text.*
 
 // Complete the minimumAbsoluteDifference function below.
 fun minimumAbsoluteDifference(arr: Array<Int>): Int {
-
+    return 0
 
 }
 
