@@ -21,6 +21,5 @@
     },
     "python.formatting.provider": "black",
     "rubyTestExplorer.minitestDirectory": "./src/test/java/",
-    "rubyTestExplorer.rspecDirectory": "./src/test/java/",
-    "python.pythonPath": "C:\\Users\\Alexander Petrovskiy\\.virtualenvs\\testHaRa-ZkXkhBoP\\Scripts\\python.exe"
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
 }
