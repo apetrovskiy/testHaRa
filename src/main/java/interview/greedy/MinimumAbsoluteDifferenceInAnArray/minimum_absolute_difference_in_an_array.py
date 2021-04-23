@@ -2,6 +2,7 @@
 
 # import math
 import os
+
 # import random
 # import re
 # import sys
@@ -9,7 +10,9 @@ import os
 
 # Complete the minimumAbsoluteDifference function below.
 def minimumAbsoluteDifference(arr):
-    return 0
+    arr.sort()
+    differences = [abs(arr[x + 1] - arr[x]) for x in range(0, len(arr) - 1)]
+    return min(differences)
 
 
 if __name__ == "__main__":
