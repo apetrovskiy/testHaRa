@@ -14,21 +14,42 @@
 		"python.testing.pytestEnabled": true,
 		"python.testing.unittestEnabled": true,
 		"python.testing.pytestArgs": [
-			"src/test/java/testAlgo"
+			"src/test/java"
 		],
 		"python.testing.unittestArgs": [
 			"-v",
 			"-s",
-			"./src/test/java/testAlgo",
+			"./src/test/java",
 			"-p",
 			"test_*.py"
 		],
 		"python.testing.nosetestArgs": [
-			"src/test/java/testAlgo"
+			"src/test/java"
 		],
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "googletest.failed",
+					"settings": {
+						"foreground": "#f00"
+					}
+				},
+				{
+					"scope": "googletest.passed",
+					"settings": {
+						"foreground": "#0f0"
+					}
+				},
+				{
+					"scope": "googletest.run",
+					"settings": {
+						"foreground": "#0f0"
+					}
+				}
+			]
+		},
 		"rubyTestExplorer.minitestDirectory": "./src/test/java/",
-		"rubyTestExplorer.rspecDirectory": "./src/test/java/",
-		"activestate.promptRuntimeCreation": false,
-		"restructuredtext.languageServer.disabled": true
+		"rubyTestExplorer.rspecDirectory": "./src/test/java/"
 	}
 }
