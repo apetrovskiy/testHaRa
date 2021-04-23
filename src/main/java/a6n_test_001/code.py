@@ -1,11 +1,10 @@
 #!/bin/python3
 
-import math
+# import math
 import os
-import random
-import re
-import sys
-
+# import random
+# import re
+# import sys
 
 
 #
@@ -20,6 +19,8 @@ import sys
 
 def getUsernames(threshold):
     # Write your code here
+    pass
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
