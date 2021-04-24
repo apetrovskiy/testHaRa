@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([4, 3, 1, 2])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array0-3]",
+        "uid" : "65c55fce737f7948",
+        "parentUid" : "d02893ae187a6a297cd15c9632cca8cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619252460044,
+          "stop" : 1619252460044,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[4, 3, 1, 2]" ]
+      } ],
+      "uid" : "d02893ae187a6a297cd15c9632cca8cd"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array1-3]",
+        "uid" : "d3497623f2ee80d8",
+        "parentUid" : "6a17dc33ed34f2ca4ba509bb724d8b56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619252460069,
+          "stop" : 1619252460069,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+      } ],
+      "uid" : "6a17dc33ed34f2ca4ba509bb724d8b56"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([1, 3, 5, 2, 4, 6, ...])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array2-3]",
+        "uid" : "d487114b990dcc8b",
+        "parentUid" : "84585bd3e587acc41f460d63dc1bdc1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619252460073,
+          "stop" : 1619252460073,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+      } ],
+      "uid" : "84585bd3e587acc41f460d63dc1bdc1b"
+    }, {
+      "name" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+      "children" : [ {
+        "name" : "test_new_year_chaos[input_array3-7]",
+        "uid" : "c18c92a19b2faa8d",
+        "parentUid" : "3fcc760f598e19ff20a0fb957d53ff08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619252460086,
+          "stop" : 1619252460086,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+      } ],
+      "uid" : "3fcc760f598e19ff20a0fb957d53ff08"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
