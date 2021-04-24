@@ -130,7 +130,6 @@ jobs:
       if: always()
       with:
         dotnet-version: 5.0.x
-      run: dotnet tool update -g dotnet-format
     - name: dotnet - version
       if: always()
       run: dotnet --version
@@ -139,7 +138,9 @@ jobs:
       run: dotnet restore
     - name: dotnet - format check
       if: always()
-      run: dotnet-format --check
+      run: |
+        run: dotnet tool update -g dotnet-format
+        dotnet-format --check
     - name: dotnet - build
       if: always()
       run: dotnet build --no-restore
