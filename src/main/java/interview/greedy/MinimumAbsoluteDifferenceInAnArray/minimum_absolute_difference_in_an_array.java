@@ -1,3 +1,5 @@
+package interview.greedy.MinimumAbsoluteDifferenceInAnArray;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
