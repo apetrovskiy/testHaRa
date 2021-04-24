@@ -186,6 +186,7 @@ jobs:
 
   allure:
     runs-on: ubuntu-latest
+    if: always()
     needs:
       - build
       - python
