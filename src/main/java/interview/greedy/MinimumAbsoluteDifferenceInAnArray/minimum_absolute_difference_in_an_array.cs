@@ -20,7 +20,11 @@ namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
         // Complete the minimumAbsoluteDifference function below.
         public static int minimumAbsoluteDifference(int[] arr)
         {
-            return 0;
+            Array.Sort(arr);
+            var differences = Enumerable.Range(0, arr.Length - 1)
+            .ToList()
+            .Select(index => Math.Abs(arr[index + 1] - arr[index]));
+            return differences.Min();
 
         }
 
