@@ -158,9 +158,27 @@ jobs:
       if: always()
       run: ./gradlew build
 
+  dotnet-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Add dotnet-format problem matcher
+        uses: xt0rted/dotnet-format-problem-matcher@v1
+
+      - name: Restore dotnet tools
+        uses: xt0rted/dotnet-tool-restore@v1
+
+      - name: Run dotnet format
+        uses: xt0rted/dotnet-format@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
   dotnet:
     runs-on: ubuntu-latest
-    needs: build
+    needs:
+      - build
+      - dotnet-format
     steps:
     - uses: actions/checkout@v2
     - uses: ./.github/actions/allure-prep
@@ -193,8 +211,8 @@ jobs:
     needs:
       - build
       - python
-      # - ruby
-      # - node
+      - ruby
+      - node
       - golang
       - jdk
       - dotnet
@@ -228,19 +246,19 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
-  dotnet-format:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
+  # dotnet-format:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout repo
+  #       uses: actions/checkout@v2
 
-      - name: Add dotnet-format problem matcher
-        uses: xt0rted/dotnet-format-problem-matcher@v1
+  #     - name: Add dotnet-format problem matcher
+  #       uses: xt0rted/dotnet-format-problem-matcher@v1
 
-      - name: Restore dotnet tools
-        uses: xt0rted/dotnet-tool-restore@v1
+  #     - name: Restore dotnet tools
+  #       uses: xt0rted/dotnet-tool-restore@v1
 
-      - name: Run dotnet format
-        uses: xt0rted/dotnet-format@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+  #     - name: Run dotnet format
+  #       uses: xt0rted/dotnet-format@v1
+  #       with:
+  #         repo-token: ${{ secrets.GITHUB_TOKEN }}
