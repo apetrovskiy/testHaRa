@@ -52,6 +52,7 @@ jobs:
 #         pylint `ls -R|grep .py$|xargs`
 
     - name: Look at allure
+      if: always()
       run: |
         ls allure-results
         # allure --version
@@ -94,6 +95,7 @@ jobs:
       run: bundle exec rake
 
     - name: Look at allure
+      if: always()
       run: |
         ls allure-results
         # allure --version
@@ -145,6 +147,7 @@ jobs:
       run: go test -v ./...
 
     - name: Look at allure
+      if: always()
       run: |
         ls allure-results
         # allure --version
@@ -175,6 +178,7 @@ jobs:
       run: ./gradlew build
 
     - name: Look at allure
+      if: always()
       run: |
         ls allure-results
         # allure --version
@@ -227,6 +231,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Look at allure
+      if: always()
       run: |
         ls allure-results
         # allure --version
@@ -243,6 +248,13 @@ jobs:
       - jdk
       - dotnet
     steps:
+
+    - name: Look at allure
+      if: always()
+      run: |
+        ls allure-results
+        # allure --version
+
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
