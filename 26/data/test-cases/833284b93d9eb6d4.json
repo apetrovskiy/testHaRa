@@ -1,0 +1,127 @@
+{
+  "uid" : "833284b93d9eb6d4",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+  "fullName" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array#test_minimum_absolute_difference_in_an_array",
+  "historyId" : "a12e41c49c46e30485b529b4fd3bb275",
+  "time" : {
+    "start" : 1619236567095,
+    "stop" : 1619236567095,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_absolute_difference_in_an_array"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-932"
+  }, {
+    "name" : "thread",
+    "value" : "3162-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input_array",
+    "value" : "[3, -7, 0]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c9a09521416d5cf0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/25//#testresult/c9a09521416d5cf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619220942111,
+          "stop" : 1619220942111,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1247be36e1e565c8",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/24//#testresult/1247be36e1e565c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619219841034,
+          "stop" : 1619219841035,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7869b14831fe2e33",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/22//#testresult/7869b14831fe2e33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619217667802,
+          "stop" : 1619217667802,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "23ded86f29453c56",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/21//#testresult/23ded86f29453c56",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumAbsoluteDifference([3, -7, 0])",
+        "time" : {
+          "start" : 1619211869843,
+          "stop" : 1619211869844,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bc25b6aafbeff402",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/20//#testresult/bc25b6aafbeff402",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumAbsoluteDifference([3, -7, 0])",
+        "time" : {
+          "start" : 1619158595399,
+          "stop" : 1619158595399,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1518ab40e768eccf",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/19//#testresult/1518ab40e768eccf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumAbsoluteDifference([3, -7, 0])",
+        "time" : {
+          "start" : 1619154265841,
+          "stop" : 1619154265842,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "833284b93d9eb6d4.json",
+  "parameterValues" : [ "3", "[3, -7, 0]" ]
+}

@@ -1,0 +1,127 @@
+{
+  "uid" : "f480b7c7425fadd5",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+  "fullName" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array#test_minimum_absolute_difference_in_an_array",
+  "historyId" : "e9c32a37a1231ce036784f02afc9fe57",
+  "time" : {
+    "start" : 1619236567098,
+    "stop" : 1619236567098,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_absolute_difference_in_an_array"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-932"
+  }, {
+    "name" : "thread",
+    "value" : "3162-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "1"
+  }, {
+    "name" : "input_array",
+    "value" : "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1247624e735b17b1",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/25//#testresult/1247624e735b17b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619220942113,
+          "stop" : 1619220942113,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7e3bd4d59adde74",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/24//#testresult/c7e3bd4d59adde74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619219841037,
+          "stop" : 1619219841037,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1726b1caa1df8922",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/22//#testresult/1726b1caa1df8922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619217667804,
+          "stop" : 1619217667805,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8dcb6a4d1a53251f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/21//#testresult/8dcb6a4d1a53251f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n +  where 0 = minimumAbsoluteDifference([-59, -36, -13, 1, -53, -92, ...])",
+        "time" : {
+          "start" : 1619211869866,
+          "stop" : 1619211869866,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1fd429bc7c9c494f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/20//#testresult/1fd429bc7c9c494f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n +  where 0 = minimumAbsoluteDifference([-59, -36, -13, 1, -53, -92, ...])",
+        "time" : {
+          "start" : 1619158595423,
+          "stop" : 1619158595424,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d9cd84a1003a03b6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/19//#testresult/d9cd84a1003a03b6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n +  where 0 = minimumAbsoluteDifference([-59, -36, -13, 1, -53, -92, ...])",
+        "time" : {
+          "start" : 1619154265863,
+          "stop" : 1619154265864,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f480b7c7425fadd5.json",
+  "parameterValues" : [ "1", "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]" ]
+}
