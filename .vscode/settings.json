@@ -19,7 +19,8 @@
     "files.watcherExclude": {
         "**/target": true
     },
-    "python.formatting.provider": "black",
     "rubyTestExplorer.minitestDirectory": "./src/test/java/",
-    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/",
+    "python.analysis.logLevel": "Warning",
+    "python.autoComplete.addBrackets": true
 }

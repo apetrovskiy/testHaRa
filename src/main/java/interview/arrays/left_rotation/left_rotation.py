@@ -1,17 +1,19 @@
 #!/bin/python3
 
-import math
+# import math
 import os
-import random
-import re
-import sys
+# import random
+# import re
+# import sys
+
 
 # Complete the rotLeft function below.
 def rotLeft(a, d):
     return a[d:] + a[:d]
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     nd = input().split()
 
@@ -23,7 +25,7 @@ if __name__ == '__main__':
 
     result = rotLeft(a, d)
 
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
+    fptr.write(" ".join(map(str, result)))
+    fptr.write("\n")
 
     fptr.close()
