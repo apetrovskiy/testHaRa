@@ -136,11 +136,11 @@ jobs:
     - name: dotnet - restore dependencies
       if: always()
       run: dotnet restore
-    - name: dotnet - format check
-      if: always()
-      run: |
-        run: dotnet tool update -g dotnet-format
-        dotnet-format --check
+    # - name: dotnet - format check
+    #   if: always()
+    #   run: |
+    #     run: dotnet tool update -g dotnet-format
+    #     dotnet-format --check
     - name: dotnet - build
       if: always()
       run: dotnet build --no-restore
@@ -177,3 +177,19 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+  dotnet-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Add dotnet-format problem matcher
+        uses: xt0rted/dotnet-format-problem-matcher@v1
+
+      - name: Restore dotnet tools
+        uses: xt0rted/dotnet-tool-restore@v1
+
+      - name: Run dotnet format
+        uses: xt0rted/dotnet-format@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
