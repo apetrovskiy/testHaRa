@@ -70,7 +70,7 @@ jobs:
       uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
       if: always()
       with:
-        ruby-version: ${{ jobs.build.matrix.ruby-version }}
+        ruby-version: ${{ build.matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     # - name: Experimental installation
@@ -89,11 +89,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: ./.github/actions/allure-prep
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js ${{ build.matrix.node-version }}
       uses: actions/setup-node@v2
       if: always()
       with:
-        node-version: ${{ jobs.build.matrix.node-version }}
+        node-version: ${{ build.matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
