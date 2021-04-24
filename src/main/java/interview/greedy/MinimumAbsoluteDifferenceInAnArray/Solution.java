@@ -13,7 +13,7 @@ public class Solution {
     // Complete the minimumAbsoluteDifference function below.
     static int minimumAbsoluteDifference(int[] arr) {
 
-
+        return 0;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
