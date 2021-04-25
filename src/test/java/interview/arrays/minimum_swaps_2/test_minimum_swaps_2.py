@@ -1,6 +1,7 @@
 import pytest
 from typing import List
-from src.main.java.interview.arrays.minimum_swaps_2.minimum_swaps_2 import minimumSwaps
+from src.main.java.interview.arrays.minimum_swaps_2.minimum_swaps_2 \
+    import minimumSwaps
 
 
 test_data = [([4, 3, 1, 2], 3), ([2, 3, 4, 1, 5], 3),

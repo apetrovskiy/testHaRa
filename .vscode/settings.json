@@ -18,12 +18,9 @@
     ],
     "files.watcherExclude": {
         "**/target": true
-<<<<<<< Updated upstream
-    }
-=======
     },
-    "python.formatting.provider": "black",
     "rubyTestExplorer.minitestDirectory": "./src/test/java/",
-    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
->>>>>>> Stashed changes
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/",
+    "python.analysis.logLevel": "Warning",
+    "python.autoComplete.addBrackets": true
 }
