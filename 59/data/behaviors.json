@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_left_rotation[input_array0-4-expected_result0]",
+    "uid" : "bfaaa0bd00b7bd1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721491,
+      "stop" : 1619385721491,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "[5, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "4" ]
+  }, {
+    "name" : "test_minimum_swaps_2[input_array0-3]",
+    "uid" : "58f50b3e225a7ae5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619385721494,
+      "stop" : 1619385721494,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[4, 3, 1, 2]" ]
+  }, {
+    "name" : "test_minimum_swaps_2[input_array1-3]",
+    "uid" : "86e9b50ca7cf53f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619385721518,
+      "stop" : 1619385721518,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+  }, {
+    "name" : "test_minimum_swaps_2[input_array2-3]",
+    "uid" : "f3737bf19f3a16c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619385721523,
+      "stop" : 1619385721523,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+  }, {
+    "name" : "test_new_year_chaos[input_array0-3]",
+    "uid" : "cd5d7c16c6a68157",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721528,
+      "stop" : 1619385721528,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[2, 1, 5, 3, 4]" ]
+  }, {
+    "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+    "uid" : "c5ffff87acfa0803",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721531,
+      "stop" : 1619385721531,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Too chaotic'", "[2, 5, 1, 3, 4]" ]
+  }, {
+    "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+    "uid" : "a6fbf64df6b5407",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721533,
+      "stop" : 1619385721533,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Too chaotic'", "[5, 1, 2, 3, 7, 8, 6, 4]" ]
+  }, {
+    "name" : "test_new_year_chaos[input_array3-7]",
+    "uid" : "527add420a390068",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1619385721536,
+      "stop" : 1619385721536,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+  }, {
+    "name" : "test_new_year_chaos[input_array4-4]",
+    "uid" : "e60b3afe0d2b0cad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721540,
+      "stop" : 1619385721540,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "[1, 2, 5, 3, 4, 7, 8, 6]" ]
+  }, {
+    "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+    "uid" : "e7fa0feb7ba94ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721543,
+      "stop" : 1619385721543,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[3, -7, 0]" ]
+  }, {
+    "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+    "uid" : "d3232bdfc9d9f9d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721546,
+      "stop" : 1619385721546,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]" ]
+  }, {
+    "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+    "uid" : "e9bacf6a379f3f1f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721548,
+      "stop" : 1619385721548,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "[1, -3, 71, 68, 17]" ]
+  }, {
+    "name" : "test_reverse_array",
+    "uid" : "ed382bada11914f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721551,
+      "stop" : 1619385721551,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_reverse_array",
+    "uid" : "c835e2c65e5c3a07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721553,
+      "stop" : 1619385721553,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_calculate_hourglass_sum",
+    "uid" : "cd602b38b58970ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721556,
+      "stop" : 1619385721556,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_ex001",
+    "uid" : "71f48d46e4fe752f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619385721558,
+      "stop" : 1619385721559,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
