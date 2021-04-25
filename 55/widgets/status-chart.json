@@ -1,0 +1,161 @@
+[ {
+  "uid" : "4883d12d34d7fb64",
+  "name" : "test_left_rotation[input_array0-4-expected_result0]",
+  "time" : {
+    "start" : 1619342593597,
+    "stop" : 1619342593597,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62ab694a95d80a62",
+  "name" : "test_ex001",
+  "time" : {
+    "start" : 1619342593665,
+    "stop" : 1619342593666,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c68bbd869516e63",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1619342593660,
+    "stop" : 1619342593660,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48feb5ade0c9aafa",
+  "name" : "test_new_year_chaos[input_array3-7]",
+  "time" : {
+    "start" : 1619342593643,
+    "stop" : 1619342593643,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25bc4ba711db24df",
+  "name" : "test_new_year_chaos[input_array4-4]",
+  "time" : {
+    "start" : 1619342593647,
+    "stop" : 1619342593647,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b63e69a54e513b84",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+  "time" : {
+    "start" : 1619342593653,
+    "stop" : 1619342593653,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f894fef923681b7",
+  "name" : "test_new_year_chaos[input_array0-3]",
+  "time" : {
+    "start" : 1619342593636,
+    "stop" : 1619342593636,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e24cfdf2df84659",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+  "time" : {
+    "start" : 1619342593655,
+    "stop" : 1619342593655,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adf1bbb30c58022b",
+  "name" : "test_calculate_hourglass_sum",
+  "time" : {
+    "start" : 1619342593662,
+    "stop" : 1619342593663,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88296c2c03241cf6",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+  "time" : {
+    "start" : 1619342593650,
+    "stop" : 1619342593650,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bb45416ca8a8cf8",
+  "name" : "test_minimum_swaps_2[input_array1-3]",
+  "time" : {
+    "start" : 1619342593623,
+    "stop" : 1619342593624,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "71aa1d9bc28f0160",
+  "name" : "test_minimum_swaps_2[input_array2-3]",
+  "time" : {
+    "start" : 1619342593627,
+    "stop" : 1619342593627,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86e64f00966b5c0f",
+  "name" : "test_minimum_swaps_2[input_array0-3]",
+  "time" : {
+    "start" : 1619342593600,
+    "stop" : 1619342593600,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c30fe11cd71bf73",
+  "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+  "time" : {
+    "start" : 1619342593638,
+    "stop" : 1619342593638,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e9c15c72b375eb",
+  "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+  "time" : {
+    "start" : 1619342593641,
+    "stop" : 1619342593641,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973ab61531b5d5da",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1619342593658,
+    "stop" : 1619342593658,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
