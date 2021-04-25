@@ -1,19 +1,27 @@
 {
+    "python.testing.promptToConfigure": false,
+    "python.testing.nosetestsEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": true,
     "python.testing.pytestArgs": [
-        "src"
+        "src/test/java"
     ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./src",
+        "./src/test/java",
         "-p",
         "test_*.py"
     ],
-    "python.testing.unittestEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true,
+    "python.testing.nosetestArgs": [
+        "src/test/java"
+    ],
     "files.watcherExclude": {
         "**/target": true
     },
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "rubyTestExplorer.minitestDirectory": "./src/test/java/",
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/",
+    "python.analysis.logLevel": "Warning",
+    "python.autoComplete.addBrackets": true
 }

@@ -1,4 +1,4 @@
-object Solution {
+object Solution002 {
     def main(args: Array[String]) {
         val i = 4
         val d = 4.0
