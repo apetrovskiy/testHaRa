@@ -44,12 +44,9 @@ jobs:
 #       run: |
 #         pylint `ls -R|grep .py$|xargs`
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -58,12 +55,12 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   ruby:
     runs-on: ubuntu-latest
@@ -102,12 +99,9 @@ jobs:
       if: always()
       run: bundle exec rake
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -116,12 +110,12 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   node:
     runs-on: ubuntu-latest
@@ -142,12 +136,9 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -156,12 +147,12 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   golang:
     runs-on: ubuntu-latest
@@ -190,12 +181,9 @@ jobs:
       if: always()
       run: go test -v ./...
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -204,12 +192,12 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   jdk:
     runs-on: ubuntu-latest
@@ -242,12 +230,9 @@ jobs:
       if: always()
       run: ./gradlew build
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -256,12 +241,12 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   dotnet-format:
     runs-on: ubuntu-latest
@@ -310,12 +295,9 @@ jobs:
       if: always()
       run: dotnet test --no-build --verbosity normal
 
-    # TODO: de-duplicate
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     # TODO: de-duplicate
     - name: Archive Allure results
@@ -324,12 +306,23 @@ jobs:
       with:
         name: allure-results
         path: allure-results
-    - name: Archive Allure reports
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-reports
-        path: allure-reports
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
+
+  swift:
+    runs-on: macos-latest
+    needs: build
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: swift build -v
+    - name: Run tests
+      run: swift test -v
 
   allure:
     runs-on: ubuntu-latest
@@ -342,16 +335,15 @@ jobs:
       - golang
       - jdk
       - dotnet
+      - swift
     steps:
 
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v2
 
-    - name: Look at allure
+    - name: Look at Allure
       if: always()
-      run: |
-        ls allure-results
-        # allure --version
+      uses: ./.github/actions/allure-show
 
     - name: Get Allure history
       uses: actions/checkout@v2
