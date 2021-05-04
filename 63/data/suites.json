@@ -1,0 +1,277 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "src.test.java.interview.arrays.left_rotation",
+    "children" : [ {
+      "name" : "test_left_rotation",
+      "children" : [ {
+        "name" : "test_left_rotation[input_array0-4-expected_result0]",
+        "uid" : "16f647526be53ce4",
+        "parentUid" : "2d6641c140642eeedbdea4a60bb1d20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721292,
+          "stop" : 1620165721292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "4" ]
+      } ],
+      "uid" : "2d6641c140642eeedbdea4a60bb1d20d"
+    } ],
+    "uid" : "3f4b6d7fc2f2edfe9a8e391c7b64dfef"
+  }, {
+    "name" : "src.test.java.interview.arrays.minimum_swaps_2",
+    "children" : [ {
+      "name" : "test_minimum_swaps_2",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array0-3]",
+        "uid" : "ff6b0682e908ddc0",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620165721295,
+          "stop" : 1620165721295,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[4, 3, 1, 2]" ]
+      }, {
+        "name" : "test_minimum_swaps_2[input_array1-3]",
+        "uid" : "c3ad98b04d295f7e",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620165721320,
+          "stop" : 1620165721321,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+      }, {
+        "name" : "test_minimum_swaps_2[input_array2-3]",
+        "uid" : "9dd4539ebd1246b2",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620165721324,
+          "stop" : 1620165721325,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+      } ],
+      "uid" : "1dc84213203efe157941ef26c904a51f"
+    } ],
+    "uid" : "4b47c8564e7de25d8b5b0056f5289554"
+  }, {
+    "name" : "src.test.java.interview.arrays.new_year_chaos",
+    "children" : [ {
+      "name" : "test_new_year_chaos",
+      "children" : [ {
+        "name" : "test_new_year_chaos[input_array0-3]",
+        "uid" : "47cf8412114b677a",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721329,
+          "stop" : 1620165721330,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 1, 5, 3, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+        "uid" : "e4c1f41971310a50",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721332,
+          "stop" : 1620165721332,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Too chaotic'", "[2, 5, 1, 3, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+        "uid" : "8adc5c11afe9459d",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721335,
+          "stop" : 1620165721335,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Too chaotic'", "[5, 1, 2, 3, 7, 8, 6, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array3-7]",
+        "uid" : "7874bff30abe5ecc",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620165721337,
+          "stop" : 1620165721338,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array4-4]",
+        "uid" : "208bcd658fea2bd8",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721342,
+          "stop" : 1620165721342,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "[1, 2, 5, 3, 4, 7, 8, 6]" ]
+      } ],
+      "uid" : "d1586b58a03e263f27908cde91bed81e"
+    } ],
+    "uid" : "d2f9b6a621840885ad4c0ea28a5c27dd"
+  }, {
+    "name" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray",
+    "children" : [ {
+      "name" : "test_minimum_absolute_difference_in_an_array",
+      "children" : [ {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+        "uid" : "15846dd4d389b534",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721345,
+          "stop" : 1620165721345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[3, -7, 0]" ]
+      }, {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+        "uid" : "28fd24d37957abcd",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721348,
+          "stop" : 1620165721348,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]" ]
+      }, {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+        "uid" : "d88c26f68e979503",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721351,
+          "stop" : 1620165721351,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, -3, 71, 68, 17]" ]
+      } ],
+      "uid" : "ab499c8ec235188804422087f23f511b"
+    } ],
+    "uid" : "d84da03cb2ee6c6c4aa0547023218d03"
+  }, {
+    "name" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds",
+    "children" : [ {
+      "name" : "test_reverse_array",
+      "children" : [ {
+        "name" : "ArraysDsTest",
+        "children" : [ {
+          "name" : "test_reverse_array",
+          "uid" : "5981ca8a5ca092d0",
+          "parentUid" : "2dce62582024c71a1ede2970c7f07c91",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620165721354,
+            "stop" : 1620165721355,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2dce62582024c71a1ede2970c7f07c91"
+      }, {
+        "name" : "test_reverse_array",
+        "uid" : "7c39c056c0a628bb",
+        "parentUid" : "eb9a8128325e66bc89ec9cbc6e520e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721357,
+          "stop" : 1620165721358,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb9a8128325e66bc89ec9cbc6e520e82"
+    } ],
+    "uid" : "7438daf16b4694db96e91e54a2749e9d"
+  }, {
+    "name" : "src.test.java.training01.data_structures.arrays.a02_2d_array_ds",
+    "children" : [ {
+      "name" : "test_hourglass_sum",
+      "children" : [ {
+        "name" : "Array2dTest",
+        "children" : [ {
+          "name" : "test_calculate_hourglass_sum",
+          "uid" : "ee67c000c4f06961",
+          "parentUid" : "8aeef34918e9d7e835ceb2d9e626914b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620165721360,
+            "stop" : 1620165721361,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8aeef34918e9d7e835ceb2d9e626914b"
+      } ],
+      "uid" : "51f594dc9fe10b2d7d3b622ac312f206"
+    } ],
+    "uid" : "b5cd77634f3cb287d2f27a401686e69a"
+  }, {
+    "name" : "src.test.java.training01.ex001",
+    "children" : [ {
+      "name" : "test_ex001",
+      "children" : [ {
+        "name" : "test_ex001",
+        "uid" : "42b07b71a7553640",
+        "parentUid" : "9bf8dbe8a5e3736299489ba7a41e7779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165721363,
+          "stop" : 1620165721365,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bf8dbe8a5e3736299489ba7a41e7779"
+    } ],
+    "uid" : "98aece7d394a06b2762c8840878c5aa3"
+  } ],
+  "name" : "suites"
+}
