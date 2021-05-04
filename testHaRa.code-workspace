@@ -50,6 +50,7 @@
 			]
 		},
 		"rubyTestExplorer.minitestDirectory": "./src/test/java/",
-		"rubyTestExplorer.rspecDirectory": "./src/test/java/"
+		"rubyTestExplorer.rspecDirectory": "./src/test/java/",
+		"dart.allowTestsOutsideTestFolder": true
 	}
 }
