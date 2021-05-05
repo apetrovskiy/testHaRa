@@ -1,0 +1,298 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "src.test.java.interview.arrays.left_rotation",
+    "children" : [ {
+      "name" : "test_left_rotation",
+      "children" : [ {
+        "name" : "test_left_rotation[input_array0-4-expected_result0]",
+        "uid" : "43b05e89cc5e0029",
+        "parentUid" : "2d6641c140642eeedbdea4a60bb1d20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973651,
+          "stop" : 1620200973651,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "4" ]
+      } ],
+      "uid" : "2d6641c140642eeedbdea4a60bb1d20d"
+    } ],
+    "uid" : "3f4b6d7fc2f2edfe9a8e391c7b64dfef"
+  }, {
+    "name" : "src.test.java.interview.arrays.minimum_swaps_2",
+    "children" : [ {
+      "name" : "test_minimum_swaps_2",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array0-3]",
+        "uid" : "bc18bcb47c1c4173",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620200973655,
+          "stop" : 1620200973655,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[4, 3, 1, 2]" ]
+      }, {
+        "name" : "test_minimum_swaps_2[input_array1-3]",
+        "uid" : "4346436360f9bd0",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620200973683,
+          "stop" : 1620200973683,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+      }, {
+        "name" : "test_minimum_swaps_2[input_array2-3]",
+        "uid" : "5af1761dca185a26",
+        "parentUid" : "1dc84213203efe157941ef26c904a51f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620200973687,
+          "stop" : 1620200973687,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+      } ],
+      "uid" : "1dc84213203efe157941ef26c904a51f"
+    } ],
+    "uid" : "4b47c8564e7de25d8b5b0056f5289554"
+  }, {
+    "name" : "src.test.java.interview.arrays.new_year_chaos",
+    "children" : [ {
+      "name" : "test_new_year_chaos",
+      "children" : [ {
+        "name" : "test_new_year_chaos[input_array0-3]",
+        "uid" : "7e9dae393abb492c",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973692,
+          "stop" : 1620200973692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 1, 5, 3, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+        "uid" : "a210128a07e185d9",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973695,
+          "stop" : 1620200973695,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Too chaotic'", "[2, 5, 1, 3, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+        "uid" : "62fb8b301e1f6c03",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973698,
+          "stop" : 1620200973698,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Too chaotic'", "[5, 1, 2, 3, 7, 8, 6, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array3-7]",
+        "uid" : "1f423f60bedc6a34",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620200973700,
+          "stop" : 1620200973700,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+      }, {
+        "name" : "test_new_year_chaos[input_array4-4]",
+        "uid" : "c0315ff4184077b9",
+        "parentUid" : "d1586b58a03e263f27908cde91bed81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973705,
+          "stop" : 1620200973705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "[1, 2, 5, 3, 4, 7, 8, 6]" ]
+      } ],
+      "uid" : "d1586b58a03e263f27908cde91bed81e"
+    } ],
+    "uid" : "d2f9b6a621840885ad4c0ea28a5c27dd"
+  }, {
+    "name" : "src.test.java.interview.greedy.LuckBalance",
+    "children" : [ {
+      "name" : "test_luck_balance",
+      "children" : [ {
+        "name" : "test_luck_balance[3-contests0-29]",
+        "uid" : "eea613ce0f5f8c35",
+        "parentUid" : "931feb7b3ad0cf94431f82d41325dabb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620200973708,
+          "stop" : 1620200973709,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "3", "29" ]
+      } ],
+      "uid" : "931feb7b3ad0cf94431f82d41325dabb"
+    } ],
+    "uid" : "29f134f673440988a540e50b1c704cba"
+  }, {
+    "name" : "src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray",
+    "children" : [ {
+      "name" : "test_minimum_absolute_difference_in_an_array",
+      "children" : [ {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+        "uid" : "cca007b155ce9e7d",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973714,
+          "stop" : 1620200973714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[3, -7, 0]" ]
+      }, {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+        "uid" : "646c1913ebba6f3c",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973716,
+          "stop" : 1620200973717,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]" ]
+      }, {
+        "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+        "uid" : "e5894ae70fcdfead",
+        "parentUid" : "ab499c8ec235188804422087f23f511b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973719,
+          "stop" : 1620200973719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, -3, 71, 68, 17]" ]
+      } ],
+      "uid" : "ab499c8ec235188804422087f23f511b"
+    } ],
+    "uid" : "d84da03cb2ee6c6c4aa0547023218d03"
+  }, {
+    "name" : "src.test.java.training01.data_structures.arrays.a01_arrays_ds",
+    "children" : [ {
+      "name" : "test_reverse_array",
+      "children" : [ {
+        "name" : "ArraysDsTest",
+        "children" : [ {
+          "name" : "test_reverse_array",
+          "uid" : "e9bfc60e103f7b2e",
+          "parentUid" : "2dce62582024c71a1ede2970c7f07c91",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620200973722,
+            "stop" : 1620200973722,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2dce62582024c71a1ede2970c7f07c91"
+      }, {
+        "name" : "test_reverse_array",
+        "uid" : "811266e0c7652d72",
+        "parentUid" : "eb9a8128325e66bc89ec9cbc6e520e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973725,
+          "stop" : 1620200973725,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb9a8128325e66bc89ec9cbc6e520e82"
+    } ],
+    "uid" : "7438daf16b4694db96e91e54a2749e9d"
+  }, {
+    "name" : "src.test.java.training01.data_structures.arrays.a02_2d_array_ds",
+    "children" : [ {
+      "name" : "test_hourglass_sum",
+      "children" : [ {
+        "name" : "Array2dTest",
+        "children" : [ {
+          "name" : "test_calculate_hourglass_sum",
+          "uid" : "f80aeb8f635667e2",
+          "parentUid" : "8aeef34918e9d7e835ceb2d9e626914b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620200973727,
+            "stop" : 1620200973728,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8aeef34918e9d7e835ceb2d9e626914b"
+      } ],
+      "uid" : "51f594dc9fe10b2d7d3b622ac312f206"
+    } ],
+    "uid" : "b5cd77634f3cb287d2f27a401686e69a"
+  }, {
+    "name" : "src.test.java.training01.ex001",
+    "children" : [ {
+      "name" : "test_ex001",
+      "children" : [ {
+        "name" : "test_ex001",
+        "uid" : "4cfac6f751c1fa79",
+        "parentUid" : "9bf8dbe8a5e3736299489ba7a41e7779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200973730,
+          "stop" : 1620200973731,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bf8dbe8a5e3736299489ba7a41e7779"
+    } ],
+    "uid" : "98aece7d394a06b2762c8840878c5aa3"
+  } ],
+  "name" : "suites"
+}
