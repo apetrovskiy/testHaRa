@@ -22,5 +22,6 @@
     "rubyTestExplorer.minitestDirectory": "./src/test/java/",
     "rubyTestExplorer.rspecDirectory": "./src/test/java/",
     "python.analysis.logLevel": "Warning",
-    "python.autoComplete.addBrackets": true
+    "python.autoComplete.addBrackets": true,
+    "python.pythonPath": "C:\\Users\\Alexander Petrovskiy\\.virtualenvs\\testHaRa-ZkXkhBoP\\Scripts\\python.exe"
 }

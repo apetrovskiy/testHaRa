@@ -15,9 +15,11 @@ import os
 #  2. 2D_INTEGER_ARRAY contests
 #
 
+
 def luckBalance(k, contests):
     # Write your code here
     return 0
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
