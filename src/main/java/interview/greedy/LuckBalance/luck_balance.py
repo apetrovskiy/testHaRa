@@ -18,6 +18,7 @@ import os
 
 def luckBalance(k, contests):
     # Write your code here
+    
     return 0
 
 
