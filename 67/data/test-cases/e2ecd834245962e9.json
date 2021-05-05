@@ -1,0 +1,89 @@
+{
+  "uid" : "e2ecd834245962e9",
+  "name" : "test_luck_balance[3-contests0-29]",
+  "fullName" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance#test_luck_balance",
+  "historyId" : "3418073e353a7402f167e9c5a0fe0368",
+  "time" : {
+    "start" : 1620197339403,
+    "stop" : 1620197339403,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 29 == 0\n +  where 0 = luckBalance(3, [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]])",
+  "statusTrace" : "contests_number = 3\ncontests = [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]\nexpected_result = 29\n\n    @pytest.mark.parametrize(\n        \"contests_number,contests,expected_result\", test_data)\n    def test_luck_balance(\n            contests_number: int,\n            contests: List[List[int]],\n            expected_result: int):\n>       assert expected_result == luckBalance(contests_number, contests)\nE       assert 29 == 0\nE        +  where 0 = luckBalance(3, [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]])\n\nsrc/test/java/interview/greedy/LuckBalance/test_luck_balance.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.LuckBalance"
+  }, {
+    "name" : "suite",
+    "value" : "test_luck_balance"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-872"
+  }, {
+    "name" : "thread",
+    "value" : "1814-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contests",
+    "value" : "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]"
+  }, {
+    "name" : "contests_number",
+    "value" : "3"
+  }, {
+    "name" : "expected_result",
+    "value" : "29"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ed10262b3587a64a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/66//#testresult/ed10262b3587a64a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 29 == 0\n +  where 0 = luckBalance(3, [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]])",
+        "time" : {
+          "start" : 1620168924012,
+          "stop" : 1620168924012,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2ecd834245962e9.json",
+  "parameterValues" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "3", "29" ]
+}
