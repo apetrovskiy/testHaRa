@@ -25,12 +25,12 @@ def luckBalance(k, contests):
     sorted_input = sorted(contests, key=sorting_by_item_position)
     important_contests_number: int = sum(
         1 for x in contests if x[1] == IMPORTANT)
-    print(f"important number = {important_contests_number}")
+    if k > important_contests_number:
+        k = important_contests_number
     won_items = sum([x[0] for x in sorted_input
                      if x[1] == IMPORTANT]) if k == 0 else \
         sum([x[0] for x in sorted_input
              if x[1] == IMPORTANT][:important_contests_number-k])
-    print(f"won items = {won_items}")
     return sum(x[0] for x in contests) - won_items - won_items
 
 
