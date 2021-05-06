@@ -1,0 +1,68 @@
+{
+  "uid" : "d35e6c320b803352",
+  "name" : "test_max_min[4-input_array1-3]",
+  "fullName" : "src.test.java.interview.greedy.MaxMin.test_max_min#test_max_min",
+  "historyId" : "083d5c88f1126e835623114ea1e10249",
+  "time" : {
+    "start" : 1620324880022,
+    "stop" : 1620324880023,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 0\n +  where 0 = maxMin(4, [1, 2, 3, 4, 10, 20, ...])",
+  "statusTrace" : "k = 4, input_array = [1, 2, 3, 4, 10, 20, ...], expected_result = 3\n\n    @pytest.mark.parametrize(\"k,input_array,expected_result\", test_data)\n    def test_max_min(k: int, input_array: List[int], expected_result: int):\n>       assert expected_result == maxMin(k, input_array)\nE       assert 3 == 0\nE        +  where 0 = maxMin(4, [1, 2, 3, 4, 10, 20, ...])\n\nsrc/test/java/interview/greedy/MaxMin/test_max_min.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.MaxMin"
+  }, {
+    "name" : "suite",
+    "value" : "test_max_min"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-801"
+  }, {
+    "name" : "thread",
+    "value" : "2355-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.MaxMin.test_max_min"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 3, 4, 10, 20, 30, 40, 100, 200]"
+  }, {
+    "name" : "k",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d35e6c320b803352.json",
+  "parameterValues" : [ "3", "[1, 2, 3, 4, 10, 20, 30, 40, 100, 200]", "4" ]
+}

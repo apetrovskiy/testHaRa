@@ -1,0 +1,20 @@
+{
+  "reportName" : "Allure Report",
+  "testRuns" : [ ],
+  "statistic" : {
+    "failed" : 6,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 20,
+    "unknown" : 0,
+    "total" : 26
+  },
+  "time" : {
+    "start" : 1620324879945,
+    "stop" : 1620324880048,
+    "duration" : 103,
+    "minDuration" : 0,
+    "maxDuration" : 1,
+    "sumDuration" : 8
+  }
+}
