@@ -17,7 +17,13 @@ import os
 
 
 def maxMin(k, arr):
-    return 0
+    if len(arr) == 0:
+        return 0
+    arr.sort()
+    result = arr[len(arr)-1]-arr[0]
+    for i in range(len(arr)-k+1):
+        result = arr[i+k-1]-arr[i] if arr[i+k-1]-arr[i] < result else result
+    return result
 
 
 if __name__ == '__main__':
