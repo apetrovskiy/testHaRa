@@ -1,0 +1,100 @@
+{
+  "uid" : "91cec5a8f909a7aa",
+  "name" : "test_luck_balance[3-contests0-29]",
+  "fullName" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance#test_luck_balance",
+  "historyId" : "3418073e353a7402f167e9c5a0fe0368",
+  "time" : {
+    "start" : 1620325825181,
+    "stop" : 1620325825181,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.LuckBalance"
+  }, {
+    "name" : "suite",
+    "value" : "test_luck_balance"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-381"
+  }, {
+    "name" : "thread",
+    "value" : "2360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contests",
+    "value" : "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]"
+  }, {
+    "name" : "contests_number",
+    "value" : "3"
+  }, {
+    "name" : "expected_result",
+    "value" : "29"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f9252479bdf0ee94",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/73//#testresult/f9252479bdf0ee94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620324879998,
+          "stop" : 1620324879998,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "13a4a28288dccef7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/72//#testresult/13a4a28288dccef7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620311638548,
+          "stop" : 1620311638548,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "255a50856eed2df0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/71//#testresult/255a50856eed2df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620310852438,
+          "stop" : 1620310852438,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "91cec5a8f909a7aa.json",
+  "parameterValues" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "3", "29" ]
+}
