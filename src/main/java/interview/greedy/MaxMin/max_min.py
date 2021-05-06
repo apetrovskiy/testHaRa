@@ -17,7 +17,6 @@ import os
 
 
 def maxMin(k, arr):
-    # Write your code here
     return 0
 
 

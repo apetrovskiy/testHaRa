@@ -11,5 +11,6 @@ test_data = [
 
 
 @pytest.mark.parametrize("k,input_array,expected_result", test_data)
-def test_max_min(k: int, input_array: List[int], expected_result: int):
+def test_max_min(
+        k: int, input_array: List[int], expected_result: int):
     assert expected_result == maxMin(k, input_array)
