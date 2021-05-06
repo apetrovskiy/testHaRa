@@ -10,7 +10,19 @@ import os
 
 
 def getMinimumCost(k, c):
-    return 0
+    result = 0
+    buyers = []
+    for i in range(k):
+        buyers.append([])
+    c.sort(reverse=True)
+    for i in range(0, len(c), k):
+        for j in range(k):
+            if i+j < len(c):
+                buyers[j].append(c[i+j])
+    for i in range(k):
+        for j in range(len(buyers[i])):
+            result += buyers[i][j] * (1+j)
+    return result
 
 
 if __name__ == '__main__':
