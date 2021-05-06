@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([4, 3, 1, 2])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array0-3]",
+        "uid" : "3f4a5f49955ed9f0",
+        "parentUid" : "d02893ae187a6a297cd15c9632cca8cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310852378,
+          "stop" : 1620310852378,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[4, 3, 1, 2]" ]
+      } ],
+      "uid" : "d02893ae187a6a297cd15c9632cca8cd"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array1-3]",
+        "uid" : "8443d44f7465d364",
+        "parentUid" : "6a17dc33ed34f2ca4ba509bb724d8b56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310852409,
+          "stop" : 1620310852410,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+      } ],
+      "uid" : "6a17dc33ed34f2ca4ba509bb724d8b56"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([1, 3, 5, 2, 4, 6, ...])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array2-3]",
+        "uid" : "575cb9b2dab909ce",
+        "parentUid" : "84585bd3e587acc41f460d63dc1bdc1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310852414,
+          "stop" : 1620310852414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+      } ],
+      "uid" : "84585bd3e587acc41f460d63dc1bdc1b"
+    }, {
+      "name" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+      "children" : [ {
+        "name" : "test_new_year_chaos[input_array3-7]",
+        "uid" : "96acc8de3c1b0545",
+        "parentUid" : "3fcc760f598e19ff20a0fb957d53ff08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310852429,
+          "stop" : 1620310852430,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+      } ],
+      "uid" : "3fcc760f598e19ff20a0fb957d53ff08"
+    }, {
+      "name" : "AssertionError: assert 10069 == 1381\n +  where 1381 = luckBalance(58, [[105, 0], [103, 0], [106, 1], [106, 1], [103, 0], [103, 1], ...])",
+      "children" : [ {
+        "name" : "test_luck_balance[58-contests6-10069]",
+        "uid" : "8da3ae4b611bbbe1",
+        "parentUid" : "c5e05f99716a9cd695fef12f017e67cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310852460,
+          "stop" : 1620310852461,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[105, 0], [103, 0], [106, 1], [106, 1], [103, 0], [103, 1], [105, 1], [106, 1], [105, 0], [104, 0], [103, 0], [102, 0], [104, 0], [105, 0], [104, 0], [102, 1], [104, 0], [106, 1], [104, 1], [101, 1], [105, 0], [103, 0], [104, 0], [106, 0], [102, 1], [103, 0], [102, 0], [103, 1], [106, 0], [104, 1], [101, 1], [101, 1], [106, 0], [103, 1], [103, 0], [104, 1], [101, 0], [105, 1], [105, 0], [104, 1], [105, 0], [106, 0], [104, 0], [105, 0], [101, 1], [106, 1], [105, 0], [103, 0], [104, 1], [101, 1], [106, 1], [104, 0], [106, 1], [105, 0], [103, 1], [101, 0], [103, 0], [101, 0], [105, 1], [104, 1], [104, 1], [105, 1], [105, 1], [103, 0], [101, 0], [104, 1], [106, 1], [105, 1], [105, 0], [106, 1], [104, 1], [105, 1], [103, 1], [102, 1], [106, 0], [101, 0], [105, 1], [104, 1], [103, 1], [106, 1], [101, 0], [106, 1], [103, 0], [106, 1], [102, 1], [103, 0], [101, 1], [102, 1], [101, 1], [104, 0], [106, 0], [102, 0], [104, 0], [105, 0], [105, 0], [102, 1], [103, 1]]", "58", "10069" ]
+      } ],
+      "uid" : "c5e05f99716a9cd695fef12f017e67cc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,2 @@
+important number = 50
+won items = 4344
