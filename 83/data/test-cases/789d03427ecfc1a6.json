@@ -1,0 +1,146 @@
+{
+  "uid" : "789d03427ecfc1a6",
+  "name" : "test_greedy_florist[3-input_array2-29]",
+  "fullName" : "src.test.java.interview.greedy.GreedyFlorist.test_greedy_florist#test_greedy_florist",
+  "historyId" : "864b4b6e9fea80b73a17244252da8af8",
+  "time" : {
+    "start" : 1620391760926,
+    "stop" : 1620391760927,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.GreedyFlorist"
+  }, {
+    "name" : "suite",
+    "value" : "test_greedy_florist"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2389-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.GreedyFlorist.test_greedy_florist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "29"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 3, 5, 7, 9]"
+  }, {
+    "name" : "k",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "1263ebfe4fafe868",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/82//#testresult/1263ebfe4fafe868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338261693,
+          "stop" : 1620338261693,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "52b4195b2902c9e0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/81//#testresult/52b4195b2902c9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620337821031,
+          "stop" : 1620337821031,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ccb1d436d3fa382c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/80//#testresult/ccb1d436d3fa382c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335521465,
+          "stop" : 1620335521465,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2af119671985a28a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/79//#testresult/2af119671985a28a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335292136,
+          "stop" : 1620335292136,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a19364520752feea",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/78//#testresult/a19364520752feea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335272250,
+          "stop" : 1620335272250,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c170a9a9789dd4bd",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/77//#testresult/c170a9a9789dd4bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335095637,
+          "stop" : 1620335095637,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b7f8ab846061cf31",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/76//#testresult/b7f8ab846061cf31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620328178341,
+          "stop" : 1620328178341,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "de5db1f77d7ef1ca",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/75//#testresult/de5db1f77d7ef1ca",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 29 == 0\n +  where 0 = getMinimumCost(3, [1, 3, 5, 7, 9])",
+        "time" : {
+          "start" : 1620325928274,
+          "stop" : 1620325928274,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "789d03427ecfc1a6.json",
+  "parameterValues" : [ "29", "[1, 3, 5, 7, 9]", "3" ]
+}
