@@ -1,10 +1,8 @@
 package months_challenge.ex002;
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
+import java.util.*;
+
+@SuppressWarnings("PMD")
 public class Solution {
 	
     public static void main(String[] args) {

@@ -1,13 +1,11 @@
 package interview.greedy.MinimumAbsoluteDifferenceInAnArray;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
+@SuppressWarnings("PMD")
 public class Solution {
 
     // Complete the minimumAbsoluteDifference function below.
