@@ -1,34 +1,22 @@
-import java.io.*
-import java.math.*
-import java.security.*
-import java.text.*
-import java.util.*
-import java.util.concurrent.*
-import java.util.function.*
-import java.util.regex.*
-import java.util.stream.*
-import kotlin.collections.*
-import kotlin.comparisons.*
-import kotlin.io.*
-import kotlin.jvm.*
-import kotlin.jvm.functions.*
-import kotlin.jvm.internal.*
-import kotlin.ranges.*
-import kotlin.sequences.*
-import kotlin.text.*
+import java.util.Scanner
 
 // Complete the minimumAbsoluteDifference function below.
 fun minimumAbsoluteDifference(arr: Array<Int>): Int {
-    return 0
+    // for ktlint only
+    listOf(arr).forEach { println(it) }
 
+    return 0
 }
 
 fun main(args: Array<String>) {
+    // for ktlint only
+    listOf(args).forEach { println(it) }
+
     val scan = Scanner(System.`in`)
 
     val n = scan.nextLine().trim().toInt()
 
-    val arr = scan.nextLine().split(" ").map{ it.trim().toInt() }.toTypedArray()
+    val arr = scan.nextLine().split(" ").map { it.trim().toInt() }.toTypedArray()
 
     val result = minimumAbsoluteDifference(arr)
 
