@@ -1,0 +1,381 @@
+[ {
+  "uid" : "e96c8f237c898bd8",
+  "name" : "test_new_year_chaos[input_array0-3]",
+  "time" : {
+    "start" : 1620400167266,
+    "stop" : 1620400167266,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7605e83b841ec25",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1620400167366,
+    "stop" : 1620400167367,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e73cfedc35a95b14",
+  "name" : "test_left_rotation[input_array0-4-expected_result0]",
+  "time" : {
+    "start" : 1620400167223,
+    "stop" : 1620400167223,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f142957c746caf48",
+  "name" : "test_ex001",
+  "time" : {
+    "start" : 1620400167374,
+    "stop" : 1620400167376,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1f13880cf497ad",
+  "name" : "test_new_year_chaos[input_array3-7]",
+  "time" : {
+    "start" : 1620400167274,
+    "stop" : 1620400167275,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "81db085bb8715059",
+  "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+  "time" : {
+    "start" : 1620400167269,
+    "stop" : 1620400167269,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd0bdf6a8cdb0e39",
+  "name" : "test_luck_balance[0-contests4--1]",
+  "time" : {
+    "start" : 1620400167318,
+    "stop" : 1620400167318,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69d7ec4a902635cf",
+  "name" : "test_calculate_hourglass_sum",
+  "time" : {
+    "start" : 1620400167372,
+    "stop" : 1620400167372,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86952d6f813b992a",
+  "name" : "test_greedy_florist[2-input_array1-15]",
+  "time" : {
+    "start" : 1620400167299,
+    "stop" : 1620400167299,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "764a17b4f2ab3078",
+  "name" : "test_max_min[3-input_array0-20]",
+  "time" : {
+    "start" : 1620400167328,
+    "stop" : 1620400167328,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c77fdef5923ade7",
+  "name" : "test_minimum_swaps_2[input_array0-3]",
+  "time" : {
+    "start" : 1620400167226,
+    "stop" : 1620400167227,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f948d3800d7dd76",
+  "name" : "test_luck_balance[58-contests6-10069]",
+  "time" : {
+    "start" : 1620400167324,
+    "stop" : 1620400167324,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b90dfc89f53a2f2",
+  "name" : "test_max_min[3-input_array8-2]",
+  "time" : {
+    "start" : 1620400167354,
+    "stop" : 1620400167354,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c26b130ba520aac",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+  "time" : {
+    "start" : 1620400167357,
+    "stop" : 1620400167357,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e4db905d41ee5fc",
+  "name" : "test_max_min[5-input_array3-1]",
+  "time" : {
+    "start" : 1620400167338,
+    "stop" : 1620400167338,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bacb1891b9893d0f",
+  "name" : "test_minimum_swaps_2[input_array2-3]",
+  "time" : {
+    "start" : 1620400167261,
+    "stop" : 1620400167261,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a3546aad2d0742b",
+  "name" : "test_new_year_chaos[input_array4-4]",
+  "time" : {
+    "start" : 1620400167279,
+    "stop" : 1620400167279,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa76b398d2a0061b",
+  "name" : "test_max_array_sum[input_array2-15]",
+  "time" : {
+    "start" : 1620400167291,
+    "stop" : 1620400167291,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fdeef922df8b4fa",
+  "name" : "test_max_min[2-input_array7-1]",
+  "time" : {
+    "start" : 1620400167351,
+    "stop" : 1620400167351,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "303a0d34bd34f08f",
+  "name" : "test_max_min[2-input_array2-0]",
+  "time" : {
+    "start" : 1620400167335,
+    "stop" : 1620400167335,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59d3eb9a094b378a",
+  "name" : "test_luck_balance[4-contests1-31]",
+  "time" : {
+    "start" : 1620400167308,
+    "stop" : 1620400167308,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f2ca045a6be09ab",
+  "name" : "test_luck_balance[3-contests5-733]",
+  "time" : {
+    "start" : 1620400167321,
+    "stop" : 1620400167321,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9757ad572663a70d",
+  "name" : "test_luck_balance[1-contests3-15]",
+  "time" : {
+    "start" : 1620400167315,
+    "stop" : 1620400167315,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c14e5532b458502",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1620400167369,
+    "stop" : 1620400167369,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d41ef7918cbbffe",
+  "name" : "test_max_min[4-input_array1-3]",
+  "time" : {
+    "start" : 1620400167332,
+    "stop" : 1620400167332,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfb203746c7a8fc",
+  "name" : "test_luck_balance[2-contests2-25]",
+  "time" : {
+    "start" : 1620400167312,
+    "stop" : 1620400167312,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85c10fd133a0e894",
+  "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+  "time" : {
+    "start" : 1620400167272,
+    "stop" : 1620400167272,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4ed646e97644afe",
+  "name" : "test_max_array_sum[input_array1-11]",
+  "time" : {
+    "start" : 1620400167286,
+    "stop" : 1620400167287,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1591273aa1ce59e0",
+  "name" : "test_minimum_swaps_2[input_array1-3]",
+  "time" : {
+    "start" : 1620400167256,
+    "stop" : 1620400167256,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "645ad14c7d4d0668",
+  "name" : "test_luck_balance[3-contests0-29]",
+  "time" : {
+    "start" : 1620400167305,
+    "stop" : 1620400167305,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51c4ace4f3e93c1",
+  "name" : "test_greedy_florist[3-input_array2-29]",
+  "time" : {
+    "start" : 1620400167301,
+    "stop" : 1620400167302,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82044e784ac8b8b7",
+  "name" : "test_max_array_sum[input_array0-13]",
+  "time" : {
+    "start" : 1620400167282,
+    "stop" : 1620400167282,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dbb47ddcb96b187",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+  "time" : {
+    "start" : 1620400167363,
+    "stop" : 1620400167363,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b9e3ec285abc1dd",
+  "name" : "test_max_min[7-input_array4-990]",
+  "time" : {
+    "start" : 1620400167341,
+    "stop" : 1620400167341,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c639a4817102348",
+  "name" : "test_greedy_florist[3-input_array0-13]",
+  "time" : {
+    "start" : 1620400167296,
+    "stop" : 1620400167296,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d74d9381ce78a4dd",
+  "name" : "test_max_min[0-input_array5-0]",
+  "time" : {
+    "start" : 1620400167344,
+    "stop" : 1620400167344,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372018adb8d04273",
+  "name" : "test_max_min[2-input_array6-10]",
+  "time" : {
+    "start" : 1620400167348,
+    "stop" : 1620400167348,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d7f703bfdfa035c",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+  "time" : {
+    "start" : 1620400167361,
+    "stop" : 1620400167361,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
