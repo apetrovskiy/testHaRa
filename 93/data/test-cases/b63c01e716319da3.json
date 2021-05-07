@@ -1,0 +1,156 @@
+{
+  "uid" : "b63c01e716319da3",
+  "name" : "test_max_array_sum[input_array2-15]",
+  "fullName" : "src.test.java.interview.dynamic_programming.MaxArraySum.test_max_array_sum#test_max_array_sum",
+  "historyId" : "a24499b25a8f1d2f65841f0ac2ebd870",
+  "time" : {
+    "start" : 1620411712823,
+    "stop" : 1620411712823,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+  "statusTrace" : "input_array = [3, 5, -7, 8, 10], expected_result = 15\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_max_array_sum(input_array: List[int], expected_result: int):\n>       assert expected_result == maxSubsetSum(input_array)\nE       assert 15 == 0\nE        +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])\n\nsrc/test/java/interview/dynamic_programming/MaxArraySum/test_max_array_sum.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.dynamic_programming.MaxArraySum"
+  }, {
+    "name" : "suite",
+    "value" : "test_max_array_sum"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-409"
+  }, {
+    "name" : "thread",
+    "value" : "2448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.dynamic_programming.MaxArraySum.test_max_array_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "15"
+  }, {
+    "name" : "input_array",
+    "value" : "[3, 5, -7, 8, 10]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "8573d6b2c4457a80",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/92//#testresult/8573d6b2c4457a80",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620410483652,
+          "stop" : 1620410483653,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fe74295858afeafc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/91//#testresult/fe74295858afeafc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620405047528,
+          "stop" : 1620405047529,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1c91081760c9bbdb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/90//#testresult/1c91081760c9bbdb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620400181519,
+          "stop" : 1620400181519,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aa76b398d2a0061b",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/89//#testresult/aa76b398d2a0061b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620400167291,
+          "stop" : 1620400167291,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "724da65f3c6d5475",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/87//#testresult/724da65f3c6d5475",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620400124654,
+          "stop" : 1620400124655,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "28c10e67fbb01e01",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/86//#testresult/28c10e67fbb01e01",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620397232394,
+          "stop" : 1620397232394,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9697ab0857c0c4b0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/83//#testresult/9697ab0857c0c4b0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620391760918,
+          "stop" : 1620391760919,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "52dedbd189605f23",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/82//#testresult/52dedbd189605f23",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+        "time" : {
+          "start" : 1620338261685,
+          "stop" : 1620338261685,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b63c01e716319da3.json",
+  "parameterValues" : [ "15", "[3, 5, -7, 8, 10]" ]
+}
