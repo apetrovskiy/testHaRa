@@ -163,12 +163,6 @@ dependencies {
     runtimeOnly("com.pinterest.ktlint:ktlint-reporter-plain:${Version.KTLINT.id}")
 }
 
-/*application {
-    // Define the main class for the application.
-    // mainClassName = "testHaRa.App"
-    mainClass.set("testHaRa.App")
-}*/
-
 val testCompile: Configuration by configurations.creating
 configurations {
     testCompile.extendsFrom(testImplementation.get())
