@@ -85,7 +85,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
-    // implementation("org.jetbrains.kotlin:kotlin-stdlib:${Version.KOTLIN.id}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:${Version.KOTLIN.id}")
 
     // Align versions of all Kotlin components
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
@@ -122,14 +122,11 @@ dependencies {
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params
     testImplementation("org.junit.jupiter:junit-jupiter-params:${Version.JUNIT_JUPITER.id}")
 
-    // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-test
+    // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
 
-    // Use the Kotlin test library.
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-
     // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    // testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
