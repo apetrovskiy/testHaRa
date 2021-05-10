@@ -10,24 +10,24 @@ import java.util.stream._
 
 object Solution {
 
-    // Complete the minimumAbsoluteDifference function below.
-    def minimumAbsoluteDifference(arr: Array[Int]): Int = {
+  // Complete the minimumAbsoluteDifference function below.
+  def minimumAbsoluteDifference(arr: Array[Int]): Int = {
 
-        0
-    }
+    0
+  }
 
-    def main(args: Array[String]) {
-        val stdin = scala.io.StdIn
+  def main(args: Array[String]) {
+    val stdin = scala.io.StdIn
 
-        val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
+    val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
 
-        val n = stdin.readLine.trim.toInt
+    val n = stdin.readLine.trim.toInt
 
-        val arr = stdin.readLine.split(" ").map(_.trim.toInt)
-        val result = minimumAbsoluteDifference(arr)
+    val arr = stdin.readLine.split(" ").map(_.trim.toInt)
+    val result = minimumAbsoluteDifference(arr)
 
-        printWriter.println(result)
+    printWriter.println(result)
 
-        printWriter.close()
-    }
+    printWriter.close()
+  }
 }
