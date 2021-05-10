@@ -1,0 +1,276 @@
+{
+  "uid" : "926851468e5465f",
+  "name" : "test_new_year_chaos[input_array3-7]",
+  "fullName" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos#test_new_year_chaos",
+  "historyId" : "7a5bbc91821bb70edbd55eb910c60ea9",
+  "time" : {
+    "start" : 1620674575025,
+    "stop" : 1620674575025,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+  "statusTrace" : "input_array = [1, 2, 5, 3, 7, 8, ...], expected_result = 7\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_new_year_chaos(input_array: List[int], expected_result: int):\n>       assert expected_result == get_minimum_bribes(input_array)\nE       assert 7 == 6\nE        +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])\n\nsrc/test/java/interview/arrays/new_year_chaos/test_new_year_chaos.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.arrays.new_year_chaos"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_year_chaos"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-381"
+  }, {
+    "name" : "thread",
+    "value" : "2378-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "7"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 5, 3, 7, 8, 6, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 27,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "3024d6aae40873a0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/98//#testresult/3024d6aae40873a0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620662009893,
+          "stop" : 1620662009893,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4eeadc9831fef2f6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/97//#testresult/4eeadc9831fef2f6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620635387630,
+          "stop" : 1620635387630,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "410bb514a5b19fb0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/96//#testresult/410bb514a5b19fb0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620545495682,
+          "stop" : 1620545495683,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3cd35773fe99f543",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/95//#testresult/3cd35773fe99f543",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620413337278,
+          "stop" : 1620413337278,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b132531eaf5cdd5",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/94//#testresult/b132531eaf5cdd5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620412067903,
+          "stop" : 1620412067903,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d720d47957a725a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/93//#testresult/d720d47957a725a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620411712808,
+          "stop" : 1620411712809,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b02c1c9c62d86867",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/92//#testresult/b02c1c9c62d86867",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620410483637,
+          "stop" : 1620410483637,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "22a38bbd02d7c38e",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/91//#testresult/22a38bbd02d7c38e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620405047510,
+          "stop" : 1620405047511,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1e11b5df05f097b4",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/90//#testresult/1e11b5df05f097b4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620400181507,
+          "stop" : 1620400181507,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb1f13880cf497ad",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/89//#testresult/eb1f13880cf497ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620400167274,
+          "stop" : 1620400167275,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9743d217c4110ee2",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/87//#testresult/9743d217c4110ee2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620400124640,
+          "stop" : 1620400124640,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cc9f1e228668904c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/86//#testresult/cc9f1e228668904c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620397232378,
+          "stop" : 1620397232378,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "10470b73d22eded1",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/84//#testresult/10470b73d22eded1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620397069921,
+          "stop" : 1620397069922,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e96435fd6dc8f2ac",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/83//#testresult/e96435fd6dc8f2ac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620391760907,
+          "stop" : 1620391760907,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "20a25e5fab827b46",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/82//#testresult/20a25e5fab827b46",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620338261673,
+          "stop" : 1620338261673,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d92f462449ea24e1",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/81//#testresult/d92f462449ea24e1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620337821017,
+          "stop" : 1620337821018,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2e5dbb906e448b27",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/80//#testresult/2e5dbb906e448b27",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620335521452,
+          "stop" : 1620335521452,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e8b9d635094053dc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/79//#testresult/e8b9d635094053dc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620335292123,
+          "stop" : 1620335292123,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "38a99a426106ed3b",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/78//#testresult/38a99a426106ed3b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620335272236,
+          "stop" : 1620335272237,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "300fc0a6ce3a431d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/77//#testresult/300fc0a6ce3a431d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+        "time" : {
+          "start" : 1620335095621,
+          "stop" : 1620335095621,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "926851468e5465f.json",
+  "parameterValues" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+}
