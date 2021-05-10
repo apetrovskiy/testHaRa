@@ -1,0 +1,253 @@
+{
+  "uid" : "ea0f9dbe1594bf0d",
+  "name" : "test_luck_balance[2-contests2-25]",
+  "fullName" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance#test_luck_balance",
+  "historyId" : "1db1fa3504c9550993d82f5d1ca927a5",
+  "time" : {
+    "start" : 1620662009927,
+    "stop" : 1620662009927,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.LuckBalance"
+  }, {
+    "name" : "suite",
+    "value" : "test_luck_balance"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-801"
+  }, {
+    "name" : "thread",
+    "value" : "2379-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contests",
+    "value" : "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]"
+  }, {
+    "name" : "contests_number",
+    "value" : "2"
+  }, {
+    "name" : "expected_result",
+    "value" : "25"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 26,
+        "unknown" : 0,
+        "total" : 26
+      },
+      "items" : [ {
+        "uid" : "c5be369b890a4cd7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/97//#testresult/c5be369b890a4cd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620635387676,
+          "stop" : 1620635387676,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6298f65d2c0f486c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/96//#testresult/6298f65d2c0f486c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620545495712,
+          "stop" : 1620545495713,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d4c15d14a5067615",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/95//#testresult/d4c15d14a5067615",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620413337310,
+          "stop" : 1620413337310,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "974e1fcb813a2068",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/94//#testresult/974e1fcb813a2068",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620412067937,
+          "stop" : 1620412067937,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "877f30c4507a5ab4",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/93//#testresult/877f30c4507a5ab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411712840,
+          "stop" : 1620411712841,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "aead776461015d56",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/92//#testresult/aead776461015d56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620410483672,
+          "stop" : 1620410483672,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "df2525a3fe84d860",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/91//#testresult/df2525a3fe84d860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620405047551,
+          "stop" : 1620405047552,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ab26033d883936bf",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/90//#testresult/ab26033d883936bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620400181534,
+          "stop" : 1620400181534,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bfb203746c7a8fc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/89//#testresult/bfb203746c7a8fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620400167312,
+          "stop" : 1620400167312,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "78bfbe238634b18",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/87//#testresult/78bfbe238634b18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620400124674,
+          "stop" : 1620400124674,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "97f271125b072356",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/86//#testresult/97f271125b072356",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620397232416,
+          "stop" : 1620397232416,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3974f4ab17330487",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/84//#testresult/3974f4ab17330487",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620397069947,
+          "stop" : 1620397069947,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a84e7110ab5ca5bc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/83//#testresult/a84e7110ab5ca5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620391760934,
+          "stop" : 1620391760934,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "851be63524e3009",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/82//#testresult/851be63524e3009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338261700,
+          "stop" : 1620338261700,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e59a0dc8cc0ebf87",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/81//#testresult/e59a0dc8cc0ebf87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620337821040,
+          "stop" : 1620337821040,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3c90baf09a66f77f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/80//#testresult/3c90baf09a66f77f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335521474,
+          "stop" : 1620335521474,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1af93a0e5044e1ae",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/79//#testresult/1af93a0e5044e1ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335292145,
+          "stop" : 1620335292145,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c43a36b9d1671cef",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/78//#testresult/c43a36b9d1671cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335272259,
+          "stop" : 1620335272259,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6dc357720adf0ba6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/77//#testresult/6dc357720adf0ba6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620335095645,
+          "stop" : 1620335095646,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cb5d30e0a103b81a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/76//#testresult/cb5d30e0a103b81a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620328178349,
+          "stop" : 1620328178349,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea0f9dbe1594bf0d.json",
+  "parameterValues" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "2", "25" ]
+}
