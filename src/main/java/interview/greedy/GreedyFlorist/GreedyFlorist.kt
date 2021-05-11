@@ -1,32 +1,22 @@
 package interview.greedy.GreedyFlorist
 
-import java.io.*
-// import java.math.*
-// import java.security.*
-// import java.text.*
-import java.util.*
-// import java.util.concurrent.*
-// import java.util.function.*
-// import java.util.regex.*
-// import java.util.stream.*
-import kotlin.collections.*
-// import kotlin.comparisons.*
-// import kotlin.io.*
-// import kotlin.jvm.*
-// import kotlin.jvm.functions.*
-// import kotlin.jvm.internal.*
-import kotlin.ranges.*
-// import kotlin.sequences.*
-// import kotlin.text.*
+import java.util.Scanner
+import kotlin.collections.arrayListOf
 
 // Complete the getMinimumCost function below.
 fun getMinimumCost(k: Int, c: Array<Int>): Int {
     var result = 0
-    var buyers: List<List<Int>> = mutableListOf()
-//    (0..k).forEach(i -> buyers.add(mutabliListOf()))
+    val buyers = arrayListOf<ArrayList<Int>>()
     for (i in 0..k)
-        buyers.add(mutableListOf<Int>())
-
+        buyers.add(arrayListOf())
+    c.sortedArrayDescending()
+    for (i in 0..c.size step k) {
+        (0..k).forEach { j ->
+            if (i + j < k)
+                buyers[i].add(c[i + j])
+        }
+    }
+    result = buyers.map { item -> item.sum() }.sum()
     return result
 }
 
