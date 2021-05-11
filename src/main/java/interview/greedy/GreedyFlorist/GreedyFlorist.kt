@@ -15,14 +15,19 @@ import kotlin.collections.*
 // import kotlin.jvm.*
 // import kotlin.jvm.functions.*
 // import kotlin.jvm.internal.*
-// import kotlin.ranges.*
+import kotlin.ranges.*
 // import kotlin.sequences.*
 // import kotlin.text.*
 
 // Complete the getMinimumCost function below.
 fun getMinimumCost(k: Int, c: Array<Int>): Int {
+    var result = 0
+    var buyers: List<List<Int>> = mutableListOf()
+//    (0..k).forEach(i -> buyers.add(mutabliListOf()))
+    for (i in 0..k)
+        buyers.add(mutableListOf<Int>())
 
-    return 0
+    return result
 }
 
 fun main(args: Array<String>) {

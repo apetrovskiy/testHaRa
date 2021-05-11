@@ -11,7 +11,7 @@ public class GreedyFlorist {
     static int getMinimumCost(int k, int[] c) {
         var result = 0;
         List<List<Integer>> buyers = new ArrayList<>();
-        IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<Integer>()));
+        IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<>()));
         Arrays.sort(c);
         Collections.reverse(Collections.singletonList(c));
         for (var i = 0; i < c.length; i += k) {
