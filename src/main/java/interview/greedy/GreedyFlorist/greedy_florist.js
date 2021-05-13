@@ -26,8 +26,6 @@ function readLine() {
 
 // Complete the getMinimumCost function below.
 function getMinimumCost(k, c) {
-    console.log(k);
-    console.log(c);
     let result = 0;
     let buyers = [];
     for (let i = 0; i < k; i++) {
@@ -42,11 +40,13 @@ function getMinimumCost(k, c) {
             }
         }
     }
+    console.log(buyers);
     for (let i = 0; i < k; i++) {
         for (let j = 0; j < c[i].length; j++) {
             result += buyers[i][j] * (1 + j);
         }
     }
+    console.log(result);
     return result;
 }
 
