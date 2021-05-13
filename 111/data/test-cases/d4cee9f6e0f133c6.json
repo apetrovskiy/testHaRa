@@ -1,0 +1,73 @@
+{
+  "uid" : "d4cee9f6e0f133c6",
+  "name" : "encountered a declaration exception",
+  "fullName" : "test whatevz ❌\uD83D\uDC5E.encountered a declaration exception",
+  "historyId" : "453a8eacfdb9aab50367000edb392f8d",
+  "time" : {
+    "start" : 1620911114094,
+    "stop" : 1620911114096,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: each is not defined",
+  "statusTrace" : "ReferenceError: each is not defined\n                    at Suite.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/index.spec.js:39:5)\n                    at addSpecsToSuite (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n                    at Env.describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n                    at describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n                    at Suite.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/index.spec.js:38:3)\n                    at addSpecsToSuite (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n                    at Env.describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n                    at describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n                    at Object.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/index.spec.js:6:1)\n                    at Runtime._execModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:1299:24)\n                    at Runtime._loadModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:898:12)\n                    at Runtime.requireModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:746:10)\n                    at jasmine2 (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/index.js:230:13)\n                    at runTestInternal (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runner/build/runTest.js:380:22)\n                    at runTest (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runner/build/runTest.js:472:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test whatevz ❌\uD83D\uDC5E"
+  }, {
+    "name" : "testClass",
+    "value" : "test whatevz ❌\uD83D\uDC5E"
+  }, {
+    "name" : "testMethod",
+    "value" : "encountered a declaration exception"
+  }, {
+    "name" : "package",
+    "value" : "test whatevz ❌\uD83D\uDC5E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8f8ba0fdeb83396a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/110//#testresult/8f8ba0fdeb83396a",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: each is not defined",
+        "time" : {
+          "start" : 1620911020492,
+          "stop" : 1620911020494,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d4cee9f6e0f133c6.json",
+  "parameterValues" : [ ]
+}
