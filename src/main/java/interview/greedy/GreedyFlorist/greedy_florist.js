@@ -32,7 +32,6 @@ function getMinimumCost(k, c) {
         buyers.push([]);
     }
     c.reverse();
-    console.log(c);
     for (let i = 0; i < c.length; i += k) {
         for (let j = 0; j < k; j++) {
             if (i + j < c.length) {
@@ -41,7 +40,6 @@ function getMinimumCost(k, c) {
         }
     }
     for (let i = 0; i < k; i++) {
-        console.log(`i = ${i}, `)
         for (let j = 0; j < buyers[i].length; j++) {
             result += buyers[i][j] * (1 + j);
         }
