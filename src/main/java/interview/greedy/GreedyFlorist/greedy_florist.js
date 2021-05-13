@@ -48,4 +48,4 @@ function main() {
     ws.end();
 }
 
-module.exports = { getMinimumCost }
+module.exports = { getMinimumCost };
