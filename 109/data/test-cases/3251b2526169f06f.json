@@ -1,0 +1,124 @@
+{
+  "uid" : "3251b2526169f06f",
+  "name" : "[2] 2, [2, 5, 6], 15",
+  "fullName" : "interview.greedy.GreedyFlorist.GreedyFloristTest.shouldCalculateCost",
+  "historyId" : "4f82dfa166c01b1218816279e78991b1",
+  "time" : {
+    "start" : 1620907204083,
+    "stop" : 1620907204101,
+    "duration" : 18
+  },
+  "description" : "",
+  "status" : "failed",
+  "statusMessage" : "expected: <15> but was: <7>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <15> but was: <7>\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)\n\tat interview.greedy.GreedyFlorist.GreedyFloristTest.shouldCalculateCost(GreedyFloristTest.java:17)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestTemplateMethod(InvocationInterceptor.java:149)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:92)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-177"
+  }, {
+    "name" : "thread",
+    "value" : "2983@fv-az278-177.ForkJoinPool-1-worker-1(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateCost"
+  }, {
+    "name" : "suite",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "3222c3effc37aa2d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/108//#testresult/3222c3effc37aa2d",
+        "status" : "failed",
+        "statusDetails" : "expected: <15> but was: <7>",
+        "time" : {
+          "start" : 1620906684424,
+          "stop" : 1620906684425,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "94aea207d427a93d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/107//#testresult/94aea207d427a93d",
+        "status" : "failed",
+        "statusDetails" : "expected: <15> but was: <7>",
+        "time" : {
+          "start" : 1620906494759,
+          "stop" : 1620906494763,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "12244de491d62fa",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/106//#testresult/12244de491d62fa",
+        "status" : "failed",
+        "statusDetails" : "expected: <15> but was: <7>",
+        "time" : {
+          "start" : 1620894089937,
+          "stop" : 1620894089940,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a1d65453510702d3",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/104//#testresult/a1d65453510702d3",
+        "status" : "failed",
+        "statusDetails" : "expected: <15> but was: <7>",
+        "time" : {
+          "start" : 1620765636067,
+          "stop" : 1620765636193,
+          "duration" : 126
+        }
+      }, {
+        "uid" : "371fc4804e368766",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/103//#testresult/371fc4804e368766",
+        "status" : "failed",
+        "statusDetails" : "expected: <15> but was: <7>",
+        "time" : {
+          "start" : 1620756687300,
+          "stop" : 1620756687302,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3251b2526169f06f.json",
+  "parameterValues" : [ ]
+}

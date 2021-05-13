@@ -1,0 +1,52 @@
+{
+  "uid" : "c8cf441b220fe5ef",
+  "name" : "encountered a declaration exception",
+  "fullName" : "getMinimumCost(k, c).encountered a declaration exception",
+  "historyId" : "5d75913bbeb7f89d38446240906ffb8d",
+  "time" : {
+    "start" : 1620907004281,
+    "stop" : 1620907004284,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: each is not a function",
+  "statusTrace" : "TypeError: each is not a function\n                    at Suite.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/greedy_florist.test.js:7:5)\n                    at addSpecsToSuite (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n                    at Env.describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n                    at describe (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n                    at Object.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/greedy_florist.test.js:6:1)\n                    at Runtime._execModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:1299:24)\n                    at Runtime._loadModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:898:12)\n                    at Runtime.requireModule (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runtime/build/index.js:746:10)\n                    at jasmine2 (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/index.js:230:13)\n                    at runTestInternal (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runner/build/runTest.js:380:22)\n                    at runTest (/home/runner/work/testHaRa/testHaRa/node_modules/jest-runner/build/runTest.js:472:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "getMinimumCost(k, c)"
+  }, {
+    "name" : "testClass",
+    "value" : "getMinimumCost(k, c)"
+  }, {
+    "name" : "testMethod",
+    "value" : "encountered a declaration exception"
+  }, {
+    "name" : "package",
+    "value" : "getMinimumCost(k, c)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c8cf441b220fe5ef.json",
+  "parameterValues" : [ ]
+}
