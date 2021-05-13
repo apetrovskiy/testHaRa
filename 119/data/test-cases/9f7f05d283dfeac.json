@@ -1,0 +1,143 @@
+{
+  "uid" : "9f7f05d283dfeac",
+  "name" : "people = 2, cost = 2,5,6, returns 15",
+  "fullName" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15.people = 2, cost = 2,5,6, returns 15",
+  "historyId" : "26d0011ba67a0b8a14f1756d9496d711",
+  "time" : {
+    "start" : 1620935881327,
+    "stop" : 1620935881329,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "testClass",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "testMethod",
+    "value" : "people = 2, cost = 2,5,6, returns 15"
+  }, {
+    "name" : "package",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "98bd7125b73bdc4",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/118//#testresult/98bd7125b73bdc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620917197188,
+          "stop" : 1620917197189,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4a1046666ac36590",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/117//#testresult/4a1046666ac36590",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620917119416,
+          "stop" : 1620917119417,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5bf08a7121218cfb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/116//#testresult/5bf08a7121218cfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620916826083,
+          "stop" : 1620916826084,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ac0afeb79a7f739f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/115//#testresult/ac0afeb79a7f739f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620916770259,
+          "stop" : 1620916770264,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "1b8ed8f5396b4b55",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/114//#testresult/1b8ed8f5396b4b55",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620916092714,
+          "stop" : 1620916092721,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "e6eaed202afb713d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/113//#testresult/e6eaed202afb713d",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620915874665,
+          "stop" : 1620915874672,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "d0a40c772096ca1f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/112//#testresult/d0a40c772096ca1f",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620911700599,
+          "stop" : 1620911700601,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "19eec4f58826f88c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/111//#testresult/19eec4f58826f88c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620911114277,
+          "stop" : 1620911114278,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e935c4278d6ea675",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/110//#testresult/e935c4278d6ea675",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620911020706,
+          "stop" : 1620911020707,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9f7f05d283dfeac.json",
+  "parameterValues" : [ ]
+}
