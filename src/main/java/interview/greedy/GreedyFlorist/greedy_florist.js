@@ -40,13 +40,12 @@ function getMinimumCost(k, c) {
             }
         }
     }
-    console.log(buyers);
     for (let i = 0; i < k; i++) {
-        for (let j = 0; j < c[i].length; j++) {
+        console.log(`i = ${i}, `)
+        for (let j = 0; j < buyers[i].length; j++) {
             result += buyers[i][j] * (1 + j);
         }
     }
-    console.log(result);
     return result;
 }
 
