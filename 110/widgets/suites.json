@@ -1,0 +1,114 @@
+{
+  "total" : 20,
+  "items" : [ {
+    "uid" : "4b47c8564e7de25d8b5b0056f5289554",
+    "name" : "src.test.java.interview.arrays.minimum_swaps_2",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "32f23fbaa1ae4d73c1817173190694f6",
+    "name" : "src.test.java.interview.dynamic_programming.MaxArraySum",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "520b6f3ef445af0c5603badb83dbac9d",
+    "name" : "interview.greedy.GreedyFlorist.GreedyFloristTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d2f9b6a621840885ad4c0ea28a5c27dd",
+    "name" : "src.test.java.interview.arrays.new_year_chaos",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "213c03cb4c9687a096b650f3a3827e7c",
+    "name" : "test .add",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "931948e9a55a39c1247049891d2f0236",
+    "name" : "test true",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c6c14102f0f126359e0ad524501234a0",
+    "name" : "test whatevz",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f84cb86ac6e65ba36aac31811b48f3fa",
+    "name" : "test whatevz ❌\uD83D\uDC5E",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6d9c9b8fd6a8cbba7124b9a10612dac5",
+    "name" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "99c60e07f6b535c16c76dea6dc67097b",
+    "name" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
