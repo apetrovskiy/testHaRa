@@ -1,0 +1,83 @@
+{
+  "uid" : "d0a40c772096ca1f",
+  "name" : "people = 2, cost = 2,5,6, returns 15",
+  "fullName" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15.people = 2, cost = 2,5,6, returns 15",
+  "historyId" : "26d0011ba67a0b8a14f1756d9496d711",
+  "time" : {
+    "start" : 1620911700599,
+    "stop" : 1620911700601,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0\n                    at Object.<anonymous> (/home/runner/work/testHaRa/testHaRa/src/main/java/interview/greedy/GreedyFlorist/greedy_florist.test.js:9:38)\n                    at Object.asyncJestTest (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testHaRa/testHaRa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "testClass",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "testMethod",
+    "value" : "people = 2, cost = 2,5,6, returns 15"
+  }, {
+    "name" : "package",
+    "value" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "19eec4f58826f88c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/111//#testresult/19eec4f58826f88c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620911114277,
+          "stop" : 1620911114278,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e935c4278d6ea675",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/110//#testresult/e935c4278d6ea675",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 15\n                Received: 0",
+        "time" : {
+          "start" : 1620911020706,
+          "stop" : 1620911020707,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d0a40c772096ca1f.json",
+  "parameterValues" : [ ]
+}
