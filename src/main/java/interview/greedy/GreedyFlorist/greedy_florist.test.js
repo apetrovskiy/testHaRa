@@ -1,4 +1,5 @@
-import each from 'jest-each';
+// import each from 'jest-each';
+const each = require('jest-each').each;
 const getMinimumCost = require("./greedy_florist").getMinimumCost;
 const { assert, expect } = require("chai")
 
