@@ -27,7 +27,7 @@ function readLine() {
 // Complete the getMinimumCost function below.
 function getMinimumCost(k, c) {
 
-    return
+    return 0;
 }
 
 function main() {
@@ -47,3 +47,5 @@ function main() {
 
     ws.end();
 }
+
+module.exports={getMinimumCost}
