@@ -1,5 +1,6 @@
 package interview.greedy.GreedyFlorist
 
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments.of
 import org.junit.jupiter.params.provider.{Arguments, MethodSource}
@@ -8,7 +9,7 @@ class GreedyFloristScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
   def shouldCalculateCostScala(k: Int, c: Array[Int], expectedResult: Int) = {
-    // assertEquals(expectedResult,)
+    assertEquals(expectedResult, GreedyFloristScala.getMinimumCost(k, c))
   }
 }
 
