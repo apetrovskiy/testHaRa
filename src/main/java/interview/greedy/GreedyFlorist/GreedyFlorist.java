@@ -23,7 +23,7 @@ public class GreedyFlorist {
         for (var i = 0; i < c.length; i += k) {
             int finalI = i;
             IntStream.range(0,k).forEach(j -> {
-                if (finalI + j < k) {
+                if (finalI + j < c.length) {
                     buyers.get(j).add(c[finalI + j]);
                 }
             });
