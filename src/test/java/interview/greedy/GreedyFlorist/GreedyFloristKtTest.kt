@@ -12,7 +12,7 @@ class GreedyFloristKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     fun shouldCalculateCostKt(k: Int, c: Array<Int>, expectedResult: Int) {
-        println("Kt expected = " + expectedResult + "actual = " + cut.getMinimumCost(k, c))
+        println("Kt expected = $expectedResult, actual = ${getMinimumCost(k, c)}")
         assertEquals(expectedResult, getMinimumCost(k, c))
     }
 
