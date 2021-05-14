@@ -3,17 +3,19 @@ package interview.greedy.GreedyFlorist
 import java.util.Scanner
 import kotlin.collections.arrayListOf
 
+@SuppressWarnings("PMD")
 // Complete the getMinimumCost function below.
 fun getMinimumCost(k: Int, c: Array<Int>): Int {
     var result = 0
     val buyers = arrayListOf<ArrayList<Int>>()
     for (i in 0..k)
         buyers.add(arrayListOf())
+    println("buyers length = ${buyers.size}")
     c.sortedArrayDescending()
-    for (i in 0..c.size step k) {
-        (0..k).forEach { j ->
+    for (i in 0..c.size - 1 step k) {
+        (0..k - 1).forEach { j ->
             if (i + j < k)
-                buyers[i].add(c[i + j])
+                buyers[j].add(c[i + j])
         }
     }
     result = buyers.map { item -> item.sum() }.sum()
