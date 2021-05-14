@@ -1,0 +1,183 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([4, 3, 1, 2])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array0-3]",
+        "uid" : "eecdfcd3600a8ae0",
+        "parentUid" : "d02893ae187a6a297cd15c9632cca8cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191463,
+          "stop" : 1620950191463,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[4, 3, 1, 2]" ]
+      } ],
+      "uid" : "d02893ae187a6a297cd15c9632cca8cd"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array1-3]",
+        "uid" : "80e7cbece5f6d868",
+        "parentUid" : "6a17dc33ed34f2ca4ba509bb724d8b56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191488,
+          "stop" : 1620950191489,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+      } ],
+      "uid" : "6a17dc33ed34f2ca4ba509bb724d8b56"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([1, 3, 5, 2, 4, 6, ...])",
+      "children" : [ {
+        "name" : "test_minimum_swaps_2[input_array2-3]",
+        "uid" : "cf9d9c68b4738706",
+        "parentUid" : "84585bd3e587acc41f460d63dc1bdc1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191492,
+          "stop" : 1620950191492,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+      } ],
+      "uid" : "84585bd3e587acc41f460d63dc1bdc1b"
+    }, {
+      "name" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+      "children" : [ {
+        "name" : "test_new_year_chaos[input_array3-7]",
+        "uid" : "21ec17bdb1fd9477",
+        "parentUid" : "3fcc760f598e19ff20a0fb957d53ff08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191503,
+          "stop" : 1620950191503,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+      } ],
+      "uid" : "3fcc760f598e19ff20a0fb957d53ff08"
+    }, {
+      "name" : "AssertionError: assert 13 == 0\n +  where 0 = maxSubsetSum([3, 7, 4, 6, 5])",
+      "children" : [ {
+        "name" : "test_max_array_sum[input_array0-13]",
+        "uid" : "25634286c1d2938e",
+        "parentUid" : "5df4bc72153cfa13f89c106029f33b9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191510,
+          "stop" : 1620950191510,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13", "[3, 7, 4, 6, 5]" ]
+      } ],
+      "uid" : "5df4bc72153cfa13f89c106029f33b9d"
+    }, {
+      "name" : "AssertionError: assert 11 == 0\n +  where 0 = maxSubsetSum([2, 1, 5, 8, 4])",
+      "children" : [ {
+        "name" : "test_max_array_sum[input_array1-11]",
+        "uid" : "4a157cb7d3853b51",
+        "parentUid" : "ae772e280a6c0e16be4ee49596e3ef4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191513,
+          "stop" : 1620950191514,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "11", "[2, 1, 5, 8, 4]" ]
+      } ],
+      "uid" : "ae772e280a6c0e16be4ee49596e3ef4c"
+    }, {
+      "name" : "AssertionError: assert 15 == 0\n +  where 0 = maxSubsetSum([3, 5, -7, 8, 10])",
+      "children" : [ {
+        "name" : "test_max_array_sum[input_array2-15]",
+        "uid" : "275aa7d0b2c8c84d",
+        "parentUid" : "dd9a36f69de9420fd5df006a899a2d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950191517,
+          "stop" : 1620950191517,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "15", "[3, 5, -7, 8, 10]" ]
+      } ],
+      "uid" : "dd9a36f69de9420fd5df006a899a2d33"
+    }, {
+      "name" : "expected: <29> but was: <9>",
+      "children" : [ {
+        "name" : "[3] 3, [1, 3, 5, 7, 9], 29",
+        "uid" : "c0db3c47bac3682a",
+        "parentUid" : "ef83714d2dbbb05e60976f47d70f93dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950383881,
+          "stop" : 1620950383982,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef83714d2dbbb05e60976f47d70f93dc"
+    }, {
+      "name" : "expected: <15> but was: <7>",
+      "children" : [ {
+        "name" : "[2] 2, [2, 5, 6], 15",
+        "uid" : "646bbfe88801c993",
+        "parentUid" : "a6b01c3c9a081f31e45c6ec1bd7b3337",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620950384337,
+          "stop" : 1620950384342,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b01c3c9a081f31e45c6ec1bd7b3337"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+      "children" : [ {
+        "name" : "shouldCalculateCostKt(int, Integer[], int)",
+        "uid" : "9aa226f8049d3de9",
+        "parentUid" : "a455b3d5446b168a776c202b9943eaf2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620950383467,
+          "stop" : 1620950383470,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a455b3d5446b168a776c202b9943eaf2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
