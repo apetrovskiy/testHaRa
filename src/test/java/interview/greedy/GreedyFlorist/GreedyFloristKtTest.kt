@@ -7,10 +7,12 @@ import org.junit.jupiter.params.provider.Arguments.of
 import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
 
+@SuppressWarnings("PMD")
 class GreedyFloristKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     fun shouldCalculateCostKt(k: Int, c: Array<Int>, expectedResult: Int) {
+        println("Kt expected = " + expectedResult + "actual = " + cut.getMinimumCost(k, c))
         assertEquals(expectedResult, getMinimumCost(k, c))
     }
 

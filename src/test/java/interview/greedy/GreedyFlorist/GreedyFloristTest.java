@@ -15,7 +15,7 @@ class GreedyFloristTest {
     @MethodSource("getInputData")
     void shouldCalculateCost(int k, int[] c, int expectedResult) {
         var cut = new GreedyFlorist();
-        System.out.println("expected = " + expectedResult + "actual = " + cut.getMinimumCost(k, c));
+        System.out.println("J expected = " + expectedResult + "actual = " + cut.getMinimumCost(k, c));
         assertEquals(expectedResult, cut.getMinimumCost(k, c));
     }
 
