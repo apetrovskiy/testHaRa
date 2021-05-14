@@ -1,0 +1,247 @@
+{
+  "uid" : "6a2cd6f32c9f22b9",
+  "name" : "shouldCalculateCostKt(int, Integer[], int)",
+  "fullName" : "interview.greedy.GreedyFloristKtTest.shouldCalculateCostKt",
+  "historyId" : "724c52ca3fc74fa312b8eba62899c158",
+  "time" : {
+    "start" : 1620973261834,
+    "stop" : 1620973261841,
+    "duration" : 7
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+  "statusTrace" : "org.junit.platform.commons.JUnitException: Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]\n\tat org.junit.platform.commons.util.ReflectionUtils.lambda$getRequiredMethod$26(ReflectionUtils.java:1348)\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:403)\n\tat org.junit.platform.commons.util.ReflectionUtils.getRequiredMethod(ReflectionUtils.java:1347)\n\tat org.junit.jupiter.params.provider.MethodArgumentsProvider.getMethod(MethodArgumentsProvider.java:58)\n\tat org.junit.jupiter.params.provider.MethodArgumentsProvider.lambda$provideArguments$0(MethodArgumentsProvider.java:45)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)\n\tat java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)\n\tat java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)\n\tat org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:107)\n\tat org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:42)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n\tSuppressed: org.junit.platform.commons.PreconditionViolationException: Configuration error: You must configure at least one set of arguments for this @ParameterizedTest\n\t\tat org.junit.platform.commons.util.Preconditions.condition(Preconditions.java:281)\n\t\tat org.junit.jupiter.params.ParameterizedTestExtension.lambda$provideTestTemplateInvocationContexts$6(ParameterizedTestExtension.java:94)\n\t\tat java.base/java.util.stream.AbstractPipeline.close(AbstractPipeline.java:323)\n\t\tat java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273)\n\t\t... 44 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az129-689"
+  }, {
+    "name" : "thread",
+    "value" : "2989@fv-az129-689.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.GreedyFloristKtTest"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.GreedyFloristKtTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateCostKt"
+  }, {
+    "name" : "suite",
+    "value" : "interview.greedy.GreedyFloristKtTest"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 18,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "9aa226f8049d3de9",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/120//#testresult/9aa226f8049d3de9",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620950383467,
+          "stop" : 1620950383470,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "648e315d3819a494",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/119//#testresult/648e315d3819a494",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620936104988,
+          "stop" : 1620936104999,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "9d601c91970b039a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/118//#testresult/9d601c91970b039a",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620917466115,
+          "stop" : 1620917466116,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a185a613ca13f897",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/117//#testresult/a185a613ca13f897",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620917318973,
+          "stop" : 1620917318982,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "90265aaba1892469",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/116//#testresult/90265aaba1892469",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620917031027,
+          "stop" : 1620917031037,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "50adbf342d69e759",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/115//#testresult/50adbf342d69e759",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620916969416,
+          "stop" : 1620916969427,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "e893c91cbcc8e228",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/114//#testresult/e893c91cbcc8e228",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620916367170,
+          "stop" : 1620916367171,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6553df13072422fb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/113//#testresult/6553df13072422fb",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620916124254,
+          "stop" : 1620916124255,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9b85fa6e79f8c950",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/112//#testresult/9b85fa6e79f8c950",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620911855266,
+          "stop" : 1620911855275,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "c50318db5150ee18",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/111//#testresult/c50318db5150ee18",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620911346000,
+          "stop" : 1620911346006,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "e1213f1f2035628a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/110//#testresult/e1213f1f2035628a",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620911265218,
+          "stop" : 1620911265223,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "19f2fd7f088f958d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/109//#testresult/19f2fd7f088f958d",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620907203566,
+          "stop" : 1620907203567,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4210483f4d39d446",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/108//#testresult/4210483f4d39d446",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620906684445,
+          "stop" : 1620906684451,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "843890425b05e650",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/107//#testresult/843890425b05e650",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620906493877,
+          "stop" : 1620906493878,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "90a97f94e2e50f6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/106//#testresult/90a97f94e2e50f6",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620894090250,
+          "stop" : 1620894090252,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "68bb7ed0a3132068",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/104//#testresult/68bb7ed0a3132068",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620765635640,
+          "stop" : 1620765635642,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "79e3cb9bb466bae7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/103//#testresult/79e3cb9bb466bae7",
+        "status" : "broken",
+        "statusDetails" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+        "time" : {
+          "start" : 1620756687788,
+          "stop" : 1620756687789,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a2cd6f32c9f22b9.json",
+  "parameterValues" : [ ]
+}

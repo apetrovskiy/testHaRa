@@ -1,0 +1,276 @@
+{
+  "uid" : "a64f8794c11e95d0",
+  "name" : "test_minimum_swaps_2[input_array1-3]",
+  "fullName" : "src.test.java.interview.arrays.minimum_swaps_2.test_minimum_swaps_2#test_minimum_swaps_2",
+  "historyId" : "5b1ea0a2685a06c5a0940057cbd99fb3",
+  "time" : {
+    "start" : 1620973044650,
+    "stop" : 1620973044650,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+  "statusTrace" : "input_array = [2, 3, 4, 1, 5], expected_result = 3\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_minimum_swaps_2(input_array: List[int], expected_result: int):\n>       assert expected_result == minimumSwaps(input_array)\nE       assert 3 == 0\nE        +  where 0 = minimumSwaps([2, 3, 4, 1, 5])\n\nsrc/test/java/interview/arrays/minimum_swaps_2/test_minimum_swaps_2.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.arrays.minimum_swaps_2"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_swaps_2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-359"
+  }, {
+    "name" : "thread",
+    "value" : "2153-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.arrays.minimum_swaps_2.test_minimum_swaps_2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input_array",
+    "value" : "[2, 3, 4, 1, 5]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 49,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 49
+      },
+      "items" : [ {
+        "uid" : "80e7cbece5f6d868",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/120//#testresult/80e7cbece5f6d868",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620950191488,
+          "stop" : 1620950191489,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "974075830dc88d0b",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/119//#testresult/974075830dc88d0b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620935949584,
+          "stop" : 1620935949584,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d3c06b8cbe4c118",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/118//#testresult/d3c06b8cbe4c118",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620917223723,
+          "stop" : 1620917223723,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc02969e721c8d3e",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/117//#testresult/fc02969e721c8d3e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620917061568,
+          "stop" : 1620917061568,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cd141e67a21eca7e",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/116//#testresult/cd141e67a21eca7e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620916848823,
+          "stop" : 1620916848823,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e61df012c6d841b1",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/115//#testresult/e61df012c6d841b1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620916777551,
+          "stop" : 1620916777551,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ae0c5f52f59938cb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/114//#testresult/ae0c5f52f59938cb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620916100700,
+          "stop" : 1620916100700,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9c79f12705ff41ac",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/113//#testresult/9c79f12705ff41ac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620915879594,
+          "stop" : 1620915879594,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "34b7fa74facf03a3",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/112//#testresult/34b7fa74facf03a3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620911653167,
+          "stop" : 1620911653168,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5b030dc4877a5e42",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/111//#testresult/5b030dc4877a5e42",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620911120699,
+          "stop" : 1620911120699,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2ed9c50f204ad408",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/110//#testresult/2ed9c50f204ad408",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620911031278,
+          "stop" : 1620911031279,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "595ab682d43f5ec",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/109//#testresult/595ab682d43f5ec",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620906983812,
+          "stop" : 1620906983812,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c9854b4e70aab02",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/108//#testresult/c9854b4e70aab02",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620906490113,
+          "stop" : 1620906490114,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "57f333e499781c9d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/107//#testresult/57f333e499781c9d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620906314672,
+          "stop" : 1620906314672,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bafb10a32201a27d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/106//#testresult/bafb10a32201a27d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620893893949,
+          "stop" : 1620893893949,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4dbe23f0aed0213a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/105//#testresult/4dbe23f0aed0213a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620766770565,
+          "stop" : 1620766770565,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "715da056c8ee498a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/104//#testresult/715da056c8ee498a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620765471640,
+          "stop" : 1620765471640,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6a58cc9e06147413",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/103//#testresult/6a58cc9e06147413",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620756516520,
+          "stop" : 1620756516521,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "874ce567a992b4",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/102//#testresult/874ce567a992b4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620754662651,
+          "stop" : 1620754662651,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4c4aa39cfc3ec4bf",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/101//#testresult/4c4aa39cfc3ec4bf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 3 == 0\n +  where 0 = minimumSwaps([2, 3, 4, 1, 5])",
+        "time" : {
+          "start" : 1620752250917,
+          "stop" : 1620752250918,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a64f8794c11e95d0.json",
+  "parameterValues" : [ "3", "[2, 3, 4, 1, 5]" ]
+}
