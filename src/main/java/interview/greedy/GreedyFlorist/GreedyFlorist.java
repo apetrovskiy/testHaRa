@@ -18,7 +18,7 @@ public class GreedyFlorist {
         var result = 0;
         List<List<Integer>> buyers = new ArrayList<>();
         IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<>()));
-        System.out.println("buyers length = " + buyers.size());
+        System.out.println("buyers size = " + buyers.size());
         Arrays.sort(c);
         Collections.reverse(Collections.singletonList(c));
         for (var i = 0; i < c.length; i += k) {

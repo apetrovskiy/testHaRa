@@ -8,7 +8,7 @@ import kotlin.collections.arrayListOf
 fun getMinimumCost(k: Int, c: Array<Int>): Int {
     var result = 0
     val buyers = arrayListOf<ArrayList<Int>>()
-    for (i in 0..k)
+    for (i in 0..k-1)
         buyers.add(arrayListOf())
     println("buyers length = ${buyers.size}")
     c.sortedArrayDescending()
