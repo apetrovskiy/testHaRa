@@ -31,6 +31,7 @@ function getMinimumCost(k, c) {
     for (let i = 0; i < k; i++) {
         buyers.push([]);
     }
+    c.sort();
     c.reverse();
     for (let i = 0; i < c.length; i += k) {
         for (let j = 0; j < k; j++) {
