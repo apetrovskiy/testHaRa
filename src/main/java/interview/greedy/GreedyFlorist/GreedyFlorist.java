@@ -3,7 +3,9 @@ package interview.greedy.GreedyFlorist;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
 @SuppressWarnings("PMD")
@@ -14,7 +16,7 @@ public class GreedyFlorist {
         var result = 0;
         ArrayList<ArrayList<Integer>> buyers = new ArrayList<>();
         IntStream.range(0, k).forEach(i -> buyers.add(new ArrayList<>()));
-        var sorted=IntStream.of(c).boxed().sorted(Comparator.reverseOrder()).mapToInt(i->i).toArray();
+        var sorted = IntStream.of(c).boxed().sorted(Comparator.reverseOrder()).mapToInt(i -> i).toArray();
         for (var i = 0; i < sorted.length; i += k) {
             int finalI = i;
             IntStream.range(0, k).forEach(j -> {
@@ -29,7 +31,7 @@ public class GreedyFlorist {
                     return buyers.get(finalI).get(j) * (1 + j);
                 }
             )
-        ).reduce(0, (subtotal, element)->subtotal + element);
+        ).reduce(0, (subtotal, element) -> subtotal + element);
         return result;
     }
 
