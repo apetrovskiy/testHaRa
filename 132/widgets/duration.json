@@ -1,0 +1,601 @@
+[ {
+  "uid" : "fe6f8c8f506c39c5",
+  "name" : "[3] k=3, c=[1, 3, 5, 7, 9], expectedResult=29",
+  "time" : {
+    "start" : 1621004336648,
+    "stop" : 1621004337969,
+    "duration" : 1321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76c4b44594ae4fa7",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+  "time" : {
+    "start" : 1621004117518,
+    "stop" : 1621004117518,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11c6401c7d0a0cc7",
+  "name" : "test_max_min[3-input_array0-20]",
+  "time" : {
+    "start" : 1621004117490,
+    "stop" : 1621004117490,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31485525f2e6063",
+  "name" : "[1] k=3, c=[2, 5, 6], expectedResult=13",
+  "time" : {
+    "start" : 1621004337958,
+    "stop" : 1621004337964,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "783043341938354d",
+  "name" : "[4] k=3, c=[390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], expectedResult=163578911",
+  "time" : {
+    "start" : 1621004337975,
+    "stop" : 1621004337978,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "419b8d86665acf9f",
+  "name" : "test_max_array_sum[input_array0-13]",
+  "time" : {
+    "start" : 1621004117445,
+    "stop" : 1621004117446,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3507f31103e706b",
+  "name" : "test_max_array_sum[input_array1-11]",
+  "time" : {
+    "start" : 1621004117449,
+    "stop" : 1621004117450,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e888ce520a62b32",
+  "name" : "test_max_min[0-input_array5-0]",
+  "time" : {
+    "start" : 1621004117503,
+    "stop" : 1621004117503,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de3f9b1aa684966d",
+  "name" : "test_max_min[5-input_array3-1]",
+  "time" : {
+    "start" : 1621004117497,
+    "stop" : 1621004117498,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "267cf303e6312887",
+  "name" : "test_max_array_sum[input_array2-15]",
+  "time" : {
+    "start" : 1621004117453,
+    "stop" : 1621004117453,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "df960dfe54b2fd61",
+  "name" : "people = 2, cost = 2,5,6, returns 15",
+  "time" : {
+    "start" : 1621004086342,
+    "stop" : 1621004086345,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fbc8078392a30c4",
+  "name" : "test_calculate_hourglass_sum",
+  "time" : {
+    "start" : 1621004117525,
+    "stop" : 1621004117525,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8481fac79f0dd18e",
+  "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+  "time" : {
+    "start" : 1621004117434,
+    "stop" : 1621004117434,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9522953276fc02a",
+  "name" : "test_greedy_florist[3-input_array2-29]",
+  "time" : {
+    "start" : 1621004117463,
+    "stop" : 1621004117463,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84d56460b8101b8f",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+  "time" : {
+    "start" : 1621004117513,
+    "stop" : 1621004117513,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c848514f071bcf",
+  "name" : "[3] 3, [1, 3, 5, 7, 9], 29",
+  "time" : {
+    "start" : 1621004336645,
+    "stop" : 1621004337469,
+    "duration" : 824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "125dd595d84fb9b5",
+  "name" : "test_max_min[2-input_array2-0]",
+  "time" : {
+    "start" : 1621004117495,
+    "stop" : 1621004117495,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd93be5dbb9c4f26",
+  "name" : "[5] k=34, c=[433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], expectedResult=30352414",
+  "time" : {
+    "start" : 1621004337981,
+    "stop" : 1621004337999,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "117b4080565db33",
+  "name" : "test_new_year_chaos[input_array0-3]",
+  "time" : {
+    "start" : 1621004117432,
+    "stop" : 1621004117432,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24cedccc02e6ae91",
+  "name" : "test_max_min[2-input_array6-10]",
+  "time" : {
+    "start" : 1621004117505,
+    "stop" : 1621004117505,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0e7ec02c3f4d235",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1621004117520,
+    "stop" : 1621004117521,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18ce0ff179e29aad",
+  "name" : "[2] 2, [2, 5, 6], 15",
+  "time" : {
+    "start" : 1621004337449,
+    "stop" : 1621004337458,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e53a122023491b7",
+  "name" : "people = 3, cost = 390225,426456,688267,800389,990107,439248,240638,15991,874479,568754,729927,980985,132244,488186,5037,721765,251885,28458,23710,281490,30935,897665,768945,337228,533277,959855,927447,941485,24242,684459,312855,716170,512600,608266,779912,950103,211756,665028,642996,262173,789020,932421,390745,433434,350262,463568,668809,305781,815771,550800, returns 163578911",
+  "time" : {
+    "start" : 1621004086349,
+    "stop" : 1621004086351,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21e5caeb9b1aafa8",
+  "name" : "test_greedy_florist[2-input_array1-15]",
+  "time" : {
+    "start" : 1621004117460,
+    "stop" : 1621004117460,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67e3a55210be8a53",
+  "name" : "test_minimum_swaps_2[input_array1-3]",
+  "time" : {
+    "start" : 1621004117423,
+    "stop" : 1621004117424,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ebd593a563495d8",
+  "name" : "test_max_min[3-input_array8-2]",
+  "time" : {
+    "start" : 1621004117510,
+    "stop" : 1621004117510,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eee1b4170a93fef",
+  "name" : "test_minimum_swaps_2[input_array0-3]",
+  "time" : {
+    "start" : 1621004117396,
+    "stop" : 1621004117397,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef00d771bb01655b",
+  "name" : "[4] 3, [390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], 163578911",
+  "time" : {
+    "start" : 1621004337872,
+    "stop" : 1621004337877,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a15886dc1d0587eb",
+  "name" : "[4] 3, [390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], 163578911",
+  "time" : {
+    "start" : 1621004337466,
+    "stop" : 1621004337472,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67e54730f8b7ec12",
+  "name" : "[5] 34, [433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], 30352414",
+  "time" : {
+    "start" : 1621004337919,
+    "stop" : 1621004337920,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64142a085ccc38de",
+  "name" : "test_luck_balance[58-contests6-10069]",
+  "time" : {
+    "start" : 1621004117487,
+    "stop" : 1621004117487,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be6599f22ce27024",
+  "name" : "test_luck_balance[2-contests2-25]",
+  "time" : {
+    "start" : 1621004117476,
+    "stop" : 1621004117476,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98f571c2264b4a6d",
+  "name" : "[1] 3, [2, 5, 6], 13",
+  "time" : {
+    "start" : 1621004337934,
+    "stop" : 1621004337935,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87886383d2a5d7b",
+  "name" : "test_reverse_array",
+  "time" : {
+    "start" : 1621004117523,
+    "stop" : 1621004117523,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d76b5f79e45023d4",
+  "name" : "[5] 34, [433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], 30352414",
+  "time" : {
+    "start" : 1621004337459,
+    "stop" : 1621004337462,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c79d1bd3b586c4b5",
+  "name" : "test_luck_balance[3-contests5-733]",
+  "time" : {
+    "start" : 1621004117484,
+    "stop" : 1621004117484,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9cb32cd23132703",
+  "name" : "test_greedy_florist[34-input_array4-30352414]",
+  "time" : {
+    "start" : 1621004117468,
+    "stop" : 1621004117468,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63f5305fa39f298",
+  "name" : "test_luck_balance[0-contests4--1]",
+  "time" : {
+    "start" : 1621004117481,
+    "stop" : 1621004117481,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e22194a9f09a4ff",
+  "name" : "[3] 3, [1, 3, 5, 7, 9], 29",
+  "time" : {
+    "start" : 1621004337005,
+    "stop" : 1621004337133,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca0c5eb04b3c46e8",
+  "name" : "test_max_min[2-input_array7-1]",
+  "time" : {
+    "start" : 1621004117508,
+    "stop" : 1621004117508,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0a6a8394bf5030",
+  "name" : "test_new_year_chaos[input_array3-7]",
+  "time" : {
+    "start" : 1621004117439,
+    "stop" : 1621004117439,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac10052d24cacf5a",
+  "name" : "people = 34, cost = 433515,22221,540709,538312,496949,902471,439983,159332,417327,399306,817804,354682,108825,970689,868286,235070,18732,848955,994152,741000,722232,564879,503093,734475,174795,129065,483929,683440,37645,670198,911023,40334,329513,669160,180034,285512,401190,629798,857703,765572,174164,849299,159367,62467,84449,523962,735995,245666,832139,879827,749840,315756,253168,659252,187178, returns 30352414",
+  "time" : {
+    "start" : 1621004086352,
+    "stop" : 1621004086354,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95fc0000bd77ee70",
+  "name" : "test_left_rotation[input_array0-4-expected_result0]",
+  "time" : {
+    "start" : 1621004117393,
+    "stop" : 1621004117393,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21dc6bf8fff4ede6",
+  "name" : "test_luck_balance[1-contests3-15]",
+  "time" : {
+    "start" : 1621004117479,
+    "stop" : 1621004117479,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a9bf846fcad180",
+  "name" : "test_greedy_florist[3-input_array0-13]",
+  "time" : {
+    "start" : 1621004117458,
+    "stop" : 1621004117458,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a4e9557a95e798",
+  "name" : "[2] 2, [2, 5, 6], 15",
+  "time" : {
+    "start" : 1621004337938,
+    "stop" : 1621004337939,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d07d4a12032d10bc",
+  "name" : "test_max_min[4-input_array1-3]",
+  "time" : {
+    "start" : 1621004117492,
+    "stop" : 1621004117492,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0d5c6e3303fe49d",
+  "name" : "test_luck_balance[4-contests1-31]",
+  "time" : {
+    "start" : 1621004117474,
+    "stop" : 1621004117474,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0795c43a970e2f5",
+  "name" : "[2] k=2, c=[2, 5, 6], expectedResult=15",
+  "time" : {
+    "start" : 1621004337968,
+    "stop" : 1621004337972,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd056d2f8a864e7",
+  "name" : "test_new_year_chaos[input_array4-4]",
+  "time" : {
+    "start" : 1621004117443,
+    "stop" : 1621004117443,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8aff0067da4924bc",
+  "name" : "test_greedy_florist[3-input_array3-163578911]",
+  "time" : {
+    "start" : 1621004117465,
+    "stop" : 1621004117465,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91e704e026f7c6af",
+  "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+  "time" : {
+    "start" : 1621004117515,
+    "stop" : 1621004117516,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fe234dcfe193552",
+  "name" : "people = 3, cost = 1,3,5,7,9, returns 29",
+  "time" : {
+    "start" : 1621004086346,
+    "stop" : 1621004086348,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca021ae573592cb3",
+  "name" : "test_luck_balance[3-contests0-29]",
+  "time" : {
+    "start" : 1621004117471,
+    "stop" : 1621004117471,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd0d2c710cae1e8c",
+  "name" : "test_max_min[7-input_array4-990]",
+  "time" : {
+    "start" : 1621004117500,
+    "stop" : 1621004117500,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "829b878ee37c000f",
+  "name" : "people = 3, cost = 2,5,6, returns 13",
+  "time" : {
+    "start" : 1621004086314,
+    "stop" : 1621004086338,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e06ce5bfcf160f2",
+  "name" : "test_ex001",
+  "time" : {
+    "start" : 1621004117528,
+    "stop" : 1621004117529,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4d8a2d161138eca",
+  "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+  "time" : {
+    "start" : 1621004117436,
+    "stop" : 1621004117436,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b48dab929c733413",
+  "name" : "test_minimum_swaps_2[input_array2-3]",
+  "time" : {
+    "start" : 1621004117427,
+    "stop" : 1621004117428,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "296f1ef154398f8a",
+  "name" : "[1] 3, [2, 5, 6], 13",
+  "time" : {
+    "start" : 1621004337007,
+    "stop" : 1621004337142,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
