@@ -1,2 +1,0 @@
-important number = 5
-won items = 208

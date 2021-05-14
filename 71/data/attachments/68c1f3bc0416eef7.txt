@@ -1,2 +1,0 @@
-important number = 4
-won items = 1
