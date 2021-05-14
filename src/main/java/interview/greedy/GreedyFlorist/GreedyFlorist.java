@@ -3,11 +3,7 @@ package interview.greedy.GreedyFlorist;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.IntStream;
 
 @SuppressWarnings("PMD")
@@ -16,20 +12,24 @@ public class GreedyFlorist {
     // Complete the getMinimumCost function below.
     static int getMinimumCost(int k, int[] c) {
         var result = 0;
-        List<List<Integer>> buyers = new ArrayList<>();
-        IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<>()));
-        System.out.println("buyers size = " + buyers.size());
-        Arrays.sort(c);
-        Collections.reverse(Collections.singletonList(c));
-        for (var i = 0; i < c.length; i += k) {
+        ArrayList<ArrayList<Integer>> buyers = new ArrayList<>();
+        IntStream.range(0, k).forEach(i -> buyers.add(new ArrayList<>()));
+        var sorted=IntStream.of(c).boxed().sorted(Comparator.reverseOrder()).mapToInt(i->i).toArray();
+        for (var i = 0; i < sorted.length; i += k) {
             int finalI = i;
-            IntStream.range(0,k).forEach(j -> {
-                if (finalI + j < c.length) {
-                    buyers.get(j).add(c[finalI + j]);
+            IntStream.range(0, k).forEach(j -> {
+                if (finalI + j < sorted.length) {
+                    buyers.get(j).add(sorted[finalI + j]);
                 }
             });
         }
-        result = buyers.stream().mapToInt(item -> item.stream().mapToInt(Integer::intValue).sum()).sum();
+        result = IntStream.range(0, k).boxed().flatMap(i ->
+            IntStream.range(0, buyers.get(i).size()).boxed().map(j -> {
+                    final int finalI = i;
+                    return buyers.get(finalI).get(j) * (1 + j);
+                }
+            )
+        ).reduce(0, (subtotal, element)->subtotal + element);
         return result;
     }
 

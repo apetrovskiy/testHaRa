@@ -9,13 +9,11 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-@SuppressWarnings("PMD")
 class GreedyFloristTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     void shouldCalculateCost(int k, int[] c, int expectedResult) {
         var cut = new GreedyFlorist();
-        System.out.println("J expected = " + expectedResult + "actual = " + cut.getMinimumCost(k, c));
         assertEquals(expectedResult, cut.getMinimumCost(k, c));
     }
 

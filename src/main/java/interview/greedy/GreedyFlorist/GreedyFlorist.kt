@@ -8,17 +8,22 @@ import kotlin.collections.arrayListOf
 fun getMinimumCost(k: Int, c: Array<Int>): Int {
     var result = 0
     val buyers = arrayListOf<ArrayList<Int>>()
-    for (i in 0..k-1)
+    for (i in 0 until k)
         buyers.add(arrayListOf())
-    println("buyers length = ${buyers.size}")
-    c.sortedArrayDescending()
-    for (i in 0..c.size - 1 step k) {
-        (0..k - 1).forEach { j ->
-            if (i + j < k)
-                buyers[j].add(c[i + j])
+    val sorted = c.sortedArrayDescending()
+    for (i in sorted.indices step k) {
+        (0 until k).forEach { j ->
+            if (i + j < sorted.size)
+                buyers[j].add(sorted[i + j])
         }
     }
-    result = buyers.map { item -> item.sum() }.sum()
+    (0 until k).forEach {
+        i ->
+        (0 until buyers[i].size).forEach {
+            j ->
+            result += buyers[i][j] * (1 + j)
+        }
+    }
     return result
 }
 
