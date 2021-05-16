@@ -1,0 +1,936 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13",
+    "children" : [ {
+      "name" : "people = 3, cost = 2,5,6, returns 13",
+      "uid" : "e369ed8cb3dc7ac4",
+      "parentUid" : "2039b5b2aa003c025efe95bbb80485f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621199473734,
+        "stop" : 1621199473761,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2039b5b2aa003c025efe95bbb80485f5"
+  }, {
+    "name" : "getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15",
+    "children" : [ {
+      "name" : "people = 2, cost = 2,5,6, returns 15",
+      "uid" : "db6cd7440c30784",
+      "parentUid" : "63ab6359e94b8d54ae13cd6065988aac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621199473766,
+        "stop" : 1621199473769,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "63ab6359e94b8d54ae13cd6065988aac"
+  }, {
+    "name" : "getMinimumCost(3, [ 1, 3, 5, 7, 9, [length]: 5 ]) should equal 29",
+    "children" : [ {
+      "name" : "people = 3, cost = 1,3,5,7,9, returns 29",
+      "uid" : "8c7d73a9ff228dc",
+      "parentUid" : "5f9b380b4c9a115cba21c1d43da6f044",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621199473770,
+        "stop" : 1621199473772,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5f9b380b4c9a115cba21c1d43da6f044"
+  }, {
+    "name" : "getMinimumCost(3, [\n      390225, 426456, 688267,       800389,\n      990107, 439248, 240638,       15991,\n      874479, 568754, 729927,       980985,\n      132244, 488186, 5037,         721765,\n      251885, 28458,  23710,        281490,\n      30935,  897665, 768945,       337228,\n      533277, 959855, 927447,       941485,\n      24242,  684459, 312855,       716170,\n      512600, 608266, 779912,       950103,\n      211756, 665028, 642996,       262173,\n      789020, 932421, 390745,       433434,\n      350262, 463568, 668809,       305781,\n      815771, 550800, [length]: 50\n    ]) should equal 163578911",
+    "children" : [ {
+      "name" : "people = 3, cost = 390225,426456,688267,800389,990107,439248,240638,15991,874479,568754,729927,980985,132244,488186,5037,721765,251885,28458,23710,281490,30935,897665,768945,337228,533277,959855,927447,941485,24242,684459,312855,716170,512600,608266,779912,950103,211756,665028,642996,262173,789020,932421,390745,433434,350262,463568,668809,305781,815771,550800, returns 163578911",
+      "uid" : "e2c15c20f7812da",
+      "parentUid" : "2ab1846aedf89c4730d04766e3890a89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621199473774,
+        "stop" : 1621199473777,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2ab1846aedf89c4730d04766e3890a89"
+  }, {
+    "name" : "getMinimumCost(34, [\n      433515, 22221,  540709, 538312,\n      496949, 902471, 439983, 159332,\n      417327, 399306, 817804, 354682,\n      108825, 970689, 868286, 235070,\n      18732,  848955, 994152, 741000,\n      722232, 564879, 503093, 734475,\n      174795, 129065, 483929, 683440,\n      37645,  670198, 911023, 40334,\n      329513, 669160, 180034, 285512,\n      401190, 629798, 857703, 765572,\n      174164, 849299, 159367, 62467,\n      84449,  523962, 735995, 245666,\n      832139, 879827, 749840, 315756,\n      253168, 659252, 187178, [length]: 55\n    ]) should equal 30352414",
+    "children" : [ {
+      "name" : "people = 34, cost = 433515,22221,540709,538312,496949,902471,439983,159332,417327,399306,817804,354682,108825,970689,868286,235070,18732,848955,994152,741000,722232,564879,503093,734475,174795,129065,483929,683440,37645,670198,911023,40334,329513,669160,180034,285512,401190,629798,857703,765572,174164,849299,159367,62467,84449,523962,735995,245666,832139,879827,749840,315756,253168,659252,187178, returns 30352414",
+      "uid" : "9b16ac6ee12d7b47",
+      "parentUid" : "34a2df7155ef00656d084a227707f1f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621199473778,
+        "stop" : 1621199473780,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "34a2df7155ef00656d084a227707f1f7"
+  }, {
+    "name" : "src.test.java",
+    "children" : [ {
+      "name" : "interview",
+      "children" : [ {
+        "name" : "arrays",
+        "children" : [ {
+          "name" : "left_rotation.test_left_rotation",
+          "children" : [ {
+            "name" : "test_left_rotation[input_array0-4-expected_result0]",
+            "uid" : "ec542270ea680fed",
+            "parentUid" : "eefb36cd116db0c81df57f105b982aa8",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199473976,
+              "stop" : 1621199473976,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[5, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "4" ]
+          } ],
+          "uid" : "left_rotation.test_left_rotation"
+        }, {
+          "name" : "minimum_swaps_2.test_minimum_swaps_2",
+          "children" : [ {
+            "name" : "test_minimum_swaps_2[input_array0-3]",
+            "uid" : "4c779a53187541f3",
+            "parentUid" : "ac330f6e1451bc05f1ba606589f1f6ff",
+            "status" : "failed",
+            "time" : {
+              "start" : 1621199473980,
+              "stop" : 1621199473980,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[4, 3, 1, 2]" ]
+          }, {
+            "name" : "test_minimum_swaps_2[input_array1-3]",
+            "uid" : "dbe9c74be6dd5faa",
+            "parentUid" : "ac330f6e1451bc05f1ba606589f1f6ff",
+            "status" : "failed",
+            "time" : {
+              "start" : 1621199474006,
+              "stop" : 1621199474006,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[2, 3, 4, 1, 5]" ]
+          }, {
+            "name" : "test_minimum_swaps_2[input_array2-3]",
+            "uid" : "7caa85aed5e98c23",
+            "parentUid" : "ac330f6e1451bc05f1ba606589f1f6ff",
+            "status" : "failed",
+            "time" : {
+              "start" : 1621199474009,
+              "stop" : 1621199474010,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[1, 3, 5, 2, 4, 6, 7]" ]
+          } ],
+          "uid" : "minimum_swaps_2.test_minimum_swaps_2"
+        }, {
+          "name" : "new_year_chaos.test_new_year_chaos",
+          "children" : [ {
+            "name" : "test_new_year_chaos[input_array0-3]",
+            "uid" : "866b68efbbe20684",
+            "parentUid" : "8b6db7875d7878d7ebb3e33d652ad0e1",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474015,
+              "stop" : 1621199474015,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[2, 1, 5, 3, 4]" ]
+          }, {
+            "name" : "test_new_year_chaos[input_array1-Too chaotic]",
+            "uid" : "926afa795741f588",
+            "parentUid" : "8b6db7875d7878d7ebb3e33d652ad0e1",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474017,
+              "stop" : 1621199474017,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "'Too chaotic'", "[2, 5, 1, 3, 4]" ]
+          }, {
+            "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+            "uid" : "ddff7549b9aca2d2",
+            "parentUid" : "8b6db7875d7878d7ebb3e33d652ad0e1",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474019,
+              "stop" : 1621199474019,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "'Too chaotic'", "[5, 1, 2, 3, 7, 8, 6, 4]" ]
+          }, {
+            "name" : "test_new_year_chaos[input_array3-7]",
+            "uid" : "1f27c680a36d3426",
+            "parentUid" : "8b6db7875d7878d7ebb3e33d652ad0e1",
+            "status" : "failed",
+            "time" : {
+              "start" : 1621199474021,
+              "stop" : 1621199474022,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+          }, {
+            "name" : "test_new_year_chaos[input_array4-4]",
+            "uid" : "8262315a4e14c62f",
+            "parentUid" : "8b6db7875d7878d7ebb3e33d652ad0e1",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474026,
+              "stop" : 1621199474026,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "4", "[1, 2, 5, 3, 4, 7, 8, 6]" ]
+          } ],
+          "uid" : "new_year_chaos.test_new_year_chaos"
+        } ],
+        "uid" : "7fc35b219433c476afacab4bf2b82947"
+      }, {
+        "name" : "dynamic_programming.MaxArraySum.test_max_array_sum",
+        "children" : [ {
+          "name" : "test_max_array_sum[input_array0-13]",
+          "uid" : "bb5ac72c7aa39a27",
+          "parentUid" : "edbfe7073b0f756e76269a60eb65cc53",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621199474028,
+            "stop" : 1621199474029,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "13", "[3, 7, 4, 6, 5]" ]
+        }, {
+          "name" : "test_max_array_sum[input_array1-11]",
+          "uid" : "564439d16e060f4c",
+          "parentUid" : "edbfe7073b0f756e76269a60eb65cc53",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621199474032,
+            "stop" : 1621199474032,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "11", "[2, 1, 5, 8, 4]" ]
+        }, {
+          "name" : "test_max_array_sum[input_array2-15]",
+          "uid" : "145506b8b4794366",
+          "parentUid" : "edbfe7073b0f756e76269a60eb65cc53",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621199474036,
+            "stop" : 1621199474036,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "15", "[3, 5, -7, 8, 10]" ]
+        } ],
+        "uid" : "dynamic_programming.MaxArraySum.test_max_array_sum"
+      }, {
+        "name" : "greedy",
+        "children" : [ {
+          "name" : "GreedyFlorist.test_greedy_florist",
+          "children" : [ {
+            "name" : "test_greedy_florist[3-input_array0-13]",
+            "uid" : "8fd00c33ea84c46a",
+            "parentUid" : "6e94552c4333f950b9784fe99f536d4b",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474040,
+              "stop" : 1621199474040,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "13", "[2, 5, 6]", "3" ]
+          }, {
+            "name" : "test_greedy_florist[2-input_array1-15]",
+            "uid" : "4ea6c5c1fc56749b",
+            "parentUid" : "6e94552c4333f950b9784fe99f536d4b",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474043,
+              "stop" : 1621199474044,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "15", "[2, 5, 6]", "2" ]
+          }, {
+            "name" : "test_greedy_florist[3-input_array2-29]",
+            "uid" : "875d190d2812a446",
+            "parentUid" : "6e94552c4333f950b9784fe99f536d4b",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474046,
+              "stop" : 1621199474046,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "29", "[1, 3, 5, 7, 9]", "3" ]
+          }, {
+            "name" : "test_greedy_florist[3-input_array3-163578911]",
+            "uid" : "cdcdc5544a23f314",
+            "parentUid" : "6e94552c4333f950b9784fe99f536d4b",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474049,
+              "stop" : 1621199474049,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "163578911", "[390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800]", "3" ]
+          }, {
+            "name" : "test_greedy_florist[34-input_array4-30352414]",
+            "uid" : "251db47a3916026e",
+            "parentUid" : "6e94552c4333f950b9784fe99f536d4b",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474052,
+              "stop" : 1621199474052,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "30352414", "[433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178]", "34" ]
+          } ],
+          "uid" : "GreedyFlorist.test_greedy_florist"
+        }, {
+          "name" : "LuckBalance.test_luck_balance",
+          "children" : [ {
+            "name" : "test_luck_balance[3-contests0-29]",
+            "uid" : "b0b671b2acb464f3",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474055,
+              "stop" : 1621199474056,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "3", "29" ]
+          }, {
+            "name" : "test_luck_balance[4-contests1-31]",
+            "uid" : "94965d7127d8f138",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474058,
+              "stop" : 1621199474058,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "4", "31" ]
+          }, {
+            "name" : "test_luck_balance[2-contests2-25]",
+            "uid" : "5dd582b90dc112df",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474061,
+              "stop" : 1621199474061,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "2", "25" ]
+          }, {
+            "name" : "test_luck_balance[1-contests3-15]",
+            "uid" : "d3243202a73167b5",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474066,
+              "stop" : 1621199474066,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "1", "15" ]
+          }, {
+            "name" : "test_luck_balance[0-contests4--1]",
+            "uid" : "c49e657ae7f1697a",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474069,
+              "stop" : 1621199474069,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "0", "-1" ]
+          }, {
+            "name" : "test_luck_balance[3-contests5-733]",
+            "uid" : "28c0f20ba2e9e5a5",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474071,
+              "stop" : 1621199474072,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[105, 0], [103, 0], [106, 1], [106, 1], [103, 0], [103, 1], [105, 1], [106, 1], [105, 0], [104, 0], [103, 0]]", "3", "733" ]
+          }, {
+            "name" : "test_luck_balance[58-contests6-10069]",
+            "uid" : "97d8bc7bccc007b3",
+            "parentUid" : "eccf654c495397b8f7d6265d581fb8e9",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474075,
+              "stop" : 1621199474075,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[[105, 0], [103, 0], [106, 1], [106, 1], [103, 0], [103, 1], [105, 1], [106, 1], [105, 0], [104, 0], [103, 0], [102, 0], [104, 0], [105, 0], [104, 0], [102, 1], [104, 0], [106, 1], [104, 1], [101, 1], [105, 0], [103, 0], [104, 0], [106, 0], [102, 1], [103, 0], [102, 0], [103, 1], [106, 0], [104, 1], [101, 1], [101, 1], [106, 0], [103, 1], [103, 0], [104, 1], [101, 0], [105, 1], [105, 0], [104, 1], [105, 0], [106, 0], [104, 0], [105, 0], [101, 1], [106, 1], [105, 0], [103, 0], [104, 1], [101, 1], [106, 1], [104, 0], [106, 1], [105, 0], [103, 1], [101, 0], [103, 0], [101, 0], [105, 1], [104, 1], [104, 1], [105, 1], [105, 1], [103, 0], [101, 0], [104, 1], [106, 1], [105, 1], [105, 0], [106, 1], [104, 1], [105, 1], [103, 1], [102, 1], [106, 0], [101, 0], [105, 1], [104, 1], [103, 1], [106, 1], [101, 0], [106, 1], [103, 0], [106, 1], [102, 1], [103, 0], [101, 1], [102, 1], [101, 1], [104, 0], [106, 0], [102, 0], [104, 0], [105, 0], [105, 0], [102, 1], [103, 1]]", "58", "10069" ]
+          } ],
+          "uid" : "LuckBalance.test_luck_balance"
+        }, {
+          "name" : "MaxMin.test_max_min",
+          "children" : [ {
+            "name" : "test_max_min[3-input_array0-20]",
+            "uid" : "d7287461a49800f5",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474078,
+              "stop" : 1621199474078,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "20", "[10, 100, 300, 200, 1000, 20, 30]", "3" ]
+          }, {
+            "name" : "test_max_min[4-input_array1-3]",
+            "uid" : "31461f9c4c5ea5d1",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474081,
+              "stop" : 1621199474081,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[1, 2, 3, 4, 10, 20, 30, 40, 100, 200]", "4" ]
+          }, {
+            "name" : "test_max_min[2-input_array2-0]",
+            "uid" : "c33eeac08a18e67c",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474083,
+              "stop" : 1621199474083,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "0", "[1, 2, 1, 2, 1]", "2" ]
+          }, {
+            "name" : "test_max_min[5-input_array3-1]",
+            "uid" : "6ece73a63dee1be7",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474086,
+              "stop" : 1621199474086,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "1", "[1, 2, 1, 2, 1]", "5" ]
+          }, {
+            "name" : "test_max_min[7-input_array4-990]",
+            "uid" : "f5086761d2d1333c",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474089,
+              "stop" : 1621199474089,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "990", "[10, 100, 300, 200, 1000, 20, 30]", "7" ]
+          }, {
+            "name" : "test_max_min[0-input_array5-0]",
+            "uid" : "14a44071886e7107",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474092,
+              "stop" : 1621199474092,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "0", "[]", "0" ]
+          }, {
+            "name" : "test_max_min[2-input_array6-10]",
+            "uid" : "cb66b194ddb8aeb3",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474095,
+              "stop" : 1621199474095,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "10", "[10, 100, 300, 200, 1000, 20, 30]", "2" ]
+          }, {
+            "name" : "test_max_min[2-input_array7-1]",
+            "uid" : "136a72e2281515d7",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474098,
+              "stop" : 1621199474098,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "1", "[1, 2, 3, 4, 10, 20, 30, 40, 100, 200]", "2" ]
+          }, {
+            "name" : "test_max_min[3-input_array8-2]",
+            "uid" : "d3839b05784cb84d",
+            "parentUid" : "a6889f84e50e114dba1f6b43d035bf55",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474100,
+              "stop" : 1621199474100,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "2", "[100, 200, 300, 350, 400, 401, 402]", "3" ]
+          } ],
+          "uid" : "MaxMin.test_max_min"
+        }, {
+          "name" : "MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array",
+          "children" : [ {
+            "name" : "test_minimum_absolute_difference_in_an_array[input_array0-3]",
+            "uid" : "4ec3903efa66c4a0",
+            "parentUid" : "5b3eb21c2340bbed4c9ca25846adf249",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474103,
+              "stop" : 1621199474104,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[3, -7, 0]" ]
+          }, {
+            "name" : "test_minimum_absolute_difference_in_an_array[input_array1-1]",
+            "uid" : "d1fc1ebc73ec50fd",
+            "parentUid" : "5b3eb21c2340bbed4c9ca25846adf249",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474107,
+              "stop" : 1621199474107,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "1", "[-59, -36, -13, 1, -53, -92, -2, -96, -54, 75]" ]
+          }, {
+            "name" : "test_minimum_absolute_difference_in_an_array[input_array2-3]",
+            "uid" : "d36062657b7c15d8",
+            "parentUid" : "5b3eb21c2340bbed4c9ca25846adf249",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474109,
+              "stop" : 1621199474109,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "3", "[1, -3, 71, 68, 17]" ]
+          } ],
+          "uid" : "MinimumAbsoluteDifferenceInAnArray.test_minimum_absolute_difference_in_an_array"
+        } ],
+        "uid" : "4fbc4933cb6e0dc9a6c4baa4f9c5a942"
+      } ],
+      "uid" : "bbdb7b989c11ecf41c603b1b2af9b147"
+    }, {
+      "name" : "training01",
+      "children" : [ {
+        "name" : "data_structures.arrays",
+        "children" : [ {
+          "name" : "a01_arrays_ds.test_reverse_array",
+          "children" : [ {
+            "name" : "test_reverse_array",
+            "uid" : "67dbf46d513bed0a",
+            "parentUid" : "d10345c590d1732193cca5da0108d7be",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474112,
+              "stop" : 1621199474112,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          }, {
+            "name" : "test_reverse_array",
+            "uid" : "fb2abf11610d467",
+            "parentUid" : "d10345c590d1732193cca5da0108d7be",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474114,
+              "stop" : 1621199474114,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "a01_arrays_ds.test_reverse_array"
+        }, {
+          "name" : "a02_2d_array_ds.test_hourglass_sum",
+          "children" : [ {
+            "name" : "test_calculate_hourglass_sum",
+            "uid" : "5b682cb80217d15a",
+            "parentUid" : "7958f0f61d465128d1f17bd8d078b7ec",
+            "status" : "passed",
+            "time" : {
+              "start" : 1621199474116,
+              "stop" : 1621199474117,
+              "duration" : 1
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "a02_2d_array_ds.test_hourglass_sum"
+        } ],
+        "uid" : "data_structures.arrays"
+      }, {
+        "name" : "ex001.test_ex001",
+        "children" : [ {
+          "name" : "test_ex001",
+          "uid" : "5670657b343819cf",
+          "parentUid" : "c48e3385c2454a0e4ac311b232b89d6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199474119,
+            "stop" : 1621199474120,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ex001.test_ex001"
+      } ],
+      "uid" : "59fadf59dd675813a03e307a5eb7fb82"
+    } ],
+    "uid" : "src.test.java"
+  }, {
+    "name" : "interview.greedy",
+    "children" : [ {
+      "name" : "MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest",
+      "children" : [ {
+        "name" : "ShouldFindMinimumDifference",
+        "uid" : "5c6a53a9e3df37bc",
+        "parentUid" : "e265a5813772ba732f67f1a8927a3e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199474882,
+          "stop" : 1621199474907,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "System.Int32[]", "3" ]
+      }, {
+        "name" : "ShouldFindMinimumDifference",
+        "uid" : "7babc9dc726e0ca4",
+        "parentUid" : "e265a5813772ba732f67f1a8927a3e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199474942,
+          "stop" : 1621199474943,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "System.Int32[]", "1" ]
+      }, {
+        "name" : "ShouldFindMinimumDifference",
+        "uid" : "7a1051476855cbc5",
+        "parentUid" : "e265a5813772ba732f67f1a8927a3e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199474943,
+          "stop" : 1621199474943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "System.Int32[]", "3" ]
+      } ],
+      "uid" : "MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+    }, {
+      "name" : "GreedyFlorist",
+      "children" : [ {
+        "name" : "GreedyFloristTest",
+        "children" : [ {
+          "name" : "shouldCalculateCost",
+          "uid" : "4cdd0d629e67865e",
+          "parentUid" : "6c28d2d1cf2a62ce0428229eb79ab177",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199673709,
+            "stop" : 1621199673794,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCost",
+          "uid" : "3a8b0645ac775956",
+          "parentUid" : "6c28d2d1cf2a62ce0428229eb79ab177",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199673710,
+            "stop" : 1621199673787,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCost",
+          "uid" : "5a1e139accc7c94e",
+          "parentUid" : "6c28d2d1cf2a62ce0428229eb79ab177",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674018,
+            "stop" : 1621199674025,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCost",
+          "uid" : "fb72f9457689b4e1",
+          "parentUid" : "6c28d2d1cf2a62ce0428229eb79ab177",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674028,
+            "stop" : 1621199674044,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCost",
+          "uid" : "2d4a6eecc83209fb",
+          "parentUid" : "6c28d2d1cf2a62ce0428229eb79ab177",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674031,
+            "stop" : 1621199674033,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6c28d2d1cf2a62ce0428229eb79ab177"
+      }, {
+        "name" : "GreedyFloristScalaTest",
+        "children" : [ {
+          "name" : "shouldCalculateCostScala",
+          "uid" : "1c64491da76fe7c8",
+          "parentUid" : "af3d5ee6f8bce7e51fecb10cd019a149",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674379,
+            "stop" : 1621199675187,
+            "duration" : 808
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostScala",
+          "uid" : "930e361f5524c0fe",
+          "parentUid" : "af3d5ee6f8bce7e51fecb10cd019a149",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199675000,
+            "stop" : 1621199675194,
+            "duration" : 194
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostScala",
+          "uid" : "d1ae969d84f9306f",
+          "parentUid" : "af3d5ee6f8bce7e51fecb10cd019a149",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199675198,
+            "stop" : 1621199675204,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostScala",
+          "uid" : "301e73d87ed5746a",
+          "parentUid" : "af3d5ee6f8bce7e51fecb10cd019a149",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199675199,
+            "stop" : 1621199675218,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostScala",
+          "uid" : "6d64e61b98592901",
+          "parentUid" : "af3d5ee6f8bce7e51fecb10cd019a149",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199675206,
+            "stop" : 1621199675215,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af3d5ee6f8bce7e51fecb10cd019a149"
+      }, {
+        "name" : "GreedyFloristKtTest",
+        "children" : [ {
+          "name" : "shouldCalculateCostKt",
+          "uid" : "2096739f5b0b5509",
+          "parentUid" : "6408b4f6c4831490822059e97732cf74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674379,
+            "stop" : 1621199674659,
+            "duration" : 280
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostKt",
+          "uid" : "784b127837b02678",
+          "parentUid" : "6408b4f6c4831490822059e97732cf74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674938,
+            "stop" : 1621199674947,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostKt",
+          "uid" : "223121357d1cfec6",
+          "parentUid" : "6408b4f6c4831490822059e97732cf74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674976,
+            "stop" : 1621199674978,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostKt",
+          "uid" : "440449c512af92e7",
+          "parentUid" : "6408b4f6c4831490822059e97732cf74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674983,
+            "stop" : 1621199674988,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldCalculateCostKt",
+          "uid" : "41b1405ef54015ec",
+          "parentUid" : "6408b4f6c4831490822059e97732cf74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621199674991,
+            "stop" : 1621199674992,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6408b4f6c4831490822059e97732cf74"
+      } ],
+      "uid" : "4e49d16d7db7ecde2e7a377e75989915"
+    } ],
+    "uid" : "interview.greedy"
+  } ],
+  "name" : "packages"
+}

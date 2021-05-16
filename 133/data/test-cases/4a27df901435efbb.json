@@ -1,0 +1,84 @@
+{
+  "uid" : "4a27df901435efbb",
+  "name" : "ShouldFindMinimumDifference([-59, -36, -13, 1, -53, ...],1)",
+  "fullName" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([-59, -36, -13, 1, -53, ...],1)",
+  "historyId" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([-59, -36, -13, 1, -53, ...],1)",
+  "time" : {
+    "start" : 1621199474942,
+    "stop" : 1621199474943,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldFindMinimumDifference([-59, -36, -13, 1, -53, ...],1)",
+      "time" : {
+        "start" : 1621199474942,
+        "stop" : 1621199474943,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28ff6b8c96f2b518",
+        "name" : "Console Output",
+        "source" : "28ff6b8c96f2b518.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az231-464"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldFindMinimumDifference"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #1",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a27df901435efbb.json",
+  "parameterValues" : [ "System.Int32[]", "1" ]
+}
