@@ -1,13 +1,14 @@
 package interview.greedy.GreedyFlorist;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.of;
+
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-
+import org.junit.jupiter.params.provider.ValueSource;
 import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.params.provider.Arguments.of;
+import java.util.Arrays;
 
 class GreedyFloristTest {
     @ParameterizedTest
@@ -15,6 +16,18 @@ class GreedyFloristTest {
     void shouldCalculateCost(int k, int[] c, int expectedResult) {
         var cut = new GreedyFlorist();
         assertEquals(expectedResult, cut.getMinimumCost(k, c));
+    }
+
+    String solve(String inputString) {
+        final var preliminary = Arrays.stream(inputString.split("[\\s\\n]")).map(item -> new StringBuilder(item).reverse().toString());
+        return preliminary.reduce("", (acc, item) -> acc + " " + item).substring(1);
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"cba fed khg"})
+    void shouldReverse(String expectedResult) {
+        final var inputString = "abc def ghk";
+        assertEquals(expectedResult, solve(inputString));
     }
 
     static Stream<Arguments> getInputData() {
