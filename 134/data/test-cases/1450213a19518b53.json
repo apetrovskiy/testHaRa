@@ -1,0 +1,131 @@
+{
+  "uid" : "1450213a19518b53",
+  "name" : "[4] k=3, c=[390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], expectedResult=163578911",
+  "fullName" : "interview.greedy.GreedyFlorist.GreedyFloristScalaTest.shouldCalculateCostScala",
+  "historyId" : "561117528a35583d2c3cdbe15307abba",
+  "time" : {
+    "start" : 1621442907741,
+    "stop" : 1621442907745,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az231-464"
+  }, {
+    "name" : "thread",
+    "value" : "3214@fv-az231-464.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristScalaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristScalaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateCostScala"
+  }, {
+    "name" : "suite",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristScalaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "6d64e61b98592901",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/133//#testresult/6d64e61b98592901",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199675206,
+          "stop" : 1621199675215,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "783043341938354d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/132//#testresult/783043341938354d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621004337975,
+          "stop" : 1621004337978,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "4d52b30e551083f8",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/131//#testresult/4d52b30e551083f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621000108214,
+          "stop" : 1621000108215,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1248802b2e70f8fe",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/126//#testresult/1248802b2e70f8fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620986152344,
+          "stop" : 1620986152351,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "53645dea6360e5c7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/125//#testresult/53645dea6360e5c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620980237230,
+          "stop" : 1620980237232,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c1c3e638ee3e1210",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/124//#testresult/c1c3e638ee3e1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620978884053,
+          "stop" : 1620978884054,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "86a0b198cd31c9f7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/123//#testresult/86a0b198cd31c9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620978400907,
+          "stop" : 1620978400913,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1450213a19518b53.json",
+  "parameterValues" : [ ]
+}

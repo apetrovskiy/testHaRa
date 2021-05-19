@@ -1,0 +1,57 @@
+{
+  "uid" : "e2cc0f7d38deb5e2",
+  "name" : "[1] cba fed khg",
+  "fullName" : "interview.greedy.GreedyFlorist.GreedyFloristTest.shouldReverse",
+  "historyId" : "490c5fcec447b3cc74dea9478ce8e2cf",
+  "time" : {
+    "start" : 1621442906848,
+    "stop" : 1621442906994,
+    "duration" : 146
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az231-464"
+  }, {
+    "name" : "thread",
+    "value" : "3218@fv-az231-464.ForkJoinPool-1-worker-1(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldReverse"
+  }, {
+    "name" : "suite",
+    "value" : "interview.greedy.GreedyFlorist.GreedyFloristTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2cc0f7d38deb5e2.json",
+  "parameterValues" : [ ]
+}

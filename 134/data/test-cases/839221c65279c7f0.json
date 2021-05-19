@@ -1,0 +1,104 @@
+{
+  "uid" : "839221c65279c7f0",
+  "name" : "ShouldFindMinimumDifference([3, -7, 0],3)",
+  "fullName" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([3, -7, 0],3)",
+  "historyId" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([3, -7, 0],3)",
+  "time" : {
+    "start" : 1621442653835,
+    "stop" : 1621442653859,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldFindMinimumDifference([3, -7, 0],3)",
+      "time" : {
+        "start" : 1621442653836,
+        "stop" : 1621442653854,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7653c09e2e7667bf",
+        "name" : "Console Output",
+        "source" : "7653c09e2e7667bf.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-422"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldFindMinimumDifference"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #1",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5c6a53a9e3df37bc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/133//#testresult/5c6a53a9e3df37bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199474882,
+          "stop" : 1621199474907,
+          "duration" : 25
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "839221c65279c7f0.json",
+  "parameterValues" : [ "System.Int32[]", "3" ]
+}
