@@ -31,7 +31,11 @@ function getMinimumCost(k, c) {
     for (let i = 0; i < k; i++) {
         buyers.push([]);
     }
+    c.sort(function(a, b) {
+        return a - b;
+    });
     c.reverse();
+    console.log(`reversed = ${c}`);
     for (let i = 0; i < c.length; i += k) {
         for (let j = 0; j < k; j++) {
             if (i + j < c.length) {
