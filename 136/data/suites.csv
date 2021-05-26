@@ -1,0 +1,123 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","3","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","shouldCalculateCostScala","[4] k=3, c=[390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], expectedResult=163578911",""
+"passed","Wed May 26 14:49:36 GMT 2021","Wed May 26 14:49:37 GMT 2021","971","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","shouldCalculateCostScala","[1] k=3, c=[2, 5, 6], expectedResult=13",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.training01.data_structures.arrays.a02_2d_array_ds","test_hourglass_sum","Array2dTest","","","test_calculate_hourglass_sum",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.GreedyFlorist","test_greedy_florist","","","","test_greedy_florist[3-input_array3-163578911]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.training01.data_structures.arrays.a01_arrays_ds","test_reverse_array","","","","test_reverse_array",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray","test_minimum_absolute_difference_in_an_array","","","","test_minimum_absolute_difference_in_an_array[input_array0-3]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.arrays.minimum_swaps_2","test_minimum_swaps_2","","","","test_minimum_swaps_2[input_array1-3]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.GreedyFlorist","test_greedy_florist","","","","test_greedy_florist[2-input_array1-15]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[2-contests2-25]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.arrays.minimum_swaps_2","test_minimum_swaps_2","","","","test_minimum_swaps_2[input_array2-3]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","6","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldCalculateCost","[5] 34, [433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], 30352414",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","1","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldCalculateCost","[4] 3, [390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], 163578911",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[4-input_array1-3]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[3-contests5-733]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.arrays.new_year_chaos","test_new_year_chaos","","","","test_new_year_chaos[input_array0-3]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[2-input_array2-0]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","1","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldCalculateCost","[1] 3, [2, 5, 6], 13",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.arrays.new_year_chaos","test_new_year_chaos","","","","test_new_year_chaos[input_array1-Too chaotic]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[3-input_array8-2]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.greedy.GreedyFlorist","test_greedy_florist","","","","test_greedy_florist[3-input_array0-13]",""
+"passed","Wed May 26 14:49:36 GMT 2021","Wed May 26 14:49:37 GMT 2021","976","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","shouldCalculateCostScala","[3] k=3, c=[1, 3, 5, 7, 9], expectedResult=29",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[5-input_array3-1]",""
+"passed","Wed May 26 14:49:36 GMT 2021","Wed May 26 14:49:37 GMT 2021","799","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","shouldCalculateCostKt","[3] 3, [1, 3, 5, 7, 9], 29",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.arrays.left_rotation","test_left_rotation","","","","test_left_rotation[input_array0-4-expected_result0]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray","test_minimum_absolute_difference_in_an_array","","","","test_minimum_absolute_difference_in_an_array[input_array2-3]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.dynamic_programming.MaxArraySum","test_max_array_sum","","","","test_max_array_sum[input_array1-11]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.dynamic_programming.MaxArraySum","test_max_array_sum","","","","test_max_array_sum[input_array0-13]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[0-input_array5-0]",""
+"passed","Wed May 26 14:49:36 GMT 2021","Wed May 26 14:49:36 GMT 2021","169","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldCalculateCost","[2] 2, [2, 5, 6], 15",""
+"passed","Wed May 26 14:46:21 GMT 2021","Wed May 26 14:46:22 GMT 2021","2","","getMinimumCost(3, [ 1, 3, 5, 7, 9, [length]: 5 ]) should equal 29","","getMinimumCost(3, [ 1, 3, 5, 7, 9, [length]: 5 ]) should equal 29","people = 3, cost = 1,3,5,7,9, returns 29","people = 3, cost = 1,3,5,7,9, returns 29",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[2-input_array7-1]",""
+"passed","Wed May 26 14:46:21 GMT 2021","Wed May 26 14:46:21 GMT 2021","3","","getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15","","getMinimumCost(2, [ 2, 5, 6, [length]: 3 ]) should equal 15","people = 2, cost = 2,5,6, returns 15","people = 2, cost = 2,5,6, returns 15",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.training01.ex001","test_ex001","","","","test_ex001",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[4-contests1-31]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","1","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","shouldCalculateCostKt","[4] 3, [390225, 426456, 688267, 800389, 990107, 439248, 240638, 15991, 874479, 568754, 729927, 980985, 132244, 488186, 5037, 721765, 251885, 28458, 23710, 281490, 30935, 897665, 768945, 337228, 533277, 959855, 927447, 941485, 24242, 684459, 312855, 716170, 512600, 608266, 779912, 950103, 211756, 665028, 642996, 262173, 789020, 932421, 390745, 433434, 350262, 463568, 668809, 305781, 815771, 550800], 163578911",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[1-contests3-15]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.arrays.new_year_chaos","test_new_year_chaos","","","","test_new_year_chaos[input_array2-Too chaotic]",""
+"passed","Wed May 26 14:46:40 GMT 2021","Wed May 26 14:46:40 GMT 2021","0","","","","interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest","ShouldFindMinimumDifference","ShouldFindMinimumDifference([1, -3, 71, 68, 17],3)",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","5","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","shouldCalculateCostKt","[2] 2, [2, 5, 6], 15",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[2-input_array6-10]",""
+"passed","Wed May 26 14:46:40 GMT 2021","Wed May 26 14:46:40 GMT 2021","1","","","","interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest","ShouldFindMinimumDifference","ShouldFindMinimumDifference([-59, -36, -13, 1, -53, ...],1)",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[7-input_array4-990]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.arrays.new_year_chaos","test_new_year_chaos","","","","test_new_year_chaos[input_array3-7]",""
+"passed","Wed May 26 14:46:40 GMT 2021","Wed May 26 14:46:40 GMT 2021","27","","","","interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest","ShouldFindMinimumDifference","ShouldFindMinimumDifference([3, -7, 0],3)",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.MaxMin","test_max_min","","","","test_max_min[3-input_array0-20]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.arrays.new_year_chaos","test_new_year_chaos","","","","test_new_year_chaos[input_array4-4]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[3-contests0-29]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[58-contests6-10069]",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.arrays.minimum_swaps_2","test_minimum_swaps_2","","","","test_minimum_swaps_2[input_array0-3]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.training01.data_structures.arrays.a01_arrays_ds","test_reverse_array","ArraysDsTest","","","test_reverse_array",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.GreedyFlorist","test_greedy_florist","","","","test_greedy_florist[34-input_array4-30352414]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","3","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","shouldCalculateCostKt","[1] 3, [2, 5, 6], 13",""
+"passed","Wed May 26 14:46:22 GMT 2021","Wed May 26 14:46:22 GMT 2021","3","","getMinimumCost(3, [
+      390225, 426456, 688267,       800389,
+      990107, 439248, 240638,       15991,
+      874479, 568754, 729927,       980985,
+      132244, 488186, 5037,         721765,
+      251885, 28458,  23710,        281490,
+      30935,  897665, 768945,       337228,
+      533277, 959855, 927447,       941485,
+      24242,  684459, 312855,       716170,
+      512600, 608266, 779912,       950103,
+      211756, 665028, 642996,       262173,
+      789020, 932421, 390745,       433434,
+      350262, 463568, 668809,       305781,
+      815771, 550800, [length]: 50
+    ]) should equal 163578911","","getMinimumCost(3, [
+      390225, 426456, 688267,       800389,
+      990107, 439248, 240638,       15991,
+      874479, 568754, 729927,       980985,
+      132244, 488186, 5037,         721765,
+      251885, 28458,  23710,        281490,
+      30935,  897665, 768945,       337228,
+      533277, 959855, 927447,       941485,
+      24242,  684459, 312855,       716170,
+      512600, 608266, 779912,       950103,
+      211756, 665028, 642996,       262173,
+      789020, 932421, 390745,       433434,
+      350262, 463568, 668809,       305781,
+      815771, 550800, [length]: 50
+    ]) should equal 163578911","people = 3, cost = 390225,426456,688267,800389,990107,439248,240638,15991,874479,568754,729927,980985,132244,488186,5037,721765,251885,28458,23710,281490,30935,897665,768945,337228,533277,959855,927447,941485,24242,684459,312855,716170,512600,608266,779912,950103,211756,665028,642996,262173,789020,932421,390745,433434,350262,463568,668809,305781,815771,550800, returns 163578911","people = 3, cost = 390225,426456,688267,800389,990107,439248,240638,15991,874479,568754,729927,980985,132244,488186,5037,721765,251885,28458,23710,281490,30935,897665,768945,337228,533277,959855,927447,941485,24242,684459,312855,716170,512600,608266,779912,950103,211756,665028,642996,262173,789020,932421,390745,433434,350262,463568,668809,305781,815771,550800, returns 163578911",""
+"passed","Wed May 26 14:46:21 GMT 2021","Wed May 26 14:46:21 GMT 2021","24","","getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13","","getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13","people = 3, cost = 2,5,6, returns 13","people = 3, cost = 2,5,6, returns 13",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.GreedyFlorist","test_greedy_florist","","","","test_greedy_florist[3-input_array2-29]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","14","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldCalculateCost","[3] 3, [1, 3, 5, 7, 9], 29",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","11","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","shouldCalculateCostScala","[5] k=34, c=[433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], expectedResult=30352414",""
+"failed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.dynamic_programming.MaxArraySum","test_max_array_sum","","","","test_max_array_sum[input_array2-15]",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","1","src.test.java.interview.greedy.MinimumAbsoluteDifferenceInAnArray","test_minimum_absolute_difference_in_an_array","","","","test_minimum_absolute_difference_in_an_array[input_array1-1]",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","20","","interview.greedy.GreedyFlorist.GreedyFloristTest","","interview.greedy.GreedyFlorist.GreedyFloristTest","shouldReverse","[1] cba fed khg",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","1","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","","interview.greedy.GreedyFlorist.GreedyFloristScalaTest","shouldCalculateCostScala","[2] k=2, c=[2, 5, 6], expectedResult=15",""
+"passed","Wed May 26 14:46:19 GMT 2021","Wed May 26 14:46:19 GMT 2021","0","src.test.java.interview.greedy.LuckBalance","test_luck_balance","","","","test_luck_balance[0-contests4--1]",""
+"passed","Wed May 26 14:46:22 GMT 2021","Wed May 26 14:46:22 GMT 2021","2","","getMinimumCost(34, [
+      433515, 22221,  540709, 538312,
+      496949, 902471, 439983, 159332,
+      417327, 399306, 817804, 354682,
+      108825, 970689, 868286, 235070,
+      18732,  848955, 994152, 741000,
+      722232, 564879, 503093, 734475,
+      174795, 129065, 483929, 683440,
+      37645,  670198, 911023, 40334,
+      329513, 669160, 180034, 285512,
+      401190, 629798, 857703, 765572,
+      174164, 849299, 159367, 62467,
+      84449,  523962, 735995, 245666,
+      832139, 879827, 749840, 315756,
+      253168, 659252, 187178, [length]: 55
+    ]) should equal 30352414","","getMinimumCost(34, [
+      433515, 22221,  540709, 538312,
+      496949, 902471, 439983, 159332,
+      417327, 399306, 817804, 354682,
+      108825, 970689, 868286, 235070,
+      18732,  848955, 994152, 741000,
+      722232, 564879, 503093, 734475,
+      174795, 129065, 483929, 683440,
+      37645,  670198, 911023, 40334,
+      329513, 669160, 180034, 285512,
+      401190, 629798, 857703, 765572,
+      174164, 849299, 159367, 62467,
+      84449,  523962, 735995, 245666,
+      832139, 879827, 749840, 315756,
+      253168, 659252, 187178, [length]: 55
+    ]) should equal 30352414","people = 34, cost = 433515,22221,540709,538312,496949,902471,439983,159332,417327,399306,817804,354682,108825,970689,868286,235070,18732,848955,994152,741000,722232,564879,503093,734475,174795,129065,483929,683440,37645,670198,911023,40334,329513,669160,180034,285512,401190,629798,857703,765572,174164,849299,159367,62467,84449,523962,735995,245666,832139,879827,749840,315756,253168,659252,187178, returns 30352414","people = 34, cost = 433515,22221,540709,538312,496949,902471,439983,159332,417327,399306,817804,354682,108825,970689,868286,235070,18732,848955,994152,741000,722232,564879,503093,734475,174795,129065,483929,683440,37645,670198,911023,40334,329513,669160,180034,285512,401190,629798,857703,765572,174164,849299,159367,62467,84449,523962,735995,245666,832139,879827,749840,315756,253168,659252,187178, returns 30352414",""
+"passed","Wed May 26 14:49:37 GMT 2021","Wed May 26 14:49:37 GMT 2021","8","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","","interview.greedy.GreedyFlorist.GreedyFloristKtTest","shouldCalculateCostKt","[5] 34, [433515, 22221, 540709, 538312, 496949, 902471, 439983, 159332, 417327, 399306, 817804, 354682, 108825, 970689, 868286, 235070, 18732, 848955, 994152, 741000, 722232, 564879, 503093, 734475, 174795, 129065, 483929, 683440, 37645, 670198, 911023, 40334, 329513, 669160, 180034, 285512, 401190, 629798, 857703, 765572, 174164, 849299, 159367, 62467, 84449, 523962, 735995, 245666, 832139, 879827, 749840, 315756, 253168, 659252, 187178], 30352414",""

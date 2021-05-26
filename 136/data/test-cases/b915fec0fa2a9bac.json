@@ -1,0 +1,122 @@
+{
+  "uid" : "b915fec0fa2a9bac",
+  "name" : "ShouldFindMinimumDifference([3, -7, 0],3)",
+  "fullName" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([3, -7, 0],3)",
+  "historyId" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest.ShouldFindMinimumDifference([3, -7, 0],3)",
+  "time" : {
+    "start" : 1622040400314,
+    "stop" : 1622040400341,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldFindMinimumDifference([3, -7, 0],3)",
+      "time" : {
+        "start" : 1622040400314,
+        "stop" : 1622040400336,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c63c28a59da2b75",
+        "name" : "Console Output",
+        "source" : "6c63c28a59da2b75.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-558"
+  }, {
+    "name" : "testClass",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldFindMinimumDifference"
+  }, {
+    "name" : "package",
+    "value" : "interview.greedy.MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifferenceInAnArrayTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #1",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "58946daac306bc57",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/135//#testresult/58946daac306bc57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622015334837,
+          "stop" : 1622015334859,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "8a5cb1827c673b18",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/134//#testresult/8a5cb1827c673b18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621442653835,
+          "stop" : 1621442653859,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "5c6a53a9e3df37bc",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/133//#testresult/5c6a53a9e3df37bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621199474882,
+          "stop" : 1621199474907,
+          "duration" : 25
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b915fec0fa2a9bac.json",
+  "parameterValues" : [ "System.Int32[]", "3" ]
+}
