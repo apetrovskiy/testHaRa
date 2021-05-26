@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <29> but was: <9>",
+      "children" : [ {
+        "name" : "[3] 3, [1, 3, 5, 7, 9], 29",
+        "uid" : "832901a7d9d0f970",
+        "parentUid" : "ef83714d2dbbb05e60976f47d70f93dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622054426856,
+          "stop" : 1622054427033,
+          "duration" : 177
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef83714d2dbbb05e60976f47d70f93dc"
+    }, {
+      "name" : "expected: <15> but was: <7>",
+      "children" : [ {
+        "name" : "[2] 2, [2, 5, 6], 15",
+        "uid" : "e54a6d10e1c79e21",
+        "parentUid" : "a6b01c3c9a081f31e45c6ec1bd7b3337",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622054427229,
+          "stop" : 1622054427239,
+          "duration" : 10
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b01c3c9a081f31e45c6ec1bd7b3337"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not find method [getInputData] in class [interview.greedy.GreedyFloristKtTest]",
+      "children" : [ {
+        "name" : "shouldCalculateCostKt(int, Integer[], int)",
+        "uid" : "3b148e9fb4d42683",
+        "parentUid" : "a455b3d5446b168a776c202b9943eaf2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622054426858,
+          "stop" : 1622054426859,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a455b3d5446b168a776c202b9943eaf2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
