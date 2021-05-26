@@ -13,6 +13,8 @@ class SetSuite extends AnyFunSuite {
   }
 
   test("Should reverse an array") {
-      assert(Array(3,2,1).sameElements(Solution0001.reverseArray(Array(1,2,3))))
+    assert(
+      Array(3, 2, 1).sameElements(Solution0001.reverseArray(Array(1, 2, 3)))
+    )
   }
 }
