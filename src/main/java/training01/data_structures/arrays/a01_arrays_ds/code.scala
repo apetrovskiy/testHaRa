@@ -10,24 +10,24 @@ import java.util.stream._
 
 object Solution0001 {
 
-    // Complete the reverseArray function below.
-    def reverseArray(a: Array[Int]): Array[Int] = {
+  // Complete the reverseArray function below.
+  def reverseArray(a: Array[Int]): Array[Int] = {
 
-        a.reverse
-    }
+    a.reverse
+  }
 
-    def main(args: Array[String]) {
-        val stdin = scala.io.StdIn
+  def main(args: Array[String]) {
+    val stdin = scala.io.StdIn
 
-        val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
+    val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
 
-        val arrCount = stdin.readLine.trim.toInt
+    val arrCount = stdin.readLine.trim.toInt
 
-        val arr = stdin.readLine.split(" ").map(_.trim.toInt)
-        val res = reverseArray(arr)
+    val arr = stdin.readLine.split(" ").map(_.trim.toInt)
+    val res = reverseArray(arr)
 
-        printWriter.println(res.mkString(" "))
+    printWriter.println(res.mkString(" "))
 
-        printWriter.close()
-    }
+    printWriter.close()
+  }
 }
