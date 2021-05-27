@@ -1,0 +1,62 @@
+{
+  "uid" : "d189315b230926e1",
+  "name" : "test_beautiful_pairs[a1-b1-6]",
+  "fullName" : "src.test.java.problem_solving.algorithms.greedy.BeautifulPairs.test_beautiful_pairs#test_beautiful_pairs",
+  "historyId" : "3063b2dfa27cb2e11cf871b0d06a5d23",
+  "time" : {
+    "start" : 1622134718800,
+    "stop" : 1622134718800,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problem_solving.algorithms.greedy.BeautifulPairs"
+  }, {
+    "name" : "suite",
+    "value" : "test_beautiful_pairs"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-774"
+  }, {
+    "name" : "thread",
+    "value" : "1790-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problem_solving.algorithms.greedy.BeautifulPairs.test_beautiful_pairs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "[3, 5, 7, 11, 5, 8]"
+  }, {
+    "name" : "b",
+    "value" : "[5, 7, 11, 10, 5, 8]"
+  }, {
+    "name" : "expected_result",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d189315b230926e1.json",
+  "parameterValues" : [ "[3, 5, 7, 11, 5, 8]", "[5, 7, 11, 10, 5, 8]", "6" ]
+}
