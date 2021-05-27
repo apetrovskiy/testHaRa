@@ -53,5 +53,41 @@
 		"rubyTestExplorer.rspecDirectory": "./src/test/java/",
 		"dart.allowTestsOutsideTestFolder": true,
 		"activestate.promptRuntimeCreation": false
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "aws-sam",
+				"request": "direct-invoke",
+				"name": "testHaRa:src/main/java/problem_solving/algorithms/greedy/BeautifulPairs/beautiful_pairs.beautifulPairs (python3.8)",
+				"invokeTarget": {
+					"target": "code",
+					"projectRoot": "${workspaceFolder}/",
+					"lambdaHandler": "src/main/java/problem_solving/algorithms/greedy/BeautifulPairs/beautiful_pairs.beautifulPairs"
+				},
+				"lambda": {
+					"runtime": "python3.8",
+					"payload": {},
+					"environmentVariables": {}
+				}
+			},
+			{
+				"name": ".NET Core Launch (console)",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "build",
+				"program": "${workspaceFolder}/src/test/bin/Debug/net5.0/test.dll",
+				"args": [],
+				"cwd": "${workspaceFolder}/src/test",
+				"console": "internalConsole",
+				"stopAtEntry": false
+			},
+			{
+				"name": ".NET Core Attach",
+				"type": "coreclr",
+				"request": "attach",
+				"processId": "${command:pickProcess}"
+			}
+		]
 	}
 }
