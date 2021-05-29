@@ -19,7 +19,8 @@ import sys
 def beautifulPairs(A, B):
     # Write your code here
     n = len(A)
-    result_hash = []
+    result_list = []
+    candidates = []
     result = 0
     a = {}
     b = {}
@@ -35,10 +36,14 @@ def beautifulPairs(A, B):
         b_item = b[j][1]
         if a_item < b_item:
             i += 1
+            if a_item + 1 == b_item:
+                candidates.append([i, j])
         elif a_item > b_item:
             j += 1
+            if a_item == b_item+1:
+                candidates.append([i, j])
         else:
-            result_hash.append([i, j])
+            result_list.append([i, j])
             result += 1
             if i+1 < n and a_item == a[i+1][1]:
                 i += 1
@@ -47,6 +52,7 @@ def beautifulPairs(A, B):
             else:
                 i += 1
                 j += 1
+    print(candidates)
     return result
 
 
