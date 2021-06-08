@@ -13,7 +13,7 @@ fun getMinimumCost(k: Int, c: Array<Int>): Int {
     for (i in 0..c.size step k) {
         (0..k).forEach { j ->
             if (i + j < k)
-                buyers[i].add(c[i + j])
+                buyers[i].add(c[i + j] * (1 + j))
         }
     }
     result = buyers.map { item -> item.sum() }.sum()

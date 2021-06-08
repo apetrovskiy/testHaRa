@@ -20,17 +20,38 @@ public class GreedyFlorist {
         IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<>()));
         Arrays.sort(c);
         Collections.reverse(Collections.singletonList(c));
+        Arrays.stream(c).forEach(item -> System.out.println(item));
         for (var i = 0; i < c.length; i += k) {
             int finalI = i;
-            IntStream.range(0,k).forEach(j -> {
+            IntStream.rangeClosed(0,k).forEach(j -> {
                 if (finalI + j < k) {
-                    buyers.get(j).add(c[finalI + j]);
+                    buyers.get(j).add(c[finalI + j] * (1+j));
                 }
             });
         }
+        System.out.println("=================");
+        buyers.stream().forEach(item -> {
+            var sum = item.stream().mapToInt(Integer::intValue).sum();
+            System.out.println(sum);
+        });
         result = buyers.stream().mapToInt(item -> item.stream().mapToInt(Integer::intValue).sum()).sum();
         return result;
     }
+    /*
+    result = 0
+    buyers = []
+    for i in range(k):
+        buyers.append([])
+    c.sort(reverse=True)
+    for i in range(0, len(c), k):
+        for j in range(k):
+            if i+j < len(c):
+                buyers[j].append(c[i+j])
+    for i in range(k):
+        for j in range(len(buyers[i])):
+            result += buyers[i][j] * (1+j)
+    return result
+    */
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -63,4 +84,3 @@ public class GreedyFlorist {
         scanner.close();
     }
 }
-
