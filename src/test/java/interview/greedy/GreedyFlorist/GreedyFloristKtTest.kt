@@ -10,12 +10,11 @@ import org.junit.jupiter.params.provider.MethodSource
 class GreedyFloristKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
-    fun shouldCalculateCostKt(k: java.lang.Integer, c: Array<Int>, expectedResult: java.lang.Integer) {
-        assertEquals(expectedResult, getMinimumCost(k.toInt(), c))
+    fun shouldCalculateCostKt(k: Int, c: Array<Int>, expectedResult: Int) {
+        assertEquals(expectedResult, getMinimumCost(k, c))
     }
 
     companion object {
-        @JvmStatic
         fun getInputData(): java.util.stream.Stream<Arguments> {
             return java.util.stream.Stream.of(
                 of(3, intArrayOf(2, 5, 6), 13),
