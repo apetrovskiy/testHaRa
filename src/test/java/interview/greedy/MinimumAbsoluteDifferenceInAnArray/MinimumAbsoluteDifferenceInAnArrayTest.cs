@@ -2,6 +2,7 @@ namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
 {
     using NUnit.Framework;
 
+    [TestFixture]
     public class MinimumAbsoluteDifferenceInAnArrayTest
     {
         [TestCase(new int[] { 3, -7, 0 }, 3)]

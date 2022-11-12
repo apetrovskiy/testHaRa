@@ -2,6 +2,7 @@ namespace months_challenge.ex001
 {
     using NUnit.Framework;
 
+    [TestFixture]
     public class SolutionTest
     {
         [Test]
