@@ -1,47 +1,47 @@
 namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
 {
-    using System.CodeDom.Compiler;
-    using System.Collections.Generic;
-    using System.Collections;
-    using System.ComponentModel;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Globalization;
-    using System.IO;
-    using System.Linq;
-    using System.Reflection;
-    using System.Runtime.Serialization;
-    using System.Text.RegularExpressions;
-    using System.Text;
-    using System;
+	using System;
+	using System.CodeDom.Compiler;
+	using System.Collections;
+	using System.Collections.Generic;
+	using System.ComponentModel;
+	using System.Diagnostics.CodeAnalysis;
+	using System.Globalization;
+	using System.IO;
+	using System.Linq;
+	using System.Reflection;
+	using System.Runtime.Serialization;
+	using System.Text;
+	using System.Text.RegularExpressions;
 
-    public class Solution
-    {
+	public class Solution
+	{
 
-        // Complete the minimumAbsoluteDifference function below.
-        public static int minimumAbsoluteDifference(int[] arr)
-        {
-              Array.Sort(arr);
-            var differences = Enumerable.Range(0, arr.Length - 1)
-            .ToList()
-            .Select(index => Math.Abs(arr[index + 1] - arr[index]));
-            return differences.Min();
+		// Complete the minimumAbsoluteDifference function below.
+		public static int minimumAbsoluteDifference(int[] arr)
+		{
+			Array.Sort(arr);
+			var differences = Enumerable.Range(0, arr.Length - 1)
+			.ToList()
+			.Select(index => Math.Abs(arr[index + 1] - arr[index]));
+			return differences.Min();
 
-        }
+		}
 
-        static void Main(string[] args)
-        {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+		private static void Main(string[] args)
+		{
+			TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int n = Convert.ToInt32(Console.ReadLine());
+			var n = Convert.ToInt32(Console.ReadLine());
 
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
-            ;
-            int result = minimumAbsoluteDifference(arr);
+			var arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
+			;
+			var result = minimumAbsoluteDifference(arr);
 
-            textWriter.WriteLine(result);
+			textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
-        }
-    }
+			textWriter.Flush();
+			textWriter.Close();
+		}
+	}
 }

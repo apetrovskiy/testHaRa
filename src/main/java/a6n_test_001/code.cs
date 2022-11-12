@@ -1,26 +1,24 @@
+using System;
 using System.CodeDom.Compiler;
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Text.RegularExpressions;
 
-
-
-class Result
+internal class Result
 {
 
-    /*
+	/*
      * Complete the 'getUsernames' function below.
      *
      * The function is expected to return a STRING_ARRAY.
@@ -30,26 +28,23 @@ class Result
      * https://jsonmock.hackerrank.com/api/article_users?page=<pageNumber>
      */
 
-    public static List<string> getUsernames(int threshold)
-    {
-        return new List<string>();
-    }
+	public static List<string> getUsernames(int threshold) => new List<string>();
 
 }
 
-class Solution
+internal class Solution
 {
-    public static void Main(string[] args)
-    {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+	public static void Main(string[] args)
+	{
+		TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int threshold = Convert.ToInt32(Console.ReadLine().Trim());
+		var threshold = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<string> result = Result.getUsernames(threshold);
+		var result = Result.getUsernames(threshold);
 
-        textWriter.WriteLine(String.Join("\n", result));
+		textWriter.WriteLine(string.Join("\n", result));
 
-        textWriter.Flush();
-        textWriter.Close();
-    }
+		textWriter.Flush();
+		textWriter.Close();
+	}
 }
