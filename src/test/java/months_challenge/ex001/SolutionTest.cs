@@ -1,8 +1,10 @@
 namespace months_challenge.ex001
 {
+    using NUnit.Allure.Core;
     using NUnit.Framework;
 
     [TestFixture]
+    [AllureNUnit]
     public class SolutionTest
     {
         [Test]
