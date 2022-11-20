@@ -8,38 +8,38 @@ import java.util.*;
 @SuppressWarnings("PMD")
 public class Solution {
 
-  // Complete the minimumAbsoluteDifference function below.
-  static int minimumAbsoluteDifference(int[] arr) {
+    // Complete the minimumAbsoluteDifference function below.
+    static int minimumAbsoluteDifference(int[] arr) {
 
-    return 0;
-  }
-
-  private static final Scanner scanner = new Scanner(System.in);
-
-  public static void main(String[] args) throws IOException {
-    BufferedWriter bufferedWriter =
-        new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-    int n = scanner.nextInt();
-    scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
-    int[] arr = new int[n];
-
-    String[] arrItems = scanner.nextLine().split(" ");
-    scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
-    for (int i = 0; i < n; i++) {
-      int arrItem = Integer.parseInt(arrItems[i]);
-      arr[i] = arrItem;
+        return 0;
     }
 
-    int result = minimumAbsoluteDifference(arr);
+    private static final Scanner scanner = new Scanner(System.in);
 
-    bufferedWriter.write(String.valueOf(result));
-    bufferedWriter.newLine();
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter =
+                new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-    bufferedWriter.close();
+        int n = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-    scanner.close();
-  }
+        int[] arr = new int[n];
+
+        String[] arrItems = scanner.nextLine().split(" ");
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        for (int i = 0; i < n; i++) {
+            int arrItem = Integer.parseInt(arrItems[i]);
+            arr[i] = arrItem;
+        }
+
+        int result = minimumAbsoluteDifference(arr);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedWriter.close();
+
+        scanner.close();
+    }
 }
