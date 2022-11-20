@@ -17,25 +17,31 @@ public class GreedyFlorist {
     static int getMinimumCost(int k, int[] c) {
         var result = 0;
         List<List<Integer>> buyers = new ArrayList<>();
-        IntStream.range(0,k).forEach(i -> buyers.add(new ArrayList<>()));
+        IntStream.range(0, k).forEach(i -> buyers.add(new ArrayList<>()));
         Arrays.sort(c);
         Collections.reverse(Collections.singletonList(c));
         for (var i = 0; i < c.length; i += k) {
             int finalI = i;
-            IntStream.range(0,k).forEach(j -> {
-                if (finalI + j < k) {
-                    buyers.get(j).add(c[finalI + j]);
-                }
-            });
+            IntStream.range(0, k)
+                    .forEach(
+                            j -> {
+                                if (finalI + j < k) {
+                                    buyers.get(j).add(c[finalI + j]);
+                                }
+                            });
         }
-        result = buyers.stream().mapToInt(item -> item.stream().mapToInt(Integer::intValue).sum()).sum();
+        result =
+                buyers.stream()
+                        .mapToInt(item -> item.stream().mapToInt(Integer::intValue).sum())
+                        .sum();
         return result;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter =
+                new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] nk = scanner.nextLine().split(" ");
 
@@ -63,4 +69,3 @@ public class GreedyFlorist {
         scanner.close();
     }
 }
-

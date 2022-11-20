@@ -1,24 +1,24 @@
 namespace months_challenge.ex001
 {
 
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
+	using System;
+	using System.Collections.Generic;
+	using System.IO;
 
-    class Solution
-    {
-        static void Main(String[] args)
-        {
-            // Declare a variable named 'inputString' to hold our input.
-            String inputString;
+	internal class Solution
+	{
+		private static void Main(string[] args)
+		{
+			// Declare a variable named 'inputString' to hold our input.
+			string inputString;
 
-            // Read a full line of input from stdin (cin) and save it to our variable, input_string.
-            inputString = Console.ReadLine();
+			// Read a full line of input from stdin (cin) and save it to our variable, input_string.
+			inputString = Console.ReadLine();
 
-            // Print a string literal saying "Hello, World." to stdout using cout.
-            Console.WriteLine("Hello, World.");
-            Console.WriteLine(inputString);
-            // TODO: Write a line of code here that prints the contents of input_string to stdout.
-        }
-    }
+			// Print a string literal saying "Hello, World." to stdout using cout.
+			Console.WriteLine("Hello, World.");
+			Console.WriteLine(inputString);
+			// TODO: Write a line of code here that prints the contents of input_string to stdout.
+		}
+	}
 }

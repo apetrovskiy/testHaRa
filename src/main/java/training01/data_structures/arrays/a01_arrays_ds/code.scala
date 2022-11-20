@@ -16,7 +16,7 @@ object Solution0001 {
     a.reverse
   }
 
-  def main(args: Array[String]) {
+  def main(args: Array[String]) = {
     val stdin = scala.io.StdIn
 
     val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
