@@ -17,9 +17,9 @@ def get_minimum_bribes(q):
             if q[i] > i + 3:
                 is_chaotic = True
             else:
-                changes += (q[i] - i - 1)
+                changes += q[i] - i - 1
     if is_chaotic:
-        return 'Too chaotic'
+        return "Too chaotic"
     else:
         return changes
 
@@ -28,7 +28,7 @@ def minimumBribes(q):
     print(get_minimum_bribes(q))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     t = int(input())
 
     for t_itr in range(t):

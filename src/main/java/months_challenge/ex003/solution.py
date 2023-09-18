@@ -13,7 +13,7 @@ def solve(meal_cost, tip_percent, tax_percent):
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     meal_cost = float(input())
 
     tip_percent = int(input())

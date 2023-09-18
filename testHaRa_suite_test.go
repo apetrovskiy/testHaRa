@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestTestCoWa(t *testing.T) {
+func TestTestHaRa(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "TestHaRa Suite")
 }

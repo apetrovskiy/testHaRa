@@ -20,11 +20,13 @@ import json
 # https://jsonmock.hackerrank.com/api/article_users?page=<pageNumber>
 #
 
+
 def getUsernames(threshold: int):
     # Write your code here
     def get_url(page_number: int):
-        return "https://jsonmock.hackerrank.com/api/article_users?page={0}"\
-            .format(page_number)
+        return "https://jsonmock.hackerrank.com/api/article_users?page={0}".format(
+            page_number
+        )
 
     class Author(object):
         def __init__(self, input_json):
@@ -72,5 +74,5 @@ def getUsernames(threshold: int):
     # print(result2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     getUsernames(10)

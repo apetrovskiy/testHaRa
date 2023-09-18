@@ -2,6 +2,7 @@
 
 # import math
 import os
+
 # import random
 # import re
 # import sys
@@ -13,8 +14,8 @@ def maxSubsetSum(arr):
     return 0
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -22,6 +23,6 @@ if __name__ == '__main__':
 
     res = maxSubsetSum(arr)
 
-    fptr.write(str(res) + '\n')
+    fptr.write(str(res) + "\n")
 
     fptr.close()
