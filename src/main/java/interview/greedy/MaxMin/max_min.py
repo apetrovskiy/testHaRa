@@ -2,6 +2,7 @@
 
 # import math
 import os
+
 # import random
 # import re
 # import sys
@@ -20,14 +21,14 @@ def maxMin(k, arr):
     if len(arr) == 0:
         return 0
     arr.sort()
-    result = arr[len(arr)-1]-arr[0]
-    for i in range(len(arr)-k+1):
-        result = arr[i+k-1]-arr[i] if arr[i+k-1]-arr[i] < result else result
+    result = arr[len(arr) - 1] - arr[0]
+    for i in range(len(arr) - k + 1):
+        result = arr[i + k - 1] - arr[i] if arr[i + k - 1] - arr[i] < result else result
     return result
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input().strip())
 
@@ -41,6 +42,6 @@ if __name__ == '__main__':
 
     result = maxMin(k, arr)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

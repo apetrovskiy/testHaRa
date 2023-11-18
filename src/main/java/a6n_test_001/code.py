@@ -2,6 +2,7 @@
 
 # import math
 import os
+
 # import random
 # import re
 # import sys
@@ -17,19 +18,20 @@ import os
 # https://jsonmock.hackerrank.com/api/article_users?page=<pageNumber>
 #
 
+
 def getUsernames(threshold):
     # Write your code here
     pass
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     threshold = int(input().strip())
 
     result = getUsernames(threshold)
 
-    fptr.write('\n'.join(result))
-    fptr.write('\n')
+    fptr.write("\n".join(result))
+    fptr.write("\n")
 
     fptr.close()

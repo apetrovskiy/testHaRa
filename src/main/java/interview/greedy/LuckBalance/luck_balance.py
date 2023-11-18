@@ -2,6 +2,7 @@
 
 # import math
 import os
+
 # import random
 # import re
 # import sys
@@ -23,19 +24,23 @@ def sorting_by_item_position(item):
 def luckBalance(k, contests):
     IMPORTANT = 1
     sorted_input = sorted(contests, key=sorting_by_item_position)
-    important_contests_number: int = sum(
-        1 for x in contests if x[1] == IMPORTANT)
+    important_contests_number: int = sum(1 for x in contests if x[1] == IMPORTANT)
     if k > important_contests_number:
         k = important_contests_number
-    won_items = sum([x[0] for x in sorted_input
-                     if x[1] == IMPORTANT]) if k == 0 else \
-        sum([x[0] for x in sorted_input
-             if x[1] == IMPORTANT][:important_contests_number-k])
+    won_items = (
+        sum([x[0] for x in sorted_input if x[1] == IMPORTANT])
+        if k == 0
+        else sum(
+            [x[0] for x in sorted_input if x[1] == IMPORTANT][
+                : important_contests_number - k
+            ]
+        )
+    )
     return sum(x[0] for x in contests) - won_items - won_items
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     first_multiple_input = input().rstrip().split()
 
@@ -50,6 +55,6 @@ if __name__ == '__main__':
 
     result = luckBalance(k, contests)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()
