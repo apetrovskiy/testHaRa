@@ -1,4 +1,4 @@
-// <copyright file="code.cs" company="PlaceholderCompany">
+// <copyright file="Result.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
@@ -34,22 +34,5 @@ internal class Result
     public static List<string> GetUsernames(int threshold)
     {
         return new List<string>();
-    }
-}
-
-internal class Solution
-{
-    public static void Main(string[] args)
-    {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-
-        int threshold = Convert.ToInt32(Console.ReadLine().Trim());
-
-        List<string> result = Result.GetUsernames(threshold);
-
-        textWriter.WriteLine(string.Join("\n", result));
-
-        textWriter.Flush();
-        textWriter.Close();
     }
 }

@@ -1,4 +1,4 @@
-// <copyright file="minimum_absolute_difference_in_an_array.cs" company="PlaceholderCompany">
+// <copyright file="MinimumAbsoluteDifferenceInAnArray.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
@@ -18,7 +18,7 @@ namespace Interview.Greedy.MinimumAbsoluteDifferenceInAnArray
     using System.Text;
     using System.Text.RegularExpressions;
 
-    public class Solution
+    public class MinimumAbsoluteDifferenceInAnArray
     {
         // Complete the minimumAbsoluteDifference function below.
         public static int MinimumAbsoluteDifference(int[] arr)
@@ -32,13 +32,13 @@ namespace Interview.Greedy.MinimumAbsoluteDifferenceInAnArray
 
         private static void Main(string[] args)
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            var textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH") ?? string.Empty, true);
 
-            int n = Convert.ToInt32(Console.ReadLine());
+            var n = Convert.ToInt32(Console.ReadLine());
 
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
+            int[] arr = Array.ConvertAll((Console.ReadLine() ?? string.Empty).Split(' '), arrTemp => Convert.ToInt32(arrTemp))
             ;
-            int result = MinimumAbsoluteDifference(arr);
+            var result = MinimumAbsoluteDifference(arr);
 
             textWriter.WriteLine(result);
 

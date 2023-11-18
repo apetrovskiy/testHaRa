@@ -13,7 +13,7 @@ namespace Interview.Greedy.MinimumAbsoluteDifferenceInAnArray
         [TestCase(new int[] { 1, -3, 71, 68, 17 }, 3)]
         public void ShouldFindMinimumDifference(int[] inputArray, int expectedResult)
         {
-            Assert.That(Solution.MinimumAbsoluteDifference(inputArray), Is.EqualTo(expectedResult));
+            Assert.That(MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifference(inputArray), Is.EqualTo(expectedResult));
         }
     }
 }

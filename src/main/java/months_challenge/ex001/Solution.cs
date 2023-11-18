@@ -1,4 +1,4 @@
-// <copyright file="code.cs" company="PlaceholderCompany">
+// <copyright file="Solution.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
@@ -13,7 +13,7 @@ namespace Months_challenge.Ex001
         private static void Main(string[] args)
         {
             // Declare a variable named 'inputString' to hold our input.
-            string inputString;
+            string? inputString;
 
             // Read a full line of input from stdin (cin) and save it to our variable, input_string.
             inputString = Console.ReadLine();
