@@ -1,0 +1,65 @@
+{
+  "uid" : "aed42229aa817970",
+  "name" : "test_new_year_chaos[input_array3-7]",
+  "fullName" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos#test_new_year_chaos",
+  "historyId" : "7a5bbc91821bb70edbd55eb910c60ea9",
+  "time" : {
+    "start" : 1700327131089,
+    "stop" : 1700327131089,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 7 == 6\n +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])",
+  "statusTrace" : "input_array = [1, 2, 5, 3, 7, 8, ...], expected_result = 7\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_new_year_chaos(input_array: List[int], expected_result: int):\n>       assert expected_result == get_minimum_bribes(input_array)\nE       assert 7 == 6\nE        +  where 6 = get_minimum_bribes([1, 2, 5, 3, 7, 8, ...])\n\nsrc/test/java/interview/arrays/new_year_chaos/test_new_year_chaos.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.arrays.new_year_chaos"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_year_chaos"
+  }, {
+    "name" : "host",
+    "value" : "fv-az566-171"
+  }, {
+    "name" : "thread",
+    "value" : "2210-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "7"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 5, 3, 7, 8, 6, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aed42229aa817970.json",
+  "parameterValues" : [ "7", "[1, 2, 5, 3, 7, 8, 6, 4]" ]
+}

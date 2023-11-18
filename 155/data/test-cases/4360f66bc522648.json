@@ -1,0 +1,59 @@
+{
+  "uid" : "4360f66bc522648",
+  "name" : "test_new_year_chaos[input_array2-Too chaotic]",
+  "fullName" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos#test_new_year_chaos",
+  "historyId" : "7b5ccc860dd7a73e46ed4207a8d9e0d2",
+  "time" : {
+    "start" : 1700327131087,
+    "stop" : 1700327131088,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.arrays.new_year_chaos"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_year_chaos"
+  }, {
+    "name" : "host",
+    "value" : "fv-az566-171"
+  }, {
+    "name" : "thread",
+    "value" : "2210-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.arrays.new_year_chaos.test_new_year_chaos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'Too chaotic'"
+  }, {
+    "name" : "input_array",
+    "value" : "[5, 1, 2, 3, 7, 8, 6, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4360f66bc522648.json",
+  "parameterValues" : [ "'Too chaotic'", "[5, 1, 2, 3, 7, 8, 6, 4]" ]
+}
