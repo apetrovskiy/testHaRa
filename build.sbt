@@ -2,7 +2,6 @@
 // The simplest possible sbt build file is just one line:
 
 scalaVersion := "2.13.5"
-
 // That is, to create a valid sbt build, all you've got to do is define the
 // version of Scala you'd like your project to use.
 
@@ -72,7 +71,7 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
 //   settings(
 //     inThisBuild(List(
 //       organization := "ch.epfl.scala",
-//       scalaVersion := "2.13.1"
+//       scalaVersion := "2.13.3"
 //     )),
 //     name := "hello-world"
 //   )

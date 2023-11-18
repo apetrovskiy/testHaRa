@@ -1,4 +1,8 @@
-namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
+// <copyright file="MinimumAbsoluteDifferenceInAnArrayTest.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Interview.Greedy.MinimumAbsoluteDifferenceInAnArray
 {
     using NUnit.Framework;
 
@@ -9,7 +13,7 @@ namespace interview.greedy.MinimumAbsoluteDifferenceInAnArray
         [TestCase(new int[] { 1, -3, 71, 68, 17 }, 3)]
         public void ShouldFindMinimumDifference(int[] inputArray, int expectedResult)
         {
-            Assert.AreEqual(expectedResult, Solution.minimumAbsoluteDifference(inputArray));
+            Assert.That(MinimumAbsoluteDifferenceInAnArray.MinimumAbsoluteDifference(inputArray), Is.EqualTo(expectedResult));
         }
     }
 }
