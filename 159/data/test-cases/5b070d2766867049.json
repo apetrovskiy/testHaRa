@@ -1,0 +1,82 @@
+{
+  "uid" : "5b070d2766867049",
+  "name" : "test_left_rotation[input_array0-4-expected_result0]",
+  "fullName" : "src.test.java.interview.arrays.left_rotation.test_left_rotation#test_left_rotation",
+  "historyId" : "b90ba837a630d5f6ba8535e39679562e",
+  "time" : {
+    "start" : 1700334687127,
+    "stop" : 1700334687127,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.arrays.left_rotation"
+  }, {
+    "name" : "suite",
+    "value" : "test_left_rotation"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1245-552"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.arrays.left_rotation.test_left_rotation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[5, 1, 2, 3, 4]"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 3, 4, 5]"
+  }, {
+    "name" : "number_of_rotations",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "88bcd78fc4f54ea7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/158//#testresult/88bcd78fc4f54ea7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700333455391,
+          "stop" : 1700333455391,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b070d2766867049.json",
+  "parameterValues" : [ "[5, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "4" ]
+}

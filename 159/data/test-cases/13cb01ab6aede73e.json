@@ -1,0 +1,73 @@
+{
+  "uid" : "13cb01ab6aede73e",
+  "name" : "test_ex001",
+  "fullName" : "src.test.java.training01.ex001.test_ex001#test_ex001",
+  "historyId" : "0dfd56de6cbda42c0dac55c77c4391d5",
+  "time" : {
+    "start" : 1700334687237,
+    "stop" : 1700334687238,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training01.ex001"
+  }, {
+    "name" : "suite",
+    "value" : "test_ex001"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1245-552"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training01.ex001.test_ex001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1e6679fb857138a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/158//#testresult/1e6679fb857138a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700333455503,
+          "stop" : 1700333455504,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "13cb01ab6aede73e.json",
+  "parameterValues" : [ ]
+}
