@@ -1,0 +1,62 @@
+{
+  "uid" : "4a10b174b0868bf4",
+  "name" : "test_luck_balance[1-contests3-15]",
+  "fullName" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance#test_luck_balance",
+  "historyId" : "560be4af663f6b6ec889c7443c7d442b",
+  "time" : {
+    "start" : 1700333455461,
+    "stop" : 1700333455462,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.interview.greedy.LuckBalance"
+  }, {
+    "name" : "suite",
+    "value" : "test_luck_balance"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1196-717"
+  }, {
+    "name" : "thread",
+    "value" : "2195-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.interview.greedy.LuckBalance.test_luck_balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contests",
+    "value" : "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]"
+  }, {
+    "name" : "contests_number",
+    "value" : "1"
+  }, {
+    "name" : "expected_result",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a10b174b0868bf4.json",
+  "parameterValues" : [ "[[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]", "1", "15" ]
+}
