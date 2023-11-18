@@ -22,7 +22,7 @@ plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     // kotlin("multiplatform") version "1.5.0"
     // kotlin("jvm") version "1.4.32"
-id("org.jetbrains.kotlin.jvm") version "1.8.0"
+    id("org.jetbrains.kotlin.jvm") version "1.8.0"
 
     // Apply the scala Plugin to add support for Scala.
     scala
@@ -50,7 +50,7 @@ id("org.jetbrains.kotlin.jvm") version "1.8.0"
     id("com.diffplug.spotless") version "6.11.0"
     // id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
     id("cz.alenkacz.gradle.scalafmt") version ("1.16.2")
-    }
+}
 
 /*
 library {
@@ -79,7 +79,7 @@ tasks {
         options.encoding = "UTF-8"
     }
     compileTestJava {
-    options.release.set(Version.JAVA.id.toInt())
+        options.release.set(Version.JAVA.id.toInt())
 // options.encoding = "UTF-8"
     }
 }
@@ -248,8 +248,8 @@ configure<AllureExtension> {
         frameworks {
             junit5 {
                 allureJavaVersion.set(Version.JAVA.id)
-        version = Version.ALLURE.id
-adapterVersion.set(Version.ALLURE.id)
+                version = Version.ALLURE.id
+                adapterVersion.set(Version.ALLURE.id)
                 enabled.set(true)
                 autoconfigureListeners.set(true)
             }
@@ -294,7 +294,7 @@ tasks.withType<Pmd> {
 scalafmt {
     // .scalafmt.conf in the project root is default value, provide only if other location is needed
     // config file has to be relative path from current project or root project in case of multimodule projects
-    // example usage: 
+    // example usage:
     // configFilePath = ".scalafmt.conf"
 }
 

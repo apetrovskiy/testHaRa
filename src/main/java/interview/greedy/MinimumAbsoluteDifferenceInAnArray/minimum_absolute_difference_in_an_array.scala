@@ -16,7 +16,7 @@ object Solution {
     0
   }
 
-  def main(args: Array[String]) {
+  def main(args: Array[String]) = {
     val stdin = scala.io.StdIn
 
     val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
