@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": ".NET: build",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -14,7 +14,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "publish",
+            "label": ".NET: publish",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -26,7 +26,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "watch",
+            "label": ".NET: watch",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -37,6 +37,77 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        }
+        },
+        {
+            "label": ".NET: format",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "format",
+                "${workspaceFolder}",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": ".NET: test",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/src/test/test.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "gradle: Pre-build",
+            "command": "./gradlew",
+            "type": "process",
+            "group": "test",
+            "args": [
+                "spotlessApply",
+                "pmdMain",
+                "pmdTest",
+                "test",
+                "--info"
+            ],
+            "problemMatcher": [
+                "$gradle"
+            ],
+        },
+        {
+            "label": "Python: formatting",
+            "command": "pipenv",
+            "type": "process",
+            "group": "build",
+            "args": [
+                "run",
+                "black",
+                "."
+            ],
+        },
+        {
+            "label": "Python: pytest test",
+            "command": "pipenv",
+            "type": "process",
+            "group": "test",
+            "args": [
+                "run",
+                "pytest",
+                ".",
+                "--alluredir=allure-results"
+            ],
+        },
+        {
+            "label": "Allure: report",
+            "command": "allure",
+            "type": "process",
+            "group": "test",
+            "args": [
+                "serve",
+                "allure-results"
+            ],
+        },
     ]
 }
