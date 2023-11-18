@@ -1,0 +1,75 @@
+{
+  "uid" : "3b31573b60ebd6e0",
+  "name" : "people = 3, cost = 2,5,6, returns 13",
+  "fullName" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13.people = 3, cost = 2,5,6, returns 13",
+  "historyId" : "640d5609ee011e05abdcef4bd086aff4",
+  "time" : {
+    "start" : 1700331516485,
+    "stop" : 1700331516486,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13"
+  }, {
+    "name" : "testClass",
+    "value" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13"
+  }, {
+    "name" : "testMethod",
+    "value" : "people = 3, cost = 2,5,6, returns 13"
+  }, {
+    "name" : "package",
+    "value" : "getMinimumCost(3, [ 2, 5, 6, [length]: 3 ]) should equal 13"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "34059cbc56d45471",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/156//#testresult/34059cbc56d45471",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700331471417,
+          "stop" : 1700331471419,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "1870498a1deece37",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaRa/155//#testresult/1870498a1deece37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700327120962,
+          "stop" : 1700327120964,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b31573b60ebd6e0.json",
+  "parameterValues" : [ ]
+}
